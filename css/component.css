@@ -1,0 +1,321 @@
+.bg-box-palalax {
+  position: relative;
+}
+.basic-section--dark {
+  background-image: url("../images/contact.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.basic-top-section {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  font-family: "NotoSansCJKkr";
+  font-weight: 100;
+  position: relative;
+  padding: 5rem 0;
+}
+
+.basic-section {
+  height: calc(100vh - 68px);
+  font-family: "NotoSansCJKkr";
+  font-weight: 100;
+  position: relative;
+  width: 100%;
+}
+.section-container {
+  padding: 5rem 0 10rem;
+}
+.basic-top-section .section-container {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+}
+.section-container--second {
+  padding: 9.25rem 0 6rem;
+}
+
+.basic-section--green h1 {
+  color: #fff;
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-family: "NotoSansKR";
+  font-size: 48px;
+  font-size: 3rem;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  margin-bottom: 1.5rem;
+}
+
+.section-text-box {
+  width: 100%;
+  padding: 0 4rem;
+}
+
+.section-text-box .section-lead {
+  font-family: NotoSansKR;
+  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  color: #fff;
+  text-align: center;
+}
+
+.bottom-btn-wrapper {
+  width: 100%;
+  position: absolute;
+  bottom: 120px;
+  bottom: 5.5rem;
+  text-align: center;
+}
+
+.btn-small-lead {
+  font-size: 9px;
+  font-size: 0.75rem;
+  font-family: SofiaProSoft;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  color: #fff;
+}
+
+.section-lead--sm {
+  font-family: SofiaProSoft;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.basic-section h2 {
+  font-family: SofiaProSoft;
+  font-size: 32px;
+  font-size: 2rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.optimity-green-dot-wrapper {
+  text-align: right;
+  padding-right: 10%;
+  width: 100%;
+  margin-bottom: -3rem;
+}
+
+.optimity-lead {
+  font-family: "NotoSansKR";
+  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+}
+
+.mac15 .optimity-lead {
+  font-size: 1.4rem;
+}
+
+.step-num {
+  font-family: SofiaProSoft;
+  font-size: 80px;
+  font-size: 5rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  color: #1adc28;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.step-num--blue {
+  color: #001478;
+}
+
+.basic-section--dark h2 {
+  color: #fff;
+}
+
+.s-right-full-nav-modal {
+  text-align: right;
+  padding-right: 0 !important;
+}
+
+.s-right-full-nav-modal .modal-dialog {
+  display: inline-block;
+  margin: 0;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  width: 100%;
+}
+
+.s-right-full-nav-modal .modal-body {
+  width: 100%;
+  padding: 3.5rem 0 0;
+}
+
+.s-right-full-nav-modal .modal-dialog .modal-header {
+  text-align: right;
+  display: block;
+  border: none;
+  padding: 0.5rem 1rem 0;
+}
+
+.s-right-full-nav-modal.fade .modal-dialog {
+  right: 0;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  transform: translate(100px, 0);
+}
+
+.s-right-full-nav-modal.modal.show .modal-dialog {
+  -webkit-transform: none;
+  transform: none;
+}
+
+.s-right-full-nav-modal .modal-header .close {
+  color: #fff;
+  border-radius: 10px;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+  font-size: 1.3rem;
+  line-height: 32px;
+  float: inherit;
+  margin: 0 0 0 1rem;
+}
+
+.s-right-full-nav-modal .modal-header .close:hover,
+.s-right-full-nav-modal .modal-header .close:focus {
+  color: #fff;
+}
+
+.s-right-full-nav-modal .modal-header .close i {
+  line-height: inherit;
+}
+
+.s-right-full-nav-modal .modal-content {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.gnb-ul-mo {
+  padding-left: 0;
+  width: 100%;
+  list-style: none;
+}
+
+.gnb-ul-mo .gnb-li {
+  width: 100%;
+  text-align: left;
+}
+
+.gnb-ul-mo .gnb-li .nav-btn {
+  color: #fff;
+  width: 100%;
+  text-align: left;
+  font-family: SofiaProSoft;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  padding: 1.5rem 2rem 0.5rem;
+}
+
+.gnb-ul-mo .gnb-li .nav-btn.active {
+  color: #3c64ff;
+}
+.gnb-ul-mo .gnb-li .nav-btn::after,
+.gnb-ul-mo .gnb-li .nav-btn::before {
+  display: none;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.modal-footer-info {
+  position: absolute;
+  left: 2rem;
+  bottom: 3rem;
+  text-align: left;
+}
+
+.modal-footer-info p {
+  margin-top: 0.5rem;
+  font-family: SofiaProSoft;
+  font-size: 8px;
+  line-height: 1.25;
+  text-align: left;
+  color: #ffffff;
+}
+
+.active-line {
+  height: 2px;
+  border-radius: 1px;
+  background-color: transparent;
+  display: block;
+  margin-top: 0.5rem;
+}
+.active .active-line {
+  background-color: #3c64ff;
+}
+.icon-box {
+  text-align: center;
+}
+.icon-box img {
+  margin-bottom: 20px;
+}
+
+.icon-box h5 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.17;
+  text-align: center;
+  color: #00148c;
+  margin-bottom: 10px;
+}
+
+.icon-box p {
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: left;
+  color: #000;
+}

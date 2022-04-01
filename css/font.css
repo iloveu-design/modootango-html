@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "SofiaProSoft";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/SofiaProSoft/SofiaProSoftRegular/font.woff2")
+      format("woff2"),
+    url("../fonts/SofiaProSoft/SofiaProSoftRegular/font.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SofiaProSoft";
+  font-style: bold;
+  font-weight: 700;
+  src: url("../fonts/SofiaProSoft/SofiaProSoftBold/font.woff2") format("woff2"),
+    url("../fonts/SofiaProSoft/SofiaProSoftBold/font.woff") format("woff");
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  font-style: thin;
+  font-weight: 100;
+  src: url("../fonts/NotoSansKR/NotoSansKR-Thin.oft") format("otf"),
+    url("../fonts/NotoSansKR/NotoSansKR-Thin.woff2") format("woff2"),
+    url("../fonts/NotoSansKR/NotoSansKR-Thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  font-style: light;
+  font-weight: 300;
+  src: url("../fonts/NotoSansKR/NotoSansKR-DemiLight.otf") format("otf"),
+    url("../fonts/NotoSansKR/NotoSansKR-DemiLight.woff2") format("woff2"),
+    url("../fonts/NotoSansKR/NotoSansKR-DemiLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/NotoSansKR/NotoSansKR-Regular.woff2") format("woff2"),
+    url("../fonts/NotoSansKR/NotoSansKR-Regular.woff") format("woff"),
+    url("../fonts/NotoSansKR/NotoSansKR-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  font-style: medium;
+  font-weight: 500;
+  src: url("../fonts/NotoSansKR/NotoSansKR-Medium.oft") format("otf"),
+    url("../fonts/NotoSansKR/NotoSansKR-Medium.woff2") format("woff2"),
+    url("../fonts/NotoSansKR/NotoSansKR-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  font-style: bold;
+  font-weight: 700;
+  src: url("../fonts/NotoSansKR/NotoSansKR-Bold.oft") format("otf"),
+    url("../fonts/NotoSansKR/NotoSansKR-Bold.woff2") format("woff2"),
+    url("../fonts/NotoSansKR/NotoSansKR-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  font-style: black;
+  font-weight: 900;
+  src: url("../fonts/NotoSansKR/NotoSansKR-Black.oft") format("otf");
+}
