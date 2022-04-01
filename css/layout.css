@@ -26,14 +26,13 @@ header.header--transparent {
 
 .header-nav {
   display: flex;
-  font-family: "SofiaProSoft";
+  justify-content: space-between;
+  align-items: center;
   font-weight: 700;
 }
 
 .header-nav ul {
   margin: 0;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
 }
 
 /*header gnb menu*/
@@ -45,6 +44,26 @@ header.header--transparent {
   padding-left: 0;
 }
 
+.gnb-ul-lang {
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.gnb-li-lang button {
+  font-family: Inter;
+  opacity: 0.4;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.14;
+  color: #64645f;
+}
+
+.gnb-li-lang.active button {
+  color: #00c8b4;
+  opacity: 1;
+}
 .gnb-li .nav-btn {
   font-family: "SofiaProSoft";
   font-weight: 700;
@@ -91,7 +110,7 @@ header.header--transparent {
 
 @media (min-width: 992px) {
   .gnb-ul li {
-    padding: 0px 1.2rem;
+    padding: 0px 68px;
   }
 }
 
