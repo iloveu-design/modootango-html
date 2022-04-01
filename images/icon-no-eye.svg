@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <clipPath id="eyua2xwpla">
+            <path data-name="사각형 3061" style="fill:none" d="M0 0h83v51H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 7470">
+        <g data-name="그룹 7469">
+            <g data-name="그룹 7468" style="clip-path:url(#eyua2xwpla)" transform="translate(9 24)">
+                <path data-name="패스 12738" d="M52.951 8.509A44.841 44.841 0 0 0 41.5 6.96c-22.091 0-40 18-40 18a73.115 73.115 0 0 0 21.1 13.9" style="stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;stroke:#00148c;fill:none"/>
+                <path data-name="패스 12739" d="M30.049 41.411A44.841 44.841 0 0 0 41.5 42.96" style="stroke:#ffc800;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;fill:none"/>
+                <path data-name="선 4704" transform="translate(21.96 1.5)" style="stroke:#ffc800;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;fill:none" d="M48 0 0 48"/>
+                <path data-name="패스 12740" d="M41.5 42.96c22.091 0 40-18 40-18a73.115 73.115 0 0 0-21.1-13.895" style="stroke:#ffc800;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;fill:none"/>
+                <path data-name="패스 12741" d="M49.07 22.389a7.989 7.989 0 0 1-10.141 10.142" style="stroke:#ffc800;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;fill:none"/>
+                <path data-name="패스 12742" d="M31.522 39.938a18 18 0 0 0 24.956-24.956" style="stroke:#ffc800;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;fill:none"/>
+                <path data-name="패스 12743" d="M51.478 9.982a18 18 0 0 0-24.956 24.956" style="stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;stroke:#00148c;fill:none"/>
+                <path data-name="패스 12744" d="M33.93 27.53a7.987 7.987 0 0 1 10.141-10.141" style="stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;stroke:#00148c;fill:none"/>
+                <path data-name="패스 12745" d="M44.07 17.389a7.988 7.988 0 0 0-10.141 10.142" style="stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;stroke:#00148c;fill:none"/>
+            </g>
+        </g>
+        <path data-name="사각형 3062" style="fill:none" d="M0 0h100v100H0z"/>
+    </g>
+</svg>

@@ -24,9 +24,7 @@
   position: relative;
   width: 100%;
 }
-.section-container {
-  padding: 5rem 0 10rem;
-}
+
 .basic-top-section .section-container {
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
@@ -318,4 +316,55 @@
   line-height: 1.4;
   text-align: left;
   color: #000;
+}
+
+.card-round-full {
+  position: relative;
+  margin-bottom: 40px;
+}
+.card-round-full .title-base {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-round-full h5 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.6;
+  text-align: center;
+  color: #fff;
+}
+
+.icon-card {
+  text-align: center;
+}
+.icon-card img {
+  margin-bottom: 20px;
+}
+.icon-card h5 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.17;
+  text-align: center;
+  color: #00148c;
+  margin-bottom: 10px;
+}
+
+.icon-card p {
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: left;
+  color: #000;
+  margin-bottom: 0;
+}
+
+.vpn-img {
+  margin-bottom: 60px;
 }

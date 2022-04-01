@@ -194,6 +194,7 @@ header.header--transparent {
   margin-right: -20px;
   margin-left: -20px;
 }
+.row-40 .col,
 .row-40 .col-md-2,
 .row-40 .col-md-3,
 .row-40 .col-md-4,
@@ -289,6 +290,7 @@ header.header--transparent {
 }
 
 .container-inner {
+  width: 1060px;
   max-width: 1060px;
   margin: 0 auto;
 }

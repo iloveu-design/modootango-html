@@ -1,21 +1,4 @@
 @font-face {
-  font-family: "SofiaProSoft";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/SofiaProSoft/SofiaProSoftRegular/font.woff2")
-      format("woff2"),
-    url("../fonts/SofiaProSoft/SofiaProSoftRegular/font.woff") format("woff");
-}
-
-@font-face {
-  font-family: "SofiaProSoft";
-  font-style: bold;
-  font-weight: 700;
-  src: url("../fonts/SofiaProSoft/SofiaProSoftBold/font.woff2") format("woff2"),
-    url("../fonts/SofiaProSoft/SofiaProSoftBold/font.woff") format("woff");
-}
-
-@font-face {
   font-family: "NotoSansKR";
   font-style: thin;
   font-weight: 100;

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <clipPath id="1wb5muao2a">
+            <path data-name="사각형 3056" style="fill:none" d="M0 0h67v67H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 7458">
+        <path data-name="사각형 3050" style="fill:none" d="M0 0h100v100H0z"/>
+        <g data-name="그룹 7455">
+            <g data-name="그룹 7454" style="clip-path:url(#1wb5muao2a)" transform="translate(17 16)">
+                <path data-name="패스 12733" d="M63.5 26.5h-4.961a25.875 25.875 0 0 0-2.385-5.755l3.509-3.508a2.006 2.006 0 0 0 0-2.829l-7.071-7.071a2.006 2.006 0 0 0-2.829 0l-3.509 3.509A25.8 25.8 0 0 0 40.5 8.461V3.5a2.006 2.006 0 0 0-2-2h-10a2.006 2.006 0 0 0-2 2v4.961a25.808 25.808 0 0 0-5.755 2.385l-3.509-3.509a2.005 2.005 0 0 0-2.828 0l-7.071 7.071a2.006 2.006 0 0 0 0 2.829l3.509 3.508A25.827 25.827 0 0 0 8.461 26.5H3.5a2.006 2.006 0 0 0-2 2v10a2.006 2.006 0 0 0 2 2h4.961a25.827 25.827 0 0 0 2.385 5.755l-3.509 3.508a2.006 2.006 0 0 0 0 2.829l7.071 7.071a2.005 2.005 0 0 0 2.828 0l3.509-3.509a25.808 25.808 0 0 0 5.755 2.385V63.5a2.006 2.006 0 0 0 2 2h10a2.006 2.006 0 0 0 2-2v-4.961a25.8 25.8 0 0 0 5.754-2.385l3.509 3.509a2.006 2.006 0 0 0 2.829 0l7.071-7.071a2.006 2.006 0 0 0 0-2.829l-3.509-3.508a25.875 25.875 0 0 0 2.385-5.755H63.5a2.006 2.006 0 0 0 2-2v-10a2.006 2.006 0 0 0-2-2z" style="stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;stroke:#00148c;fill:none"/>
+                <circle data-name="타원 61" cx="10" cy="10" r="10" transform="translate(23.5 23.5)" style="stroke:#ffc800;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;fill:none"/>
+            </g>
+        </g>
+    </g>
+</svg>
