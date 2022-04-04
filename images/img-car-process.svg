@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1130" height="514" viewBox="0 0 1130 514">
+    <defs>
+        <filter id="xohjotn2ca" x="720" y="45" width="410" height="410" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="15" result="blur"/>
+            <feFlood flood-color="#0f0" flood-opacity=".502"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="do16wgeljb" x="310" y="0" width="200" height="500" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="15" result="blur-2"/>
+            <feFlood flood-color="#0ff" flood-opacity=".502"/>
+            <feComposite operator="in" in2="blur-2"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="sjllbpdqnc" x="0" y="0" width="200" height="200" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="15" result="blur-3"/>
+            <feFlood flood-color="#0ff" flood-opacity=".502"/>
+            <feComposite operator="in" in2="blur-3"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="k8y1qys5hd" x="0" y="150" width="200" height="200" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="15" result="blur-4"/>
+            <feFlood flood-color="#0ff" flood-opacity=".502"/>
+            <feComposite operator="in" in2="blur-4"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="zq13z267te" x="0" y="300" width="200" height="200" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="15" result="blur-5"/>
+            <feFlood flood-color="#0ff" flood-opacity=".502"/>
+            <feComposite operator="in" in2="blur-5"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <clipPath id="eb0t1e5jbf">
+            <path data-name="사각형 3089" style="stroke:#13c8b4;fill:none" d="M0 0h31.096v24H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 7576">
+        <g style="filter:url(#xohjotn2ca)">
+            <circle data-name="타원 100" cx="160" cy="160" r="160" transform="translate(765 90)" style="fill:#78e600"/>
+        </g>
+        <g style="filter:url(#do16wgeljb)">
+            <rect data-name="사각형 3114" width="110" height="410" rx="55" transform="translate(355 45)" style="fill:#13c8b4"/>
+        </g>
+        <text data-name="TLS Enhanced Gateway" transform="translate(410 248)" style="font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:30px;fill:#fff"><tspan x="-26.955" y="0">TLS</tspan><tspan style="font-size:20px"><tspan x="-48.5" y="24">Enhanced</tspan><tspan x="-42.83" y="48">Gateway</tspan></tspan></text>
+        <g style="filter:url(#sjllbpdqnc)">
+            <circle data-name="타원 78" cx="55" cy="55" r="55" transform="translate(45 45)" style="fill:#0dc8ff"/>
+        </g>
+        <text transform="translate(100 109)" style="font-size:20px;font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;fill:#fff"><tspan x="-20.01" y="0">ECU</tspan></text>
+        <g style="filter:url(#k8y1qys5hd)">
+            <circle data-name="타원 98" cx="55" cy="55" r="55" transform="translate(45 195)" style="fill:#0dc8ff"/>
+        </g>
+        <g style="filter:url(#zq13z267te)">
+            <circle data-name="타원 99" cx="55" cy="55" r="55" transform="translate(45 345)" style="fill:#0dc8ff"/>
+        </g>
+        <text data-name="ECU" transform="translate(100 259)" style="font-size:20px;font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;fill:#fff"><tspan x="-20.01" y="0">ECU</tspan></text>
+        <text data-name="ECU" transform="translate(100 409)" style="font-size:20px;font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;fill:#fff"><tspan x="-20.01" y="0">ECU</tspan></text>
+        <path data-name="사각형 3171" transform="translate(155 250)" style="fill:#0dc8ff" d="M0 0h200v1H0z"/>
+        <path data-name="사각형 3172" transform="translate(155 399)" style="fill:#0dc8ff" d="M0 0h200v1H0z"/>
+        <path data-name="사각형 3173" transform="translate(155 100)" style="fill:#0dc8ff" d="M0 0h200v1H0z"/>
+        <path data-name="사각형 3174" transform="translate(465 175)" style="fill:#13c8b4" d="M0 0h50v1H0z"/>
+        <path data-name="사각형 3175" transform="translate(465 325)" style="fill:#13c8b4" d="M0 0h50v1H0z"/>
+        <text data-name="VPN secure Channel" transform="translate(674 247)" style="font-family:NotoSansKR-Medium,Noto Sans KR;font-weight:500;font-size:20px;fill:#78e600"><tspan x="-53.45" y="0">VPN secure</tspan><tspan x="-39.53" y="24">Channel</tspan></text>
+        <text transform="translate(255 508)" style="fill:#00c8b4;font-size:20px;font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700"><tspan x="-19.8" y="0">CAR</tspan></text>
+        <text data-name="Secure Local Gateway" transform="translate(255 134)" style="font-family:NotoSansKR-Medium,Noto Sans KR;font-weight:500;fill:#0dc8ff;font-size:20px"><tspan x="-32.73" y="0">Secure</tspan><tspan x="-69.01" y="24">Local Gateway</tspan></text>
+        <text data-name="4G / 5G" transform="translate(540 220)" style="font-family:NotoSansKR-Medium,Noto Sans KR;font-weight:500;font-size:20px;fill:#13c8b4"><tspan x="-33.82" y="0">4G / 5G</tspan></text>
+        <text transform="translate(540 370)" style="font-family:NotoSansKR-Medium,Noto Sans KR;font-weight:500;font-size:20px;fill:#13c8b4"><tspan x="-26.09" y="0">DSRC</tspan></text>
+        <text data-name="Secure Local Gateway" transform="translate(255 284)" style="font-family:NotoSansKR-Medium,Noto Sans KR;font-weight:500;fill:#0dc8ff;font-size:20px"><tspan x="-32.73" y="0">Secure</tspan><tspan x="-69.01" y="24">Local Gateway</tspan></text>
+        <text data-name="Secure Local Gateway" transform="translate(255 433)" style="font-family:NotoSansKR-Medium,Noto Sans KR;font-weight:500;fill:#0dc8ff;font-size:20px"><tspan x="-32.73" y="0">Secure</tspan><tspan x="-69.01" y="24">Local Gateway</tspan></text>
+        <g data-name="그룹 7558">
+            <g data-name="그룹 7481" style="clip-path:url(#eb0t1e5jbf)" transform="translate(524.904 313)">
+                <path data-name="선 4711" transform="translate(15.548 21.5)" style="stroke-width:5px;stroke-linejoin:round;stroke-linecap:round;stroke:#13c8b4;fill:none" d="M0 0h0"/>
+                <path data-name="패스 12749" d="M10.865 15.754a5.991 5.991 0 0 1 9.365 0" style="stroke-width:3px;stroke-linejoin:round;stroke-linecap:round;stroke:#13c8b4;fill:none"/>
+                <path data-name="패스 12750" d="M6.183 12.008a11.982 11.982 0 0 1 18.73 0" style="stroke-width:3px;stroke-linejoin:round;stroke-linecap:round;stroke:#13c8b4;fill:none"/>
+                <path data-name="패스 12751" d="M1.5 8.262a17.973 17.973 0 0 1 28.1 0" style="stroke-width:3px;stroke-linejoin:round;stroke-linecap:round;stroke:#13c8b4;fill:none"/>
+            </g>
+        </g>
+        <g data-name="그룹 7559">
+            <g data-name="그룹 7481" style="clip-path:url(#eb0t1e5jbf)" transform="translate(524.904 163)">
+                <path data-name="선 4711" transform="translate(15.548 21.5)" style="stroke-width:5px;stroke-linejoin:round;stroke-linecap:round;stroke:#13c8b4;fill:none" d="M0 0h0"/>
+                <path data-name="패스 12749" d="M10.865 15.754a5.991 5.991 0 0 1 9.365 0" style="stroke-width:3px;stroke-linejoin:round;stroke-linecap:round;stroke:#13c8b4;fill:none"/>
+                <path data-name="패스 12750" d="M6.183 12.008a11.982 11.982 0 0 1 18.73 0" style="stroke-width:3px;stroke-linejoin:round;stroke-linecap:round;stroke:#13c8b4;fill:none"/>
+                <path data-name="패스 12751" d="M1.5 8.262a17.973 17.973 0 0 1 28.1 0" style="stroke-width:3px;stroke-linejoin:round;stroke-linecap:round;stroke:#13c8b4;fill:none"/>
+            </g>
+        </g>
+        <g data-name="사각형 3176" transform="translate(25 25)" style="stroke:#13c8b4;fill:none">
+            <rect width="460" height="450" rx="55" style="stroke:none"/>
+            <rect x=".5" y=".5" width="459" height="449" rx="54.5" style="fill:none"/>
+        </g>
+        <text data-name="Mobility Cloud" transform="translate(925 243)" style="font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:30px;fill:#fff"><tspan x="-60.615" y="0">Mobility</tspan><tspan x="-43.185" y="40">Cloud</tspan></text>
+        <path data-name="선 4746" transform="translate(566.5 175)" style="stroke:#78e600;stroke-dasharray:0 6;stroke-width:3px;stroke-linecap:round;fill:none" d="M215 0H0"/>
+        <path data-name="선 4747" transform="translate(566 325)" style="stroke:#78e600;stroke-dasharray:0 6;stroke-width:3px;stroke-linecap:round;fill:none" d="M215 0H0"/>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="0 0 400 100">
+    <defs>
+        <clipPath id="anbhey512a">
+            <path data-name="사각형 183" style="fill:none" d="M0 0h156.175v30.809H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 7400">
+        <g data-name="그룹 172">
+            <path data-name="패스 245" d="M0 .713v29.895h20.295v-4.48H5.306V.713z" transform="translate(122 34.744)" style="fill:#00367c"/>
+            <path data-name="사각형 182" transform="translate(145.714 35.458)" style="fill:#00367c" d="M0 0h5.308v29.894H0z"/>
+            <g data-name="그룹 160">
+                <g data-name="그룹 159" style="clip-path:url(#anbhey512a)" transform="translate(122 35)">
+                    <path data-name="패스 246" d="m75.869 3.361-2.862 4.064a10.806 10.806 0 0 0-7.339-2.613c-4.6 0-7.96 1.7-7.96 9.285v3.068C57.707 23.677 61.15 26 66 26a12.748 12.748 0 0 0 4.893-.871v-7.135h-6.26v-4.475h11.524v14.552c-2.654 1.783-6.841 2.737-10.406 2.737-7.587 0-13.35-3.651-13.35-12.562V12.9C52.4 3.94 58 0 65.668 0a15.8 15.8 0 0 1 10.2 3.361" transform="translate(-18.778)" style="fill:#00367c"/>
+                    <path data-name="패스 247" d="m201.159 22.684 7.215 11.86h-6.219l-4.52-8.335-4.56 8.335h-5.888l7.38-11.86-7.09-10.984h6.261l4.271 7.629L202.4 11.7h5.762z" transform="translate(-67.079 -4.192)" style="fill:#00367c"/>
+                    <path data-name="패스 248" d="M231.392.713 222.969 5.4l2.558 4.29 5.245-3.005V30.6h5.305V.713z" transform="translate(-79.902 -.255)" style="fill:#00367c"/>
+                    <path data-name="패스 249" d="M173.471 32.151c-2.2 1.491-5.1 2.445-9.374 2.445-5.263 0-10.446-2.488-10.446-10.655v-2.365c0-7.419 4.6-10.651 10.408-10.651s9.992 3.357 9.992 10.031v3.772h-15.092c0 3.649 1.783 5.515 5.431 5.515a12.61 12.61 0 0 0 6.924-1.866zm-4.728-11.358v-1c0-2.447-1.12-4.565-4.768-4.565-3.483 0-5.017 2.117-5.017 4.689v.871z" transform="translate(-55.061 -3.915)" style="fill:#00367c"/>
+                    <path data-name="패스 250" d="M129.534.713h-.334v20.9L117.426.713h-6.094v29.895h5.306V9.732l11.774 20.876h6.1V.713z" transform="translate(-39.896 -.255)" style="fill:#00367c"/>
+                </g>
+            </g>
+        </g>
+        <path data-name="사각형 205" style="fill:none" d="M0 0h400v100H0z"/>
+    </g>
+</svg>

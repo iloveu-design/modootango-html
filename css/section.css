@@ -26,6 +26,7 @@
   font-size: 40px;
   font-weight: bold;
   line-height: 1.2;
+  margin-bottom: 0;
 }
 
 .shadow-box {
@@ -249,6 +250,10 @@
   background-image: url("../images/bg-middle-sction-smartcar.jpg");
 }
 
+.middle-bg-title--smartfactory {
+  background-image: url("../images/bg-middle-sction-smartfactory.jpg");
+}
+
 .middle-bg-title h3 {
   font-size: 40px;
   font-weight: bold;
@@ -286,4 +291,75 @@
 
 .ip-process-img {
   margin-bottom: 100px;
+}
+
+.middle-bg-title p.p-sm {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.car-process-img {
+  margin-top: 40px;
+}
+
+.car-factory-img {
+  margin-bottom: 100px;
+}
+
+.middle-bg-title--iot {
+  background-image: url("../images/bg-middle-sction-smartfactory.jpg");
+}
+
+.h5-large {
+  margin-left: -1px;
+}
+
+.section-top-bg-about {
+  background-image: url("../images/section-bg-about.jpg");
+}
+.circle-img-box img {
+  margin-bottom: 40px;
+}
+
+.circle-img-box h4 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 0.93;
+  text-align: center;
+  color: #00148c;
+  margin-bottom: 20px;
+}
+.circle-img-box p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: left;
+  color: #646464;
+  margin: 0;
+}
+
+.circle-img-wrapper {
+  margin-top: 80px;
+}
+
+.bg-box.midde-big-section .container-inner {
+  padding-top: 170px;
+}
+
+.midde-big-section--trust {
+  background-image: url("../images/bg-middle-sction-trust.jpg");
+}
+
+.circle-img-wrapper {
+  margin-bottom: 160px;
+}
+
+.midde-big-section--partnership {
+  background-image: url("../images/bg-middle-sction-partnership.jpg");
+}
+
+.section-top-bg-contact {
+  background-image: url("../images/section-bg-contact.jpg");
 }

@@ -291,7 +291,7 @@ header.header--transparent {
 
 .container-inner {
   width: 1060px;
-  max-width: 1060px;
+  max-width: 100%;
   margin: 0 auto;
 }
 

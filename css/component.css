@@ -368,3 +368,127 @@
 .vpn-img {
   margin-bottom: 60px;
 }
+
+.partners-card {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.partners-card h5 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.17;
+  color: #646464;
+  margin: 0;
+}
+
+.up-line-middle-title {
+  margin-top: 120px;
+}
+.partnership-group {
+  margin-top: 110px;
+}
+.partnership-card {
+  margin-bottom: 80px;
+}
+
+.partnership-card h5 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.17;
+  color: #00148c;
+  margin-bottom: 20px;
+  height: 57px;
+}
+
+.partnership-card p {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #000;
+}
+
+.img-worldmap {
+  margin-top: 80px;
+}
+footer {
+  margin-top: 160px;
+}
+
+.footer-wrapepr {
+  border-top: thin solid #c8c8c3;
+  padding-top: 40px;
+  padding-bottom: 160px;
+  display: flex;
+  justify-content: center;
+}
+
+.address-inline {
+  display: flex;
+}
+
+.address-inline h5,
+.address-inline address {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #646464;
+}
+.address-inline h5 {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.address-inline address {
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+.address-inline address::before {
+  content: "|";
+  margin-right: 10px;
+}
+
+.footer-wrapepr .footer-logo {
+  margin-right: 40px;
+}
+
+.footer-wrapepr p {
+  margin-top: 4px;
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 1.19;
+  color: #646464;
+}
+.contact-info-row img {
+  margin-bottom: 10px;
+}
+.contact-info-row {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.contact-info-row--last {
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+
+.contact-text-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-text {
+  width: 290px;
+  max-width: 100%;
+}
+.contact-text h5 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: left;
+  color: #646464;
+}
+
+.contact-text a {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+  color: #646464;
+}

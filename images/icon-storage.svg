@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <clipPath id="oimzxrmhea">
+            <path data-name="사각형 3157" style="fill:none" d="M0 0h61v70H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 7555">
+        <g data-name="그룹 7549">
+            <g data-name="그룹 7548" style="clip-path:url(#oimzxrmhea)" transform="translate(22 18)">
+                <rect data-name="사각형 3156" width="20" height="16" rx="2" transform="translate(39.5 52.5)" style="stroke-width:3px;stroke-linecap:round;stroke-linejoin:round;stroke:#00c800;fill:none"/>
+                <path data-name="선 4740" transform="translate(49.5 60.5)" style="stroke-width:5px;stroke-linecap:round;stroke-linejoin:round;stroke:#00c800;fill:none" d="M0 0h0"/>
+                <path data-name="패스 12806" d="M55.5 52.5v-4a6 6 0 0 0-12 0v4" style="stroke-width:3px;stroke-linecap:round;stroke-linejoin:round;stroke:#00c800;fill:none"/>
+                <path data-name="선 4741" transform="translate(8.5 54.5)" style="stroke:#00148c;stroke-width:5px;stroke-linecap:round;stroke-linejoin:round;fill:none" d="M0 0h0"/>
+                <path data-name="패스 12807" d="M33.5 61.5h-30a2.006 2.006 0 0 1-2-2v-56a2.006 2.006 0 0 1 2-2h44a2.006 2.006 0 0 1 2 2v33" style="stroke:#00148c;stroke-width:3px;stroke-linecap:round;stroke-linejoin:round;fill:none"/>
+                <path data-name="선 4742" transform="translate(25.5 25.5)" style="stroke:#00148c;stroke-width:5px;stroke-linecap:round;stroke-linejoin:round;fill:none" d="M0 0h0"/>
+                <circle data-name="타원 96" cx="16" cy="16" r="16" transform="translate(9.5 9.5)" style="stroke:#00148c;stroke-width:3px;stroke-linecap:round;stroke-linejoin:round;fill:none"/>
+                <path data-name="선 4743" transform="translate(14.186 31.814)" style="stroke:#00148c;stroke-width:3px;stroke-linecap:round;stroke-linejoin:round;fill:none" d="m0 5 5-5"/>
+                <path data-name="선 4744" transform="translate(16.5 54.5)" style="stroke-width:5px;stroke-linecap:round;stroke-linejoin:round;stroke:#00c800;fill:none" d="M0 0h0"/>
+            </g>
+        </g>
+        <path data-name="사각형 3158" style="fill:none" d="M0 0h100v100H0z"/>
+    </g>
+</svg>
