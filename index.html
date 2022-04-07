@@ -24,20 +24,20 @@
         <nav class="header-nav nav-menu">
           <div class="header-nav-logo">
             <button style="background-color: transparent;" onclick="moveScroll('home')" class="btn homeBtnNav">
-              <img class="logo web-logo logo-bg-transparent" src="images/logo-white.svg"/>
-              <img class="logo web-logo logo-bg-white" src="images/logo-color.svg"/>
-              <img class="logo mobile-logo" src="images/logo-mobile.svg"/>
+              <img class="logo web-logo logo-bg-transparent" src="images/logo-white.svg" alt="logo"/>
+              <img class="logo web-logo logo-bg-white" src="images/logo-color.png" alt="logo" />
+              <!-- <img class="logo mobile-logo" src="images/logo-mobile.svg"  alt="mobile-logo"/> -->
             </button>
           </div>
           <ul class="gnb-ul" id="menu">
-            <li class="gnb-li"><button data-target="rfidSection" onclick="moveScroll('#rfidSection')" id="rfidBtn" style="background-color: transparent;" class="btn nav-btn rfidBtnNav">TECHNOLOGY</button></li>
-            <li class="gnb-li"><button data-target="nfcSection" onclick="moveScroll('#nfcSection')"  id="nfcBtn" style="background-color: transparent;" class="btn nav-btn nfcBtnNav">SOLUTION</button></li>
-            <li class="gnb-li"><button data-target="solutionSection" onclick="moveScroll('#solutionSection')" id="solutionBtn" style="background-color: transparent;" class="btn nav-btn solutionBtnNav">COMPANY</button></li>
-            <li class="gnb-li"><button data-target="aboutSection" onclick="moveScroll('#aboutSection')" id="aboutBtn" style="background-color: transparent;" class="btn nav-btn aboutBtnNav">CONTACT</button></li>
+            <li class="gnb-li"><button data-target="sectionTechnologe" onclick="moveScroll('#sectionTechnologe')" id="technologyBtn" style="background-color: transparent;" class="btn nav-btn technologyBtnNav">TECHNOLOGY</button></li>
+            <li class="gnb-li"><button data-target="sectionSolution" onclick="moveScroll('#sectionSolution')"  id="solutionBtn" style="background-color: transparent;" class="btn nav-btn soultionBtnNav">SOLUTION</button></li>
+            <li class="gnb-li"><button data-target="sectionCompany" onclick="moveScroll('#sectionCompany')" id="companyBtn" style="background-color: transparent;" class="btn nav-btn companyBtnNav">COMPANY</button></li>
+            <li class="gnb-li"><button data-target="sectionContact" onclick="moveScroll('#sectionContact')" id="contactBtn" style="background-color: transparent;" class="btn nav-btn contactBtnNav">CONTACT</button></li>
           </ul>
           <ul class="gnb-ul-lang" id="languagee">
-            <li class="gnb-li-lang active"><button data-target="rfidSection" id="krBtn" class="btn nav-lang-btn krBtnNav">KR</button></li>
-            <li class="gnb-li-lang"><button data-target="nfcSection" id="enBtn" class="btn nav-lang-btn enBtnNav">EN</button></li>
+            <li class="gnb-li-lang gnb-li-lang-kr active" id="liLangKr"><button data-target="langKo" onclick="changeLang('kr')" id="krBtn" class="btn nav-lang-btn krBtnNav">KR</button></li>
+            <li class="gnb-li-lang gnb-li-lang-en" id="liLangEn"><button data-target="langEn" onclick="changeLang('en')" id="enBtn" class="btn nav-lang-btn enBtnNav">EN</button></li>
           </ul>
         </nav>
       </div>
@@ -48,44 +48,66 @@
     <section class="section slide-top-section" id="slideSection">
       <div class="swiper-container swiper-container--top">
         <div class="swiper-wrapper">
+
           <div class="swiper-slide slide-bg swiper-slide--future">
             <div class="top-slide-text-box">
-              <h2>미래 가치에 대한<br> 
-                당신의 도전을 지켜드립니다. </h2>
-              <p class="slide-lead">사물인터넷, 자율주행, 로보틱스, 인공지능과 같은 ICT 첨단 기술은 우리의 미래를 바꾸고 있습니다. 반도체에서부터 클라우드까지 안전한 플랫폼을 제공하여 4차 산업 혁명의 서비스를 지켜드립니다.</p>
-            </div>
-          </div>
-          <div class="swiper-slide slide-bg swiper-slide--different">
-            <div class="top-slide-text-box">
-              <h2>시큐리티플랫폼은<br>
-                이렇게 다릅니다.</h2>
-              <p class="slide-lead">우리가 흔히 알고 있는 보안 솔루션은 비용이 많이 들면서 사용하기 어렵고 그럼에도 불구하고 새로운 공격에는 속수무책인 경우가 많습니다. 
+              <h2><span class="lang-kr active">미래 가치에 대한<br class="only-web"> 당신의 도전을 지켜드립니다.</span>
+                <span class="lang-en">About Future<br> 
+                  Support Your challege</span>
+              </h2>
+              <p class="slide-lead">
+                <span class="lang-kr active">사물인터넷, 자율주행, 로보틱스, 인공지능과 같은 ICT 첨단 기술은 우리의 미래를 바꾸고 있습니다. 반도체에서부터 클라우드까지 안전한 플랫폼을 제공하여 4차 산업 혁명의 서비스를 지켜드립니다.</span>
+                <span class="lang-en">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda modi facere, similique officiis excepturi qui ab itaque libero nisi aliquid eius cum neque recusandae est quod quis unde voluptatem deserunt!</span>
               </p>
             </div>
           </div>
+
+          <div class="swiper-slide slide-bg swiper-slide--different">
+            <div class="top-slide-text-box">
+              <h2>
+                <span class="lang-kr active">시큐리티플랫폼은<br class="only-web">  이렇게 다릅니다.</span>
+                <span class="lang-en">enen<br class="only-web">  enden dnend</span>
+              </h2>
+              <p class="slide-lead">
+                <span class="lang-kr active">우리가 흔히 알고 있는 보안 솔루션은 비용이 많이 들면서 사용하기 어렵고 그럼에도 불구하고 새로운 공격에는 속수무책인 경우가 많습니다.</span>
+                <span class="lang-en">우리가 흔히 알고 있는 보안 솔루션은 비용이 많이 들면서 사용하기 어렵고 그럼에도 불구하고 새로운 공격에는 속수무책인 경우가 많습니다.</span>
+              </p>
+            </div>
+          </div>
+
           <div class="swiper-slide slide-bg swiper-slide--three">
             <div class="top-slide-text-box--wide">
               <div class="row">
                 <div class="col-sm-4">
-                  <h2><span class="index-number">1.</span>반도체와 통합된 국제표준의 믿을 수 있는 보안</h2>
+                  <h2>
+                    <div class="lang-kr active"><span class="index-number">1.</span>반도체와 통합된 국제표준의 믿을 수 있는 보안</div>
+                    <div class="lang-en"><span class="index-number">1.</span>enenen</div>
+                  </h2>
                   <p class="slide-lead">하드웨어 Root of Trust 및 TEE (Trusted Execution Environment)기반으로 검증된 암호 모듈을 활용하였으며, 국제표준의 보안인증을 획득한 솔루션 입니다.</p>
                 </div>
                 <div class="col-sm-4">
-                  <h2><span class="index-number">2.</span>보안이 내재된 플랫폼의 제공으로 손쉬운 적용</h2>
+                  <h2>
+                    <div class="lang-kr active"><span class="index-number">2.</span>보안이 내재된 플랫폼의 제공으로 손쉬운 적용</div>
+                    <div class="lang-en"><span class="index-number">2.</span>endndne</div>
+                  </h2>
                   <p class="slide-lead">보안 기능이 내재된 하드웨어, 시스템,  통신, 관리 등을 플랫폼으로 제공함으로써, 제품 개발에 따른 시간을 단축할 수 있으며 보안을 쉽게 적용할 수 있습니다.</p>
                 </div>
                 <div class="col-sm-4">
-                  <h2><span class="index-number">3.</span>가장 효율적, 경제적이면서 검증된 보안 솔루션 </h2>
+                  <h2>
+                    <div class="lang-kr active"><span class="index-number">3.</span>가장 효율적, 경제적이면서 검증된 보안 솔루션</div>
+                    <div class="lang-en"><span class="index-number">3.</span>enenend</div>
+                  </h2>
                   <p class="slide-lead">보안을 위해 별도로 추가되는 요소가 거의 없어 효율적이며, 새로운 공격이나 취약점 대응을 위한 지속적인 유지보수 비용이 필요가 없어 매우 경제적입니다.</p>
                 </div>
               </div>
             </div>
           </div>
+
         </div>
         <div class="swiper-pagination swiper-pagination--top"></div>
       </div>
     </section>
-    <section class="section" id="technolegeSection">
+    <section class="section" id="sectionTechnologe">
       <div class="bg-box" style="background-image: url('images/section-techology-bg.jpg');">
         <div class="container-inner">
           <h2>시큐리티플랫폼은<br> 
@@ -144,7 +166,7 @@
           </div>
           <div class="icon-box-group">
             <div class="row row-40">
-              <div class="col-sm-3">
+              <div class="col-sm-3 col-6">
                 <div class="icon-box">
                   <image src="images/icon-check.svg" alt="자물쇠 체크"/>
                   <h5>Device<br>
@@ -153,7 +175,7 @@
                 </div>
               </div>
 
-              <div class="col-sm-3">
+              <div class="col-sm-3 col-6">
                 <div class="icon-box">
                   <image src="images/icon-fingerprint.svg" alt="아아콘 지문"/>
                   <h5>Anti-<br>
@@ -162,7 +184,7 @@
                 </div>
               </div>
 
-              <div class="col-sm-3">
+              <div class="col-sm-3 col-6">
                 <div class="icon-box">
                   <image src="images/icon-security.svg" alt="아아콘 보안"/>
                   <h5>Protecting<br>
@@ -171,7 +193,7 @@
                 </div>
               </div>
 
-              <div class="col-sm-3">
+              <div class="col-sm-3 col-6">
                 <div class="icon-box">
                   <image src="images/icon-chip.svg" alt="아아콘 지문"/>
                   <h5>Secure<br>
@@ -180,7 +202,7 @@
                 </div>
               </div>
 
-              <div class="col-sm-3">
+              <div class="col-sm-3 col-6">
                 <div class="icon-box">
                   <image src="images/icon-lock.svg" alt="아아콘 자물쇄"/>
                   <h5>Message<br>
@@ -189,7 +211,7 @@
                 </div>
               </div>
 
-              <div class="col-sm-3">
+              <div class="col-sm-3 col-6">
                 <div class="icon-box">
                   <image src="images/icon-fingerprint.svg" alt="아아콘 방패"/>
                   <h5>Secure<br>
@@ -198,7 +220,7 @@
                 </div>
               </div>
 
-              <div class="col-sm-3">
+              <div class="col-sm-3 col-6">
                 <div class="icon-box">
                   <image src="images/icon-rotate-security.svg" alt="아아콘 자물쇠 회전"/>
                   <h5>Secure Updates by<br>Signed Codes</h5>
@@ -761,9 +783,8 @@
 
       </div>
     </section>
-
-    <section class="section" id="sectionAbout">
-      <div class="bg-box section-top-bg-about">
+    <section class="section" id="sectionCompany">
+      <div class="bg-box section-top-bg-company">
         <div class="container-inner">
           <h2>반도체, 제조, 서비스를 <br>
             연결하는 글로벌 플랫폼으로 <br>
@@ -793,16 +814,16 @@
               <div class="col-sm-4">
                 <div class="circle-img-box">
                   <img src="images/img-circle-intelic.jpg" alt="추상적 연결 이미지">
-                  <h4>초연결</h4>
-                  <p>“신뢰점(Root of Trust)”을 구축하여 변경 불가능한 메모리부터 순차적으로 Trust Chain 형성</p>
+                  <h4>초지능</h4>
+                  <p>“신뢰실행영역 (Trusted Execution Environment)으로 코드와 데이터의 기밀성과 무결성 보장</p>
                 </div>
               </div>
 
               <div class="col-sm-4">
                 <div class="circle-img-box">
                   <img src="images/img-circle-fusion.jpg" alt="추상적 연결 이미지">
-                  <h4>초연결</h4>
-                  <p>“신뢰점(Root of Trust)”을 구축하여 변경 불가능한 메모리부터 순차적으로 Trust Chain 형성</p>
+                  <h4>초융합</h4>
+                  <p>“DICE (Device Identifier Composition Engine) 고유 ID 생성으로 인증, 무결성 검증, 키 보호</p>
                 </div>
               </div>
 
@@ -1099,7 +1120,18 @@
           <div class="container-inner">
             <h3>글로벌 사업 확대</h3>
             <h4>2018년 미주법인 설립과 2020년 Starfive 반도체 설계 회사와 중국 상해 JV 설립, 향후, 임베디드 전문기술 엔지니어 확보 및 글로벌 기술지원을 위한 Taiwan 연구소 설립을 계획하고 있습니다.</h4>
-            <img class="img-worldmap" src="images/world-map.svg" alt="세계 지사 지도">
+            <div class="only-web">
+              <img class="img-worldmap" src="images/world-map.svg" alt="세계 지사 지도">
+            </div>
+            <div class="only-mobile m-world-location-wrapper">
+              <img class="img-worldmap" src="images/world-map-kr.svg" alt="세계 지사 지도 한국">
+              <div class="group-finish-line"></div>
+              <img class="img-worldmap" src="images/world-map-sanjose.svg" alt="세계 지사 지도 산호세">
+              <div class="group-finish-line"></div>
+              <img class="img-worldmap" src="images/world-map-shanghai.svg" alt="세계 지사 지도 상하이">
+              <div class="group-finish-line"></div>
+              <img class="img-worldmap" src="images/world-map-taipei.svg" alt="세계 지사 지도 타이페이">
+            </div>
           </div>
 
           <div class="group-finish-line"></div>
@@ -1145,7 +1177,8 @@
             </div>
 
             <div class="container-inner">
-              <img src="images/location.jpg" alt="찾아오시는 길 지도">
+              <img class="only-web" src="images/location.jpg" alt="찾아오시는 길 지도">
+              <img class="only-mobile" src="images/location-mo.jpg" alt="찾아오시는 길 지도">
             </div>
           </div>
 
@@ -1187,16 +1220,19 @@
         <div class="modal-body">
           <div class="nav-menu">
             <ul class="gnb-ul-mo">
-              <li class="gnb-li"><button data-target="rfidSection" onclick="moveScroll('#rfidSection')" id="rfidMoBtn" class="btn nav-btn rfidBtnNav">RFID PACKAGE<span class="active-line"></span></button></li>
-              <li class="gnb-li"><button data-target="nfcSection" onclick="moveScroll('#nfcSection')" id="nfcMoBtn" class="btn nav-btn nfcBtnNav">NFC & WPT<span class="active-line"></span></button></li>
-              <li class="gnb-li"><button data-target="solutionSection" onclick="moveScroll('#solutionSection')" id="solutionMoBtn" class="btn nav-btn solutionBtnNav">SW SOLUTION<span class="active-line"></span></button></li>
-              <li class="gnb-li"><button data-target="aboutSection" onclick="moveScroll('#aboutSection')" id="aboutMoBtn" class="btn nav-btn aboutBtnNav">ABOUT US<span class="active-line"></span></button></li>
-              <li class="gnb-li"><button data-target="contactSection" onclick="moveScroll('#contactSection')" id="contactMoBtn" class="btn nav-btn contactBtnNav">CONTACT<span class="active-line"></span></button></li>
+              <li class="gnb-li"><button data-target="sectionTechnologe" onclick="moveScroll('#sectionTechnologe')" id="technologyMoBtn" class="btn nav-btn technologyBtnNav">RFID PACKAGE<span class="active-line"></span></button></li>
+              <li class="gnb-li"><button data-target="sectionSolution" onclick="moveScroll('#sectionSolution')" id="solutionMoBtn" class="btn nav-btn solutionBtnNav">NFC & WPT<span class="active-line"></span></button></li>
+              <li class="gnb-li"><button data-target="sectionCompany" onclick="moveScroll('#sectionCompany')" id="companyMoBtn" class="btn nav-btn companyBtnNav">SW SOLUTION<span class="active-line"></span></button></li>
+              <li class="gnb-li"><button data-target="sectionContact" onclick="moveScroll('#sectionContact')" id="contactMoBtn" class="btn nav-btn contactBtnNav">CONTACT<span class="active-line"></span></button></li>
             </ul>
           </div>
+          <ul class="mo-gnb-ul-lang" id="moLanguagee">
+            <li class="gnb-li-lang gnb-li-lang-kr active" id="moLiLangKr"><button data-target="langKo" onclick="changeLang('kr')" id="krBtn" class="btn nav-lang-btn krBtnNav">KR</button></li>
+            <li class="gnb-li-lang gnb-li-lang-en" id="moLiLangEn"><button data-target="langEn" onclick="changeLang('en')" id="enBtn" class="btn nav-lang-btn enBtnNav">EN</button></li>
+          </ul>
           <div class="modal-footer-info">
             <img src="images/modal-menu-logo.svg" alt="modal-logo">
-            <p>Copyright©Exax DX Corp. All Rights Reserved.</p>
+            <p>Copyright©Security Platform. All Rights Reserved.</p>
           </div>
         </div>
       </div>
@@ -1211,9 +1247,34 @@
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+
+  <script>
+    function isIE() {
+    const ua = window.navigator.userAgent; //Check the userAgent property of the window.navigator object
+    const msie = ua.indexOf('MSIE'); // IE 10 or older
+    const trident = ua.indexOf('Trident/'); //IE 11
+      return (msie > 0 || trident > 0);
+    }
+  </script>
+  <script type="text/javascript">
+    function isMobile(){
+      var UserAgent = navigator.userAgent;
+      if (UserAgent.match(/iPhone|iPod|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null)
+      {
+        return true;
+      }else{
+        return false;
+      }
+    }
+
+  </script>
+  <script>
+    var vh = 0;
+    var clientHeight = document.documentElement.clientHeight;
+    var clientWidth = document.documentElement.clientWidth;
+  </script>
   <script>
     var spaceRation = document.querySelector(".left-space__ratio");
-    var clientWidth = document.documentElement.clientWidth;
     function resizeLeftSpace () {
       clientWidth = document.documentElement.clientWidth;
       if (clientWidth > 1279) {
@@ -1264,6 +1325,95 @@
         prevEl: ".history-button-prev",
       },
     });
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var mainNavLinks = document.querySelectorAll(".nav-menu ul li button");
+      var mainSections = document.querySelectorAll("main section");
+      window.addEventListener("scroll", function(event) {
+        if(isIE()){
+          var fromTop = window.pageYOffset;
+        } else {
+          var fromTop = window.scrollY;
+        }
+        
+        if (clientHeight < fromTop) {
+          menuHeader.classList.remove("header--transparent");
+        } else {
+          menuHeader.classList.add("header--transparent");
+        }
+
+        Array.prototype.forEach.call(mainNavLinks, function(link){
+          var targetId = "#" + link.dataset.target;
+          var section = document.querySelector(targetId);
+          if (section && section.offsetTop && section.offsetTop <= fromTop && section.offsetTop + section.offsetHeight > fromTop) {
+            link.classList.add("active");
+          } else {
+            link.classList.remove("active");
+          }
+        });
+      });
+    });
+  </script>
+  <script>
+    function moveScroll(params) {
+      if (params == 'home') {
+        $( 'html, body' ).animate({scrollTop: 0}, 500);
+      } else {
+        var section = document.querySelector(params);
+        var movePosition = section.offsetTop;
+  
+        var isMobile = window.matchMedia("(max-width: 767px)").matches;
+        if (isMobile) {
+          closeMobileMenu();
+        } else {
+          movePosition = movePosition + 1;
+        }
+        $( 'html, body' ).animate({scrollTop: movePosition}, 500);
+      }
+    }
+    // $(document).ready(function() {
+    //   new WOW().init();
+    // });
+
+  </script>
+  <script>
+    function changeLang(params) {
+      var langKrs = document.querySelectorAll(".lang-kr");
+      var langEns = document.querySelectorAll(".lang-en");
+      var langLisAll = document.querySelectorAll(".gnb-li-lang");
+      var langLisKr = document.querySelectorAll('.gnb-li-lang-kr');
+      var langLisEN = document.querySelectorAll('.gnb-li-lang-en');
+
+      if (params === 'kr') {
+        Array.prototype.forEach.call(langEns, function(enspan){
+          enspan.classList.remove("active");
+        });
+        Array.prototype.forEach.call(langKrs, function(kospan){
+          kospan.classList.add("active");
+        });
+        Array.prototype.forEach.call(langLisAll, function(li){
+          li.classList.remove("active");
+        });
+        Array.prototype.forEach.call(langLisKr, function(liKr){
+          liKr.classList.add("active");
+          console.log('liKr', langLisKr);
+        });
+      } else {
+        Array.prototype.forEach.call(langKrs, function(kospan){
+          kospan.classList.remove("active");
+        });
+        Array.prototype.forEach.call(langEns, function(enspan){
+          enspan.classList.add("active");
+        });
+        Array.prototype.forEach.call(langLisAll, function(li){
+          li.classList.remove("active");
+        });
+        Array.prototype.forEach.call(langLisEN, function(liEn){
+          liEn.classList.add("active");
+        });
+      }
+    }
   </script>
 </body>
 
