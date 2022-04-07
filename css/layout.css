@@ -145,6 +145,9 @@ header.header--transparent {
     width: 120px;
     height: auto;
   }
+  header .container {
+    margin: 0;
+  }
   .header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: #fff;
@@ -322,6 +325,12 @@ header.header--transparent {
   width: 1060px;
   max-width: 100%;
   margin: 0 auto;
+}
+@media (max-width: 767px) {
+  .container-inner {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 .contents-group {
