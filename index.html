@@ -1318,25 +1318,25 @@
     });
 
     
-    if (isMobile) {
-      var historySwiper = new Swiper('.swiper-history-container', {
-        slidesPerView: 1,
-        loop: false,
-        navigation: {
-          nextEl: ".history-button-next",
-          prevEl: ".history-button-prev",
-        },
-      });
-    } else {
-      var historySwiper = new Swiper('.swiper-history-container', {
-        slidesPerView: 3,
-        loop: false,
-        navigation: {
-          nextEl: ".history-button-next",
-          prevEl: ".history-button-prev",
-        },
-      });
-    }
+    // if (isMobile) {
+    //   var historySwiper = new Swiper('.swiper-history-container', {
+    //     slidesPerView: 1,
+    //     loop: false,
+    //     navigation: {
+    //       nextEl: ".history-button-next",
+    //       prevEl: ".history-button-prev",
+    //     },
+    //   });
+    // } else {
+    var historySwiper = new Swiper('.swiper-history-container', {
+      slidesPerView: 3,
+      loop: false,
+      navigation: {
+        nextEl: ".history-button-next",
+        prevEl: ".history-button-prev",
+      },
+    });
+    // }
   </script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
