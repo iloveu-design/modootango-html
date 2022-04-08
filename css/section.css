@@ -103,10 +103,44 @@
   position: relative;
 }
 
-/*  */
-
-.homeBtnNav {
+.home-nav-btn {
+  width: 180px;
+  height: 60px;
   padding: 0;
+  position: relative;
+}
+
+.home-nav-btn img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 180px;
+}
+
+.header--transparent .home-nav-btn img {
+  transition: width 1s ease;
+  width: 180px;
+}
+
+.header--white .home-nav-btn img {
+  transition: width 1s ease;
+  width: 160px;
+}
+
+.header--transparent .logo-white {
+  opacity: 1;
+}
+
+.header--transparent .logo-color {
+  opacity: 0;
+}
+
+.header--white .logo-white {
+  opacity: 0;
+}
+
+.header--white .logo-color {
+  opacity: 1;
 }
 
 .parallax-vanilla {

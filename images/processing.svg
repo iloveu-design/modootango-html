@@ -26,17 +26,17 @@
         <rect data-name="사각형 3294" width="620" height="48" rx="24" transform="translate(320 6257)" style="fill:#00c8b4"/>
         <rect data-name="사각형 3295" width="290" height="48" rx="24" transform="translate(980 6258)" style="fill:#00c8b4"/>
         <rect data-name="사각형 3296" width="290" height="48" rx="24" transform="translate(1310 6258)" style="fill:#00c8b4"/>
-        <text data-name="Secure Device" transform="translate(320 6269)" style="font-family:Inter-Bold,Inter;font-weight:700;font-size:20px;fill:#fff"><tspan x="-70.27" y="19">Secure Device</tspan></text>
-        <text data-name="Secure Communications" transform="translate(980 6270)" style="font-family:Inter-Bold,Inter;font-weight:700;font-size:20px;fill:#fff"><tspan x="-120.05" y="19">Secure Communications</tspan></text>
-        <text data-name="Secure Service" transform="translate(1310 6270)" style="font-family:Inter-Bold,Inter;font-weight:700;font-size:20px;fill:#fff"><tspan x="-73.956" y="19" xml:space="preserve">Secure Service         </tspan></text>
+        <text data-name="Secure Device" transform="translate(320 6269)" font-family="Inter" style="font-weight:700;font-size:20px;fill:#fff"><tspan x="-70.27" y="19">Secure Device</tspan></text>
+        <text data-name="Secure Communications" transform="translate(980 6270)" style="font-family:Inter;font-weight:700;font-size:20px;fill:#fff"><tspan x="-120.05" y="19">Secure Communications</tspan></text>
+        <text data-name="Secure Service" transform="translate(1310 6270)" style="font-family:Inter;font-weight:700;font-size:20px;fill:#fff"><tspan x="-73.956" y="19" xml:space="preserve">Secure Service         </tspan></text>
         <g data-name="그룹 7782">
-            <text data-name="Device(s)" transform="translate(320 6193)" style="font-family:Inter-Bold,Inter;font-weight:700;font-size:20px;fill:#00c8b4"><tspan x="-47.326" y="19">Device(s)</tspan></text>
-            <text transform="translate(650 6193)" style="font-family:Inter-Bold,Inter;font-weight:700;font-size:20px;fill:#00c8b4"><tspan x="-43.136" y="19">Gateway</tspan></text>
-            <text transform="translate(960 6108)" style="font-family:Inter-Medium,Inter;font-weight:500;font-size:20px;fill:#00c8b4"><tspan x="-55.078" y="0">Connection</tspan></text>
-            <text transform="translate(980 6193)" style="font-family:Inter-Bold,Inter;font-weight:700;font-size:20px;fill:#00c8b4"><tspan x="-28.949" y="19">Cloud</tspan></text>
-            <text data-name="Analytics, Platform" transform="translate(1122 6023)" style="fill:#646464;font-size:16px;font-family:Inter-Medium,Inter;font-weight:500"><tspan x="-71.952" y="0">Analytics, Platform</tspan></text>
-            <text data-name="CRM, ERP, SCM, PLM" transform="translate(1458 6023)" style="fill:#646464;font-size:16px;font-family:Inter-Medium,Inter;font-weight:500"><tspan x="-81.014" y="0">CRM, ERP, SCM, PLM</tspan></text>
-            <text transform="translate(1310 6193)" style="font-family:Inter-Bold,Inter;font-weight:700;font-size:20px;fill:#00c8b4"><tspan x="-61.822" y="19">Applications</tspan></text>
+            <text data-name="Device(s)" transform="translate(320 6193)" style="font-family:Inter;font-weight:700;font-size:20px;fill:#00c8b4"><tspan x="-47.326" y="19">Device(s)</tspan></text>
+            <text transform="translate(650 6193)" style="font-family:Inter;font-weight:700;font-size:20px;fill:#00c8b4"><tspan x="-43.136" y="19">Gateway</tspan></text>
+            <text transform="translate(960 6108)" style="font-family:Inter;font-weight:500;font-size:20px;fill:#00c8b4"><tspan x="-55.078" y="0">Connection</tspan></text>
+            <text transform="translate(980 6193)" style="font-family:Inter;font-weight:700;font-size:20px;fill:#00c8b4"><tspan x="-28.949" y="19">Cloud</tspan></text>
+            <text data-name="Analytics, Platform" transform="translate(1122 6023)" style="fill:#646464;font-size:16px;font-family:Inter;font-weight:500"><tspan x="-71.952" y="0">Analytics, Platform</tspan></text>
+            <text data-name="CRM, ERP, SCM, PLM" transform="translate(1458 6023)" font-family="Inter" style="fill:#646464;font-size:16px;font-weight:500"><tspan x="-81.014" y="0">CRM, ERP, SCM, PLM</tspan></text>
+            <text transform="translate(1310 6193)" style="font-family:Inter;font-weight:700;font-size:20px;fill:#00c8b4"><tspan x="-61.822" y="19">Applications</tspan></text>
             <g data-name="그룹 7743">
                 <g data-name="그룹 7731">
                     <g data-name="그룹 7730" style="clip-path:url(#smuz1uiroa)" transform="translate(344 6043)">
