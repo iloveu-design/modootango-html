@@ -344,6 +344,19 @@
   position: relative;
   margin-bottom: 40px;
 }
+.card-round-full img {
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+}
+@media (max-width: 767px) {
+  .card-round-full img {
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+  }
+}
+
 .card-round-full .title-base {
   position: absolute;
   left: 0;
@@ -636,4 +649,8 @@ footer {
 
 .lang-kr.active {
   display: block;
+}
+
+.kr-box-wrapper {
+  margin-top: 240px;
 }
