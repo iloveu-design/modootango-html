@@ -246,6 +246,22 @@ header.header--transparent {
   padding-top: 20px;
   padding-bottom: 6px;
 }
+.header-nav-logo button {
+  border: none;
+}
+
+.header--transparent .header-nav-logo button {
+  /* width: 180px; */
+  animation: scale-up 1s ease infinite;
+}
+@keyframes scale-up {
+  0% {
+    transform: scaleX(180px);
+  }
+  100% {
+    transform: scaleX(160px);
+  }
+}
 
 @media (max-width: 767px) {
   .row-mo-16 {
@@ -289,8 +305,6 @@ header.header--transparent {
 }
 
 .web-logo {
-  width: 160px;
-  height: auto;
   display: inline-block;
 }
 
@@ -298,10 +312,6 @@ header.header--transparent {
   .mobile-logo {
     display: inline-block;
   }
-
-  /* .web-logo {
-    display: none !important;
-  } */
 }
 
 .logo-bg-white {
@@ -347,7 +357,7 @@ header.header--transparent {
   }
 }
 .icon-box-group {
-  margin-top: 160px;
+  margin-top: 77px;
 }
 
 @media (max-width: 767px) {

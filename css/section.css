@@ -163,11 +163,11 @@
   line-height: 1.33;
   text-align: left;
   color: #00c8b4;
+  margin-bottom: 10px;
 }
 .media-info p {
-  font-size: 21px;
-  line-height: 1.52;
-  text-align: left;
+  font-size: 18px;
+  line-height: 1.56;
   color: #000;
   margin-bottom: 0px;
 }
@@ -199,8 +199,14 @@
   color: #fff;
 }
 
+.round-box-group {
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
+
 .processing-img {
-  margin-bottom: 40px;
+  margin-top: 120px;
+  margin-bottom: 17px;
 }
 .normal-box h5 {
   font-family: Inter;
@@ -257,6 +263,10 @@
 
 .middle-bg-title--smartfactory {
   background-image: url("../images/bg-middle-sction-smartfactory.jpg");
+}
+
+.middle-bg-title--smarthome {
+  background-image: url("../images/bg-middle-sction-smarthome.jpg");
 }
 
 .middle-bg-title h3 {
