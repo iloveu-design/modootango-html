@@ -346,6 +346,25 @@
 .normal-box.normal-box-kr p {
   text-align: left;
 }
+@media (max-width: 767px) {
+  .normal-box {
+    margin-bottom: 200px;
+  }
+  .normal-box h5 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.33;
+    text-align: left;
+  }
+
+  .normal-box p {
+    font-family: NotoSansKR;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    color: #000;
+  }
+}
 
 .normal-box.normal-box-kr p {
   font-size: 20px;
