@@ -178,17 +178,26 @@
   margin-top: 240px;
 }
 
-.media-video {
-  height: 349px;
+.media-btn {
+  position: relative;
+}
+
+.media-bg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.media-bg {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+.media-btn .btn-play-img {
+  transition: transform 0.5s;
+}
+
+.media-btn:hover .btn-play-img {
+  transform: scale(1.01);
 }
 
 .media-info h4 {

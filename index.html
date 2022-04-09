@@ -235,9 +235,12 @@
             <div class="media-row">
               <div class="row row-40">
                 <div class="col-sm-6">
-                  <div class="media-video media-bg" style="background-image: url('images/demo-video.jpg');">
-                    <button class="btn" type="button" data-toggle="modal" data-target="#exampleModal"><img src="images/icon-play.svg" alt="플레이 버튼"></button>
-                  </div>
+                  <button class="btn media-btn" type="button" data-toggle="modal" data-target="#movModalDevice">
+                    <img src="images/demo-video.jpg">
+                    <div class="media-bg"> 
+                      <img class="btn-play-img" src="images/icon-play.svg" alt="플레이 버튼">
+                    </div>
+                  </button>
                 </div>
                 <div class="col-sm-6">
                   <div class="media-info">
@@ -257,18 +260,24 @@
                     </div>
                   </div>
                   <div class="col-sm-6">
-                    <div class="media-video media-bg" style="background-image: url('images/demo-video.jpg');">
-                      <button class="btn"><img src="images/icon-play.svg" alt="플레이 버튼"></button>
-                    </div>
+                    <button class="btn media-btn" type="button" data-toggle="modal" data-target="#movModalDevice">
+                      <img src="images/demo-video.jpg">
+                      <div class="media-bg"> 
+                        <img class="btn-play-img" src="images/icon-play.svg" alt="플레이 버튼">
+                      </div>
+                    </button>
                   </div>
                 </div>
               </div>
               <div class="only-mobile">
                 <div class="row row-40">
                   <div class="col-sm-6">
-                    <div class="media-video media-bg" style="background-image: url('images/demo-video.jpg');">
-                      <button class="btn"><img src="images/icon-play.svg" alt="플레이 버튼"></button>
-                    </div>
+                    <button class="btn media-btn" type="button" data-toggle="modal" data-target="#movModalDevice">
+                      <img src="images/demo-video.jpg">
+                      <div class="media-bg"> 
+                        <img class="btn-play-img" src="images/icon-play.svg" alt="플레이 버튼">
+                      </div>
+                    </button>
                   </div>
                   <div class="col-sm-6">
                     <div class="media-info">
@@ -283,9 +292,12 @@
             <div class="media-row">
               <div class="row row-40">
                 <div class="col-sm-6">
-                  <div class="media-video media-bg" style="background-image: url('images/demo-video.jpg');">
-                    <button class="btn"><img src="images/icon-play.svg" alt="플레이 버튼"></button>
-                  </div>
+                  <button class="btn media-btn" type="button" data-toggle="modal" data-target="#movModalDevice">
+                    <img src="images/demo-video.jpg">
+                    <div class="media-bg"> 
+                      <img class="btn-play-img" src="images/icon-play.svg" alt="플레이 버튼">
+                    </div>
+                  </button>
                 </div>
                 <div class="col-sm-6">
                   <div class="media-info">
@@ -306,18 +318,24 @@
                     </div>
                   </div>
                   <div class="col-sm-6">
-                    <div class="media-video media-bg" style="background-image: url('images/demo-video.jpg');">
-                      <button class="btn"><img src="images/icon-play.svg" alt="플레이 버튼"></button>
-                    </div>
+                    <button class="btn media-btn" type="button" data-toggle="modal" data-target="#movModalDevice">
+                      <img src="images/demo-video.jpg">
+                      <div class="media-bg"> 
+                        <img class="btn-play-img" src="images/icon-play.svg" alt="플레이 버튼">
+                      </div>
+                    </button>
                   </div>
                 </div>
               </div>
               <div class="only-mobile">
                 <div class="row row-40">
                   <div class="col-sm-6">
-                    <div class="media-video media-bg" style="background-image: url('images/demo-video.jpg');">
-                      <button class="btn"><img src="images/icon-play.svg" alt="플레이 버튼"></button>
-                    </div>
+                    <button class="btn media-btn" type="button" data-toggle="modal" data-target="#movModalDevice">
+                      <img src="images/demo-video.jpg">
+                      <div class="media-bg"> 
+                        <img class="btn-play-img" src="images/icon-play.svg" alt="플레이 버튼">
+                      </div>
+                    </button>
                   </div>
                   <div class="col-sm-6">
                     <div class="media-info">
@@ -332,9 +350,12 @@
             <div class="media-row">
               <div class="row row-40">
                 <div class="col-sm-6">
-                  <div class="media-video media-bg" style="background-image: url('images/demo-video.jpg');">
-                    <button class="btn"><img src="images/icon-play.svg" alt="플레이 버튼"></button>
-                  </div>
+                  <button class="btn media-btn" type="button" data-toggle="modal" data-target="#movModalDevice">
+                    <img src="images/demo-video.jpg">
+                    <div class="media-bg"> 
+                      <img class="btn-play-img" src="images/icon-play.svg" alt="플레이 버튼">
+                    </div>
+                  </button>
                 </div>
                 <div class="col-sm-6">
                   <div class="media-info">
@@ -1317,14 +1338,16 @@
 
 
 
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade modal-mov" id="movModalDevice" tabindex="-1" aria-labelledby="movModalDeviceLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+          <img src="images/icon-close.svg" alt="닫기">
         </button>
         <div class="modal-body">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/49COf9hzKLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/49COf9hzKLg" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </div>
@@ -1336,7 +1359,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" onclick="closeMobileMenu()">
-            <img src="images/m-icon-menu-close.svg" alt="닫기">
+            <img src="images/m-icon-close.svg" alt="닫기">
           </button>
         </div>
         <div class="modal-body">
