@@ -116,6 +116,12 @@
   top: 0;
   width: 180px;
 }
+@media (max-width: 767px) {
+  .home-nav-btn {
+    width: 120px;
+    height: 40px;
+  }
+}
 
 .header--transparent .home-nav-btn img {
   transition: width 1s ease;
@@ -131,7 +137,21 @@
   opacity: 1;
 }
 
-.header--transparent .logo-color {
+.header--transparent .hamberger-icon--gray {
+  display: none;
+}
+.header--transparent .hamberger-icon {
+  display: inline-block;
+}
+
+.header--white .hamberger-icon--gray {
+  display: inline-block;
+}
+.header--white .hamberger-icon {
+  display: none;
+}
+
+.header--transparent .gray {
   opacity: 0;
 }
 
@@ -197,6 +217,7 @@
 }
 
 .media-btn:hover .btn-play-img {
+  opacity: 0.4;
   transform: scale(1.01);
 }
 

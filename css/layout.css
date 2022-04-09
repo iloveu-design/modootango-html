@@ -146,8 +146,8 @@ header.header--transparent {
 
 @media (max-width: 767px) {
   .header-nav {
-    display: inline-block;
-    padding: 12px 0 12px 0;
+    display: block;
+    padding: 14px 0 6px 0;
   }
   header .logo {
     width: 120px;
@@ -159,10 +159,6 @@ header.header--transparent {
   .header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: #fff;
-  }
-
-  header.header--transparent {
-    background-color: rgba(0, 0, 0, 0.5);
   }
 
   .gnb-li .nav-btn.active::after {
@@ -182,7 +178,7 @@ header.header--transparent {
     background-color: #3c64ff;
   }
   .btn-side-toggle-btn {
-    padding: 0.5rem 1rem;
+    padding: 14px 1rem;
   }
 }
 .container-1016 {
