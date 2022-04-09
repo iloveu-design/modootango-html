@@ -236,11 +236,13 @@
 .gnb-ul-mo .gnb-li {
   width: 100%;
   text-align: left;
+  padding-left: 36px;
+  margin-bottom: 20px;
 }
 
 .gnb-ul-mo .gnb-li .nav-btn {
   color: #fff;
-  width: 100%;
+  width: auto;
   text-align: left;
   font-size: 20px;
   font-size: 1.25rem;
@@ -249,11 +251,12 @@
   font-style: normal;
   line-height: 1.2;
   letter-spacing: normal;
-  padding: 1.5rem 2rem 0.5rem;
+  padding: 4px 0 4px;
 }
 
 .gnb-ul-mo .gnb-li .nav-btn.active {
-  color: #3c64ff;
+  color: #00c8b4;
+  border-bottom: thin solid #00c8b4;
 }
 .gnb-ul-mo .gnb-li .nav-btn::after,
 .gnb-ul-mo .gnb-li .nav-btn::before {
@@ -274,12 +277,17 @@
 }
 
 .modal-footer-info p {
-  margin-top: 0.5rem;
-  font-family: SofiaProSoft;
+  margin-top: 6px;
+  opacity: 0.4;
+  font-family: Inter;
   font-size: 8px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
   line-height: 1.25;
+  letter-spacing: normal;
   text-align: left;
-  color: #ffffff;
+  color: #fff;
 }
 
 .active-line {
