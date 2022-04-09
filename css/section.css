@@ -156,12 +156,10 @@
 }
 
 .header--transparent .home-nav-btn img {
-  transition: width 1s ease;
   width: 180px;
 }
 
 .header--white .home-nav-btn img {
-  transition: width 1s ease;
   width: 160px;
 }
 
