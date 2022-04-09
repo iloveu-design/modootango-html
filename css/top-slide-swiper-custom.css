@@ -174,12 +174,16 @@
 
 .year-slide .year-slide__mon {
   margin-top: 10px;
+  display: block;
   font-family: Inter;
   font-size: 30px;
   font-weight: 800;
   line-height: 1.07;
   text-align: left;
   color: #00148c;
+}
+.year-slide .same-year {
+  color: transparent;
 }
 
 .year-slide p {

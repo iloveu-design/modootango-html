@@ -356,7 +356,7 @@
         </div>
         <div class="container">
           <img class="processing-img" src="images/processing.svg" alt="생산 과정 안내 ">
-          <!-- <div class="row row-40">
+           <!-- <div class="row row-40">
             <div class="col-sm-6">
               <h4 class="round-title">Secure Device</h4>
             </div>
@@ -366,7 +366,7 @@
             <div class="col-sm-3">
               <h4 class="round-title">Secure Service</h4>
             </div>
-          </div> -->
+          </div>  -->
           <div class="row row-40">
             <div class="col-sm-3">
               <div class="normal-box">
@@ -620,7 +620,7 @@
                 </div>
               </div>
             </div>
-          </div>s
+          </div>
         </div>
         <div class="middle-bg-title middle-bg-title--ip">
           <div class="container-inner">
@@ -922,8 +922,6 @@
           </div>
         </div>
         <div class="swiper-history-container">
-          
-
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="year-slide">
@@ -963,15 +961,77 @@
   
             <div class="swiper-slide">
               <div class="year-slide">
-                <h4>2015</h4>
-                <span class="year-slide__mon">JUL.</span>
-                <p>회사 설립<br>
-                  Setup R&D office</p>
+                <h4 class="same-year">2019</h4>
+                <span class="year-slide__mon">DEC.</span>
+                <p>중국 Alibaba 자회사인 <br>
+                  T-HEAD와 사업협력 체결</p>
               </div>
             </div>
-  
+
+            <div class="swiper-slide">
+              <div class="year-slide">
+                <h4>2020</h4>
+                <span class="year-slide__mon">MAR.</span>
+                <p>대만 Nuvoton VAR 파트너쉽 계약체결</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="year-slide">
+                <h4 class="same-year">2020</h4>
+                <span class="year-slide__mon">AUG.</span>
+                <p>신한캐피탈 투자유치</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="year-slide">
+                <h4 class="same-year">2020</h4>
+                <span class="year-slide__mon">SEP.</span>
+                <p>미국 Micron VAR 파트너쉽 계약체결</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="year-slide">
+                <h4 class="same-year">2020</h4>
+                <span class="year-slide__mon">OCT.</span>
+                <p>중국 상해 합작법인 설립 (w/Starfive)</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="year-slide">
+                <h4 class="">2021</h4>
+                <span class="year-slide__mon">MAR.</span>
+                <p>중국 Alibaba T-HEAD RISC-V 기반 보안SDK 공동개발 Kick-off</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="year-slide">
+                <h4 class="same-year">2021</h4>
+                <span class="year-slide__mon">JUN.</span>
+                <p>영국 ARM KIGEN RSP 서비스 파트너쉽 체결</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="year-slide">
+                <h4 class="same-year">2021</h4>
+                <span class="year-slide__mon">AUG.</span>
+                <p>중국 Hikvision IP카메라 <br>
+                  보안적용 프로젝트 Kick-off</p>
+              </div>
+            </div>
           </div>
           
+        </div>
+        <div class="left-space">
+          <div class="left-space__space">
+            <div class="left-space__ratio"></div>
+            <div class="left-space__fix"></div>
+          </div>
         </div>
       </div>
       
@@ -1187,7 +1247,7 @@
           <div class="container-inner">
 
             <div class="contact-info-row">
-              <img src="images/icon-phone.svg" alt="전화 아이콘">
+              <img src="images/icon-phone-message.svg" alt="전화 아이콘">
               <div class="contact-text">
                 <h5>
                   대표전화:
@@ -1226,8 +1286,10 @@
             </div>
 
             <div class="container-inner">
-              <img class="only-web" src="images/location.jpg" alt="찾아오시는 길 지도">
-              <img class="only-mobile" src="images/location-mo.jpg" alt="찾아오시는 길 지도">
+              <a class="history-link" href="https://goo.gl/maps/9jNmbLjuVxNgzPpN6" rel="noopener noreferrer">
+                <img class="location-img only-web" src="images/location.jpg" alt="찾아오시는 길 지도">
+                <img class="location-img-mo only-mobile" src="images/location-mo.jpg" alt="찾아오시는 길 지도">
+              </a>
             </div>
           </div>
 
@@ -1365,6 +1427,7 @@
       }, 300);
     }
 
+
     const swiper = new Swiper('.swiper-container', {
       effect: "fade",
       loop: true,
@@ -1388,15 +1451,27 @@
     //     },
     //   });
     // } else {
-    var historySwiper = new Swiper('.swiper-history-container', {
-      slidesPerView: 3,
-      loop: false,
-      navigation: {
-        nextEl: ".history-button-next",
-        prevEl: ".history-button-prev",
-      },
-    });
-    // }
+
+    function historySwiper(){
+      var historySwiper = new Swiper('.swiper-history-container', {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+        loop: false,
+        breakpoints: {
+          768: {
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+          },
+        },
+        navigation: {
+          nextEl: ".history-button-next",
+          prevEl: ".history-button-prev",
+        },
+      });
+      // }
+    }
+    historySwiper();
+
   </script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {

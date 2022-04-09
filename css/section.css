@@ -426,6 +426,9 @@
 .bg-box.midde-big-section .container-inner {
   padding-top: 170px;
 }
+.bg-box.midde-big-section.midde-big-section--trust .container-inner {
+  padding-top: 80px;
+}
 
 .midde-big-section--trust {
   background-image: url("../images/bg-middle-sction-trust.jpg");
