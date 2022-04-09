@@ -289,6 +289,19 @@
   .swiper-nav-btn-group {
     display: none;
   }
+  .swiper-tech-container .swiper-pagination--tech {
+    bottom: -36px;
+  }
+  .swiper-tech-container .swiper-pagination--tech .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    margin: 0 8px;
+  }
+  .swiper-tech-container
+    .swiper-pagination--tech
+    .swiper-pagination-bullet-active {
+    background-color: #000;
+  }
 }
 
 .swiper-button-disabled .icon-arrow--hover {

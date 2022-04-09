@@ -122,36 +122,42 @@
             <h4>시큐리티플랫폼의 다음과 같은 3가지 주요 보안 기술 영역에 주력하여 제품 및 솔루션을 구현하였습니다.</h4>
           </div>
           <div class="box-group">
-            <div class="row row-40">
-              <div class="col-sm-4">
-                <div class="shadow-box">
-                  <image src="images/icon-lock-key.svg" alt="자물쇠 아이콘"/>
-                  <h5>Confidentiality</h5>
-                  <h6>Anti-Cloning</h6>
-                  <p>고유 ID 인증<br>
-                    펌웨어 암호화</p>
+            <div class="swiper-tech-container">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="shadow-box">
+                    <image src="images/icon-lock-key.svg" alt="자물쇠 아이콘"/>
+                    <h5>Confidentiality</h5>
+                    <h6>Anti-Cloning</h6>
+                    <p>고유 ID 인증<br>
+                      펌웨어 암호화</p>
+                  </div>
                 </div>
+
+                <div class="swiper-slide">
+                  <div class="shadow-box">
+                    <image src="images/icon-diamond.svg" alt="자물쇠 다이아몬드"/>
+                    <h5>Integrity</h5>
+                    <h6>Anti-Forgery</h6>
+                    <p>시큐어 부트<br>
+                      코드 사이닝 업데이트</p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="shadow-box">
+                    <image src="images/icon-medal.svg" alt="자물쇠 메달"/>
+                    <h5>Attestation</h5>
+                    <h6>Remote Attestation</h6>
+                    <p>상호 인증<br>
+                      원격 검증</p>
+                  </div>
+                </div>
+
               </div>
 
-              <div class="col-sm-4">
-                <div class="shadow-box">
-                  <image src="images/icon-diamond.svg" alt="자물쇠 다이아몬드"/>
-                  <h5>Integrity</h5>
-                  <h6>Anti-Forgery</h6>
-                  <p>시큐어 부트<br>
-                    코드 사이닝 업데이트</p>
-                </div>
-              </div>
-
-              <div class="col-sm-4">
-                <div class="shadow-box">
-                  <image src="images/icon-medal.svg" alt="자물쇠 메달"/>
-                  <h5>Attestation</h5>
-                  <h6>Remote Attestation</h6>
-                  <p>상호 인증<br>
-                    원격 검증</p>
-                </div>
-              </div>
+              <div class="swiper-pagination swiper-pagination--tech"></div>
             </div>
           </div>
           <div class="group-finish-line"></div>
@@ -213,7 +219,7 @@
 
               <div class="col-sm-3 col-6">
                 <div class="icon-box">
-                  <image src="images/icon-fingerprint.svg" alt="아아콘 방패"/>
+                  <image src="images/icon-defence.svg" alt="아아콘 방패"/>
                   <h5>Secure<br>
                     Code</h5>
                   <p>소스코드의 취약점 분석을 통한 보안위험 제거</p>
@@ -1563,9 +1569,24 @@
         $( 'html, body' ).animate({scrollTop: movePosition}, 500);
       }
     }
-    // $(document).ready(function() {
-    //   new WOW().init();
-    // });
+  </script>
+  <script>
+      function mainTech(){
+        var mainTech = new Swiper('.swiper-tech-container', {
+          slidesPerView: "auto",
+          spaceBetween: 16,
+          loop: false,
+          pagination: {
+            el: '.swiper-pagination--tech',
+            clickable: true,
+          },
+        });
+        // }
+      }
+      var isMobile = window.matchMedia("(max-width: 767px)").matches;
+      if (isMobile) {
+        mainTech();
+      } 
 
   </script>
   <script>

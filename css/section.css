@@ -35,7 +35,7 @@
 }
 
 .shadow-box {
-  padding: 40px 0;
+  padding: 40px 20px;
   border-radius: 40px;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
   background-color: #fff;
@@ -52,6 +52,18 @@
   color: #00148c;
   margin-bottom: 0;
 }
+@media (max-width: 767px) {
+  .shadow-box {
+    padding: 30px 0;
+  }
+  .shadow-box img {
+    width: 144px;
+  }
+  .shadow-box h5 {
+    font-size: 20px;
+    line-height: 2.2;
+  }
+}
 
 .shadow-box h6 {
   font-family: Inter;
@@ -67,6 +79,20 @@
   color: #646464;
   margin-top: 40px;
   margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .shadow-box h6 {
+    font-size: 16px;
+    line-height: 1.75;
+  }
+
+  .shadow-box p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.33;
+    margin-top: 20px;
+  }
 }
 
 .bg-box {
