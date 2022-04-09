@@ -673,7 +673,6 @@ footer {
 .modal-mov .modal-dialog {
   width: 960px;
   max-width: 100%;
-  margin-top: 20vh;
 }
 
 .modal-mov .modal-content {
@@ -688,4 +687,21 @@ footer {
   position: absolute;
   top: -20px;
   right: -80px;
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+  .modal-mov .modal-dialog {
+    padding: 0 5rem;
+  }
+}
+@media (max-width: 991px) {
+  .modal-mov .close {
+    position: absolute;
+    top: -80px;
+    right: 10px;
+  }
+
+  .modal-mov .modal-dialog {
+    padding: 0;
+  }
 }

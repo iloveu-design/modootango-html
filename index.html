@@ -1431,9 +1431,27 @@
       }
     }
     resizeLeftSpace();
+    
+    var embedDialog = document.querySelector(".modal-mov .modal-content");
+    var embedDom = document.querySelector(".modal-mov .embed-responsive");
+    function resizeMarginModal () {
+      clientHeight = document.documentElement.clientHeight;
+      embedHeight = embedDom.offsetHeight
+      console.log(clientHeight, embedHeight)
+      clientWidth = document.documentElement.clientWidth;
+      if (clientWidth > 1279) {
+        embedDialog.style.marginTop = (clientHeight-540)/2 + 'px';
+      } else if  (clientWidth > 991) {
+        spaceRation.style.width = (clientWidth - 960)/2 + 'px';
+      } else if  (clientWidth > 767) {
+        spaceRation.style.width = (clientWidth - 720)/2 + 'px';
+      }
+    }
+    resizeMarginModal();
 
     window.addEventListener("resize", function() {
       resizeLeftSpace()
+      resizeMarginModal(); 
     });
 
   </script>
