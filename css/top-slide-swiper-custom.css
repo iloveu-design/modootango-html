@@ -206,6 +206,7 @@
 @media (max-width: 767px) {
   .swiper-left-space-container {
     margin-top: 160px;
+    overflow: hidden;
   }
 }
 .left-space__space {

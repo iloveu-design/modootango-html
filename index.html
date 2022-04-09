@@ -1436,9 +1436,9 @@
     var embedDom = document.querySelector(".modal-mov .embed-responsive");
     function resizeMarginModal () {
       clientHeight = document.documentElement.clientHeight;
-      embedHeight = embedDom.offsetHeight
-      console.log(clientHeight, embedHeight)
+      embedHeight = embedDom.offsetHeight;
       clientWidth = document.documentElement.clientWidth;
+      
       if (clientWidth > 1279) {
         embedDialog.style.marginTop = (clientHeight-540)/2 + 'px';
       } else if  (clientWidth > 991) {
