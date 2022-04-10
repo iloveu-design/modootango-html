@@ -277,7 +277,7 @@
                   </div>
                   <div class="col-sm-6">
                     <button class="btn media-btn" type="button" data-toggle="modal" data-target="#movModalDevice">
-                      <img src="images/demo-video.jpg">
+                      <img class="media-thumb-img" src="images/demo-video.jpg">
                       <div class="media-bg"> 
                         <img class="btn-play-img" src="images/icon-play.svg" alt="플레이 버튼">
                       </div>
@@ -289,7 +289,7 @@
                 <div class="row row-40">
                   <div class="col-sm-6">
                     <button class="btn media-btn" type="button" data-toggle="modal" data-target="#movModalDevice">
-                      <img src="images/demo-video.jpg">
+                      <img class="media-thumb-img" src="images/demo-video.jpg">
                       <div class="media-bg"> 
                         <img class="btn-play-img" src="images/icon-play.svg" alt="플레이 버튼">
                       </div>
@@ -309,7 +309,7 @@
               <div class="row row-40">
                 <div class="col-sm-6">
                   <button class="btn media-btn" type="button" data-toggle="modal" data-target="#movModalDevice">
-                    <img src="images/demo-video.jpg">
+                    <img class="media-thumb-img" src="images/demo-video.jpg">
                     <div class="media-bg"> 
                       <img class="btn-play-img" src="images/icon-play.svg" alt="플레이 버튼">
                     </div>
@@ -335,7 +335,7 @@
                   </div>
                   <div class="col-sm-6">
                     <button class="btn media-btn" type="button" data-toggle="modal" data-target="#movModalDevice">
-                      <img src="images/demo-video.jpg">
+                      <img class="media-thumb-img" src="images/demo-video.jpg">
                       <div class="media-bg"> 
                         <img class="btn-play-img" src="images/icon-play.svg" alt="플레이 버튼">
                       </div>
@@ -347,7 +347,7 @@
                 <div class="row row-40">
                   <div class="col-sm-6">
                     <button class="btn media-btn" type="button" data-toggle="modal" data-target="#movModalDevice">
-                      <img src="images/demo-video.jpg">
+                      <img class="media-thumb-img" src="images/demo-video.jpg">
                       <div class="media-bg"> 
                         <img class="btn-play-img" src="images/icon-play.svg" alt="플레이 버튼">
                       </div>
@@ -367,7 +367,7 @@
               <div class="row row-40">
                 <div class="col-sm-6">
                   <button class="btn media-btn" type="button" data-toggle="modal" data-target="#movModalDevice">
-                    <img src="images/demo-video.jpg">
+                    <img class="media-thumb-img" src="images/demo-video.jpg">
                     <div class="media-bg"> 
                       <img class="btn-play-img" src="images/icon-play.svg" alt="플레이 버튼">
                     </div>
@@ -1679,6 +1679,19 @@
     //     },
     //   });
     // } else {
+
+    function mainTech(){
+      var mainTech = new Swiper('.swiper-tech-container', {
+        slidesPerView: "auto",
+        spaceBetween: 16,
+        loop: false,
+        pagination: {
+          el: '.swiper-pagination--tech',
+          clickable: true,
+        },
+      });
+      // }
+    }
 
     function historySwiper(){
       var historySwiper = new Swiper('.swiper-history-container', {
