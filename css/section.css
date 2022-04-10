@@ -309,6 +309,11 @@
 .round-box-group {
   margin-top: 20px;
   margin-bottom: 120px;
+  text-align: center;
+}
+.round-box-group button {
+  padding: 0;
+  border: none;
 }
 
 .processing-img {
