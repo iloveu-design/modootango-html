@@ -858,4 +858,12 @@ footer {
     margin-bottom: 10px;
     text-align: center;
   }
+  .mo-gnb-ul-lang {
+    margin-top: 16vh;
+    display: flex;
+    list-style: none;
+  }
+  .mo-gnb-ul-lang button {
+    padding: 0 17px 0 0;
+  }
 }
