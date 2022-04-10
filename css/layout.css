@@ -348,6 +348,7 @@ header.header--transparent {
     padding-right: 2rem;
   }
   .container-right-zero {
+    max-width: 100%;
     padding-left: 2rem;
     padding-right: 0;
     overflow: scroll;

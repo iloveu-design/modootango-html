@@ -450,13 +450,13 @@
               <div class="col-sm-3">
                 <div class="normal-box normal-box-kr">
                   <h5>AXIO-CRYPTO</h5>
-                  <p>Certified (FIPS 140-2, KCMVP)</p>
+                  <p>AXIO-CRYPTO는 Arm Cortex-M23과 같이 리소스가 제한적인 임베디드 시스템에서 탁월한 성능을 갖추었으며, 신뢰실행환경(TEE: Trusted Execution Environment)에서 동작하여 안전한 키관리를 보장하는 디지털서명 및 암호연산 알고리즘입니다. (FIPS 140-2, KCMVP Certified.)</p>
                 </div>
               </div>
               <div class="col-sm-3">
                 <div class="normal-box normal-box-kr">
                   <h5>AXIO-CRYPTO</h5>
-                  <p>는 Arm Cortex-M23과 같이 리소스가 제한적인 임베디드 시스템에서 탁월한 성능을 갖추었으며, 신뢰실행환경(TEE: Trusted Execution Environment)에서 동작하여 안전한 키관리를 보장하는 디지털서명 및 암호연산 알고리즘입니다. (FIPS 140-2, KCMVP Certified.)</p>
+                  <p>최근 사물인터넷의 통신은 대부분 무선으로 전환되는 추세입니다. 이에 따라 상호인증과 암호화는 필수적이며, 필요에 따라 독립적인 가상사설망(VPN)을 구현해야할 경우도 발생합니다. AXIO-TLS/VPN은 임베디드 환경에서의 TLS  및 VPN on Chip 솔루션을 제공합니다.</p>
                 </div>
               </div>
               <div class="col-sm-3">
@@ -1636,6 +1636,24 @@
     }
     resizeMarginModal();
 
+    function historySwiper(){
+      var historySwiper = new Swiper('.swiper-history-container', {
+        slidesPerView: "auto",
+        loop: false,
+        breakpoints: {
+          768: {
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+          },
+        },
+        navigation: {
+          nextEl: ".history-button-next",
+          prevEl: ".history-button-prev",
+        },
+      });
+    }
+    historySwiper();
+
     window.addEventListener("resize", function() {
       resizeLeftSpace()
       resizeMarginModal(); 
@@ -1693,24 +1711,7 @@
       // }
     }
 
-    function historySwiper(){
-      var historySwiper = new Swiper('.swiper-history-container', {
-        slidesPerView: "auto",
-        loop: false,
-        breakpoints: {
-          768: {
-            slidesPerView: 3,
-            slidesPerGroup: 3,
-          },
-        },
-        navigation: {
-          nextEl: ".history-button-next",
-          prevEl: ".history-button-prev",
-        },
-      });
-      // }
-    }
-    historySwiper();
+    
 
   </script>
   <script>
