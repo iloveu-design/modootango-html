@@ -457,6 +457,24 @@
 .vpn-img {
   margin-bottom: 60px;
 }
+.energe-img {
+  margin-bottom: 60px;
+}
+@media (max-width: 767px) {
+  .energe-img {
+    width: 752px;
+    max-width: 752px;
+    margin-bottom: 40px;
+  }
+  .vpn-img {
+    width: 738px;
+    max-width: 738px;
+    margin-bottom: 40px;
+  }
+  .container-right-zero--energe {
+    margin-top: 40px;
+  }
+}
 
 .partners-card {
   text-align: center;

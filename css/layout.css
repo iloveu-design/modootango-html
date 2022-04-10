@@ -323,6 +323,12 @@ header.header--transparent {
   max-width: 100%;
   margin: 0 auto;
 }
+.container-right-zero {
+  width: 1060px;
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
 @media (min-width: 1280px) {
   .container-inner {
     max-width: 1310px;
@@ -340,9 +346,10 @@ header.header--transparent {
     padding-right: 2rem;
   }
   .container-right-zero {
+    padding-left: 2rem;
     padding-right: 0;
     overflow: scroll;
-    margin-top: 80px;
+    margin-top: 40px;
   }
   .container-right-zero img {
     margin-right: 2rem;

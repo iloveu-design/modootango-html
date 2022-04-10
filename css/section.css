@@ -458,6 +458,15 @@
   margin-bottom: 160px;
 }
 @media (max-width: 767px) {
+  .icon-group-wrapper {
+    margin-bottom: 120px;
+  }
+  .icon-group-wrapper.icon-group-wrapper--mo-80 {
+    margin-bottom: 80px;
+  }
+  .plain-box {
+    margin-bottom: 40px;
+  }
   .icon-group-wrapper .col {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
@@ -469,6 +478,13 @@
   margin-bottom: 100px;
 }
 
+@media (max-width: 767px) {
+  .ip-process-img {
+    width: 752px;
+    max-width: 752px;
+    margin-bottom: 40px;
+  }
+}
 .middle-bg-title p.p-sm {
   font-size: 20px;
   font-weight: 500;
@@ -480,9 +496,32 @@
   margin-top: 40px;
   margin-bottom: 100px;
 }
+@media (max-width: 767px) {
+  .car-process-img {
+    width: 738px;
+    max-width: 738px;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+}
 
 .car-factory-img {
   margin-bottom: 100px;
+}
+.iot-img {
+  margin-bottom: 100px;
+}
+@media (max-width: 767px) {
+  .car-factory-img {
+    width: 738px;
+    max-width: 738px;
+    margin-bottom: 40px;
+  }
+  .iot-img {
+    width: 752px;
+    max-width: 752px;
+    margin-bottom: 40px;
+  }
 }
 
 .middle-bg-title--iot {
