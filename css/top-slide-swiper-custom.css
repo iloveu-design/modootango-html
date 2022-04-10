@@ -183,6 +183,9 @@
   color: #00148c;
 }
 @media (max-width: 767px) {
+  .year-slide {
+    width: 100%;
+  }
   .year-slide h4 {
     font-size: 20px;
     font-weight: 800;
@@ -220,16 +223,12 @@
 }
 .swiper-history-container {
   position: relative;
-}
-
-.swiper-left-space-container {
-  display: flex;
   margin-bottom: 160px;
 }
+
 @media (max-width: 767px) {
-  .swiper-left-space-container {
+  .swiper-history-container {
     margin-top: 160px;
-    overflow: hidden;
     margin-bottom: 120px;
   }
   .year-slide p {
@@ -314,6 +313,10 @@
   }
   .swiper-history-container .swiper-slide {
     width: 224px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
   }
 }
 

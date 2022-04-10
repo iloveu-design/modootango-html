@@ -983,13 +983,14 @@
           </div>
         </div>
       </div>
-      <div class="swiper-left-space-container"> 
-        <div class="left-space">
+        <!-- <div class="left-space">
           <div class="left-space__space">
             <div class="left-space__ratio"></div>
             <div class="left-space__fix"></div>
           </div>
-        </div>
+        </div>  -->
+      <div class="container-inner">
+
         <div class="swiper-history-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -1005,8 +1006,8 @@
               <div class="year-slide">
                 <h4>2017</h4>
                 <span class="year-slide__mon">DEC.</span>
-                <p>회사 설립<br>
-                  Setup R&D office</p>
+                <p>소프트뱅크벤처스, <br>
+                  프리미어파트너스 투자유치</p>
               </div>
             </div>
   
@@ -1096,13 +1097,13 @@
           </div>
           
         </div>
-        <div class="left-space">
+        <!-- <div class="left-space">
           <div class="left-space__space">
             <div class="left-space__ratio"></div>
             <div class="left-space__fix"></div>
           </div>
-        </div>
-      </div>
+        </div> -->
+      </div> 
       
 
       <div class="bg-box midde-big-section midde-big-section--partnership">
@@ -1519,6 +1520,7 @@
       }
     }
 
+    var isMobile = window.matchMedia("(max-width: 767px)").matches;
   </script>
   
   <script>
@@ -1602,18 +1604,18 @@
     appHeight();
   </script>
   <script>
-    var spaceRation = document.querySelector(".left-space__ratio");
-    function resizeLeftSpace () {
-      clientWidth = document.documentElement.clientWidth;
-      if (clientWidth > 1279) {
-        spaceRation.style.width = (clientWidth - 1310)/2 + 'px';
-      } else if  (clientWidth > 991) {
-        spaceRation.style.width = (clientWidth - 960)/2 + 'px';
-      } else if  (clientWidth > 767) {
-        spaceRation.style.width = (clientWidth - 720)/2 + 'px';
-      }
-    }
-    resizeLeftSpace();
+    // var spaceRation = document.querySelector(".left-space__ratio");
+    // function resizeLeftSpace () {
+    //   clientWidth = document.documentElement.clientWidth;
+    //   if (clientWidth > 1279) {
+    //     spaceRation.style.width = (clientWidth - 1310)/2 + 'px';
+    //   } else if  (clientWidth > 991) {
+    //     spaceRation.style.width = (clientWidth - 960)/2 + 'px';
+    //   } else if  (clientWidth > 767) {
+    //     spaceRation.style.width = (clientWidth - 720)/2 + 'px';
+    //   }
+    // }
+    // resizeLeftSpace();
     
     var embedDialog = document.querySelector(".modal-mov .modal-content");
     var embedDom = document.querySelector(".media-bg");
@@ -1638,21 +1640,26 @@
 
     function historySwiper(){
       var historySwiper = new Swiper('.swiper-history-container', {
-        slidesPerView: "auto",
+        slidesPerView: 3,
+        slidesPerGroup: 3,
         loop: false,
-        breakpoints: {
-          768: {
-            slidesPerView: 3,
-            slidesPerGroup: 3,
-          },
-        },
         navigation: {
           nextEl: ".history-button-next",
           prevEl: ".history-button-prev",
         },
       });
     }
-    historySwiper();
+    function historySwiperMobile(){
+      var historySwiper = new Swiper('.swiper-history-container', {
+        slidesPerView: "auto",
+        loop: false,
+      });
+    }
+    if (isMobile) { 
+      historySwiperMobile();
+    } else {
+      historySwiper()
+    }
 
     window.addEventListener("resize", function() {
       resizeLeftSpace()
@@ -1776,7 +1783,6 @@
         });
         // }
       }
-      var isMobile = window.matchMedia("(max-width: 767px)").matches;
       if (isMobile) {
         mainTech();
       } 
