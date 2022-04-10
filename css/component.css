@@ -866,4 +866,7 @@ footer {
   .mo-gnb-ul-lang button {
     padding: 0 17px 0 0;
   }
+  .normal-box.normal-box-kr--last {
+    margin-bottom: 40px;
+  }
 }
