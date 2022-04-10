@@ -327,7 +327,7 @@ header.header--transparent {
   width: 1060px;
 }
 .container-right-zero {
-  max-width: 1310px;
+  width: 1060px;
   padding-left: 0;
   padding-right: 0;
 }
