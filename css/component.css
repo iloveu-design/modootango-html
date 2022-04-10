@@ -625,7 +625,7 @@ footer {
 @media (max-width: 767px) {
   .contact-info-row--last {
     margin-top: 0;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 }
 
@@ -704,8 +704,16 @@ footer {
 .location-img-mo {
   border-radius: 30px;
 }
+.history-link {
+  display: block;
+}
 .history-link .location-img {
   transition: transform 0.5s;
+}
+@media (max-width: 767px) {
+  .history-link {
+    text-align: center;
+  }
 }
 
 .history-link:hover .location-img {
@@ -763,12 +771,46 @@ footer {
     border-radius: 20px;
   }
 }
+.m-scroll-wrapper {
+  width: 100%;
+}
+.m-scroll-wrapper-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+.normal-box-wrapper {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 @media (max-width: 767px) {
+  .m-scroll-wrapper {
+    width: 944px;
+  }
+  .m-scroll-wrapper-row {
+    margin-right: -8px;
+    margin-left: -8px;
+  }
+  .normal-box-wrapper {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
   .swiper-top-wrapper {
     overflow: hidden;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+  }
+
+  .normal-box-wrapper .normal-box h5 {
+    margin-bottom: 10px;
+    text-align: center;
   }
 }

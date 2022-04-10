@@ -184,6 +184,11 @@
 .year-slide .same-year {
   color: transparent;
 }
+@media (max-width: 767px) {
+  .year-slide .same-year {
+    color: #00c8b4;
+  }
+}
 
 .year-slide p {
   font-size: 21px;
@@ -206,6 +211,16 @@
   .swiper-left-space-container {
     margin-top: 160px;
     overflow: hidden;
+  }
+}
+.left-space-container {
+  display: flex;
+  margin-bottom: 160px;
+}
+@media (max-width: 767px) {
+  .left-space-container {
+    margin-top: 80px;
+    overflow: scroll;
   }
 }
 .left-space__space {
@@ -284,6 +299,25 @@
 .btn.history-button-prev {
   margin-right: 40px;
 }
+.swiper-tech-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1280px) {
+  .swiper-tech-container {
+    max-width: 1310px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1279px) {
+  .swiper-tech-container {
+    max-width: 960px;
+  }
+}
+
 @media (max-width: 767px) {
   .swiper-nav-btn-group {
     display: none;

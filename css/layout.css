@@ -323,10 +323,33 @@ header.header--transparent {
   max-width: 100%;
   margin: 0 auto;
 }
+@media (min-width: 1280px) {
+  .container-inner {
+    max-width: 1310px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1279px) {
+  .container-inner {
+    max-width: 960px;
+  }
+}
+
 @media (max-width: 767px) {
   .container-inner {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+  .container-right-zero {
+    padding-right: 0;
+    overflow: scroll;
+    margin-top: 80px;
+  }
+  .container-right-zero img {
+    margin-right: 2rem;
+  }
+  .container-right-zero .normal-box {
+    width: 224px;
+    margin-bottom: 0;
   }
 }
 

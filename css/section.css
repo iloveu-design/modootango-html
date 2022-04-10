@@ -317,7 +317,10 @@
 }
 @media (max-width: 767px) {
   .processing-img {
-    margin-top: 80px;
+    margin-top: 0;
+    width: 944px;
+    max-width: 944px;
+    margin-bottom: 20px;
   }
 
   .round-box-group {
@@ -332,6 +335,7 @@
   line-height: 1.17;
   text-align: center;
   color: #00148c;
+  margin-bottom: 10px;
 }
 
 .normal-box p {
