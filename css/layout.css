@@ -324,8 +324,7 @@ header.header--transparent {
   margin: 0 auto;
 }
 .container-right-zero {
-  width: 1060px;
-  max-width: 100%;
+  max-width: 1310px;
   padding-left: 0;
   padding-right: 0;
 }
