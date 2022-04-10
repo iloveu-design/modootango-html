@@ -576,6 +576,7 @@ footer {
   .footer-wrapepr {
     flex-wrap: wrap;
     justify-content: flex-start;
+    padding-bottom: 120px;
   }
 
   .m-world-location-wrapper {
