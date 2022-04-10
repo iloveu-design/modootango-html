@@ -181,6 +181,23 @@
   text-align: left;
   color: #00148c;
 }
+@media (max-width: 767px) {
+  .year-slide h4 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.6;
+    text-align: left;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #00c8b4;
+  }
+  .year-slide .year-slide__mon {
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.6;
+    text-align: left;
+  }
+}
 .year-slide .same-year {
   color: transparent;
 }
@@ -211,6 +228,14 @@
   .swiper-left-space-container {
     margin-top: 160px;
     overflow: hidden;
+    margin-bottom: 120px;
+  }
+  .year-slide p {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 20px;
   }
 }
 .left-space-container {
@@ -284,6 +309,9 @@
 @media (max-width: 767px) {
   .swiper-history-container .swiper-wrapper::before {
     display: none;
+  }
+  .swiper-history-container .swiper-slide {
+    width: 224px;
   }
 }
 

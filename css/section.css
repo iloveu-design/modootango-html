@@ -558,9 +558,11 @@
 @media (max-width: 767px) {
   .circle-img-box {
     margin-bottom: 80px;
+    text-align: center;
   }
   .circle-img-box img {
     margin-bottom: 20px;
+    max-width: 224px;
   }
 
   .circle-img-box h4 {
@@ -592,7 +594,7 @@
 }
 @media (max-width: 767px) {
   .circle-img-wrapper {
-    margin-top: 80px;
+    margin-top: 40px;
     margin-bottom: 0;
   }
 }
