@@ -104,6 +104,12 @@
           </div>
 
         </div>
+        <div class="lead-scroll-wrapper">
+          <div class="lead-info-box"> 
+            <img src="images/arrow-down.svg" alt="arrow">
+            <span class="scroll-down-text">SCROLL DOWN</span>
+          </div>
+        </div>
         <div class="swiper-pagination swiper-pagination--top"></div>
       </div>
     </section>
@@ -116,15 +122,15 @@
       </div>
 
       <div class="contents-group contents-group--first">
-        <div class="container">
-          <div class="container-inner">
-            <h3>주요기술</h3>
-            <h4>시큐리티플랫폼의 다음과 같은 3가지 주요 보안 기술 영역에 주력하여 제품 및 솔루션을 구현하였습니다.</h4>
-          </div>
+        <div class="container-inner">
+          <h3>주요기술</h3>
+          <h4>시큐리티플랫폼의 다음과 같은 3가지 주요 보안 기술 영역에 주력하여 제품 및 솔루션을 구현하였습니다.</h4>
+        </div>
+        <div class="swiper-top-wrapper">
           <div class="box-group">
             <div class="swiper-tech-container">
               <div class="swiper-wrapper">
-
+  
                 <div class="swiper-slide">
                   <div class="shadow-box">
                     <image src="images/icon-lock-key.svg" alt="자물쇠 아이콘"/>
@@ -134,7 +140,7 @@
                       펌웨어 암호화</p>
                   </div>
                 </div>
-
+  
                 <div class="swiper-slide">
                   <div class="shadow-box">
                     <image src="images/icon-diamond.svg" alt="자물쇠 다이아몬드"/>
@@ -144,7 +150,7 @@
                       코드 사이닝 업데이트</p>
                   </div>
                 </div>
-
+  
                 <div class="swiper-slide">
                   <div class="shadow-box">
                     <image src="images/icon-medal.svg" alt="자물쇠 메달"/>
@@ -154,12 +160,14 @@
                       원격 검증</p>
                   </div>
                 </div>
-
+  
               </div>
-
+  
               <div class="swiper-pagination swiper-pagination--tech"></div>
             </div>
           </div>
+        </div>
+        <div class="container">
           <div class="group-finish-line"></div>
         </div>
       </div>
@@ -230,7 +238,7 @@
               <div class="col-sm-3 col-6">
                 <div class="icon-box">
                   <image src="images/icon-rotate-security.svg" alt="아아콘 자물쇠 회전"/>
-                  <h5>Secure Updates by<br>Signed Codes</h5>
+                  <h5>Secure Updates <br class="only-mobile">by <br class="only-web">Signed Codes</h5>
                   <p>SHA-256 이상의 해쉬알고리을 사용한 제조사 서명을 통해 업데이트 파일 무결성(Integrity) 보장</p>
                 </div>
               </div>
@@ -244,7 +252,7 @@
               <div class="row row-40">
                 <div class="col-sm-6">
                   <button class="btn media-btn" type="button" data-toggle="modal" data-target="#movModalDevice">
-                    <img src="images/demo-video.jpg">
+                    <img class="media-thumb-img" src="images/demo-video.jpg">
                     <div class="media-bg"> 
                       <img class="btn-play-img" src="images/icon-play.svg" alt="플레이 버튼">
                     </div>
@@ -547,52 +555,50 @@
             <p>스마트 에너지는 도시의 에너지 효율을 높여 탄소 배출량을 줄이는 4차산업의 핵심 인프라입니다. Troo∙Energy는 스마트 미터와 통신 장치를 위한  보안 솔루션이며 제조 물류의 공급망에서 부터, 설치 운영 페기까지의 전 라이프사이클 보안을 책임지겠습니다.</p>
           </div>
         </div>
-        <div class="container">
-          <div class="container-inner">
-            <div class="plain-box">
-              <p>스마트 에너지 장치는 Power IC와 통합된 SoC 기반의 DLMS(Device Language Message Specification)라는 표준화된 프로토콜을 사용하고 있으며, 최근 실시간∙양방향∙무선통신으로 진화되고 있어 이들 장치의 플랫폼에서부터 어플리케이션 그리고 데이터까지 높은 수준의 보안이 필요합니다.</p>
-              <p class="plain-box__p--last">최신의 Arm TrustZone 기술과 결합된 하드웨어기반 보안 솔루션을 적용하여 반도체에서부터 서비스까지 End to End 보안을 보장합니다.</p>
-            </div>
-            <img class="vpn-img" src="images/energe-explain.svg" alt="energe 작동 방식">
-            <div class="icon-group-wrapper">
-              <div class="row row-40">
-                <div class="col">
-                  <div class="icon-card">
-                    <img src="images/icon-perfact.svg" alt="무결성">
-                    <h5>시스템 보안</h5>
-                    <p>Secure 부트(시스템 해킹방지), 펌웨어 서명 검증</p>
-                  </div>
+        <div class="container-inner">
+          <div class="plain-box">
+            <p>스마트 에너지 장치는 Power IC와 통합된 SoC 기반의 DLMS(Device Language Message Specification)라는 표준화된 프로토콜을 사용하고 있으며, 최근 실시간∙양방향∙무선통신으로 진화되고 있어 이들 장치의 플랫폼에서부터 어플리케이션 그리고 데이터까지 높은 수준의 보안이 필요합니다.</p>
+            <p class="plain-box__p--last">최신의 Arm TrustZone 기술과 결합된 하드웨어기반 보안 솔루션을 적용하여 반도체에서부터 서비스까지 End to End 보안을 보장합니다.</p>
+          </div>
+          <img class="vpn-img" src="images/energe-explain.svg" alt="energe 작동 방식">
+          <div class="icon-group-wrapper">
+            <div class="row row-40">
+              <div class="col">
+                <div class="icon-card">
+                  <img src="images/icon-perfact.svg" alt="무결성">
+                  <h5>시스템 보안</h5>
+                  <p>Secure 부트(시스템 해킹방지), 펌웨어 서명 검증</p>
                 </div>
-                <div class="col">
-                  <div class="icon-card">
-                    <img src="images/icon-phone.svg" alt="App 보안">
-                    <h5>APP 보안</h5>
-                    <p>SW 무결성 검증, 설정 정보 암호화, DLMS-HLS</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="icon-card">
-                    <img src="images/icon-fingerprint.svg" alt="세대별 망분리 아이콘">
-                    <h5>인증 및 암호화</h5>
-                    <p>인증정보 암호화, 인증서 기반 인증, 검증필 암호 모듈</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="icon-card">
-                    <img src="images/icon-rotate-security.svg" alt="접근 통제">
-                    <h5>Secure OTA</h5>
-                    <p>업데이트 파일 서명검증, 변경된 이미지만 추출, 긴급 원격 보안패치</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="icon-card">
-                    <img src="images/icon-setting.svg" alt="보안관리 아이콘">
-                    <h5>보안관리</h5>
-                    <p>단말과 상호 인증, 펌웨어 및 SW 버전 관리, 원격 무결성 관리</p>
-                  </div>
-                </div>
-                
               </div>
+              <div class="col">
+                <div class="icon-card">
+                  <img src="images/icon-phone.svg" alt="App 보안">
+                  <h5>APP 보안</h5>
+                  <p>SW 무결성 검증, 설정 정보 암호화, DLMS-HLS</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="icon-card">
+                  <img src="images/icon-fingerprint.svg" alt="세대별 망분리 아이콘">
+                  <h5>인증 및 암호화</h5>
+                  <p>인증정보 암호화, 인증서 기반 인증, 검증필 암호 모듈</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="icon-card">
+                  <img src="images/icon-rotate-security.svg" alt="접근 통제">
+                  <h5>Secure OTA</h5>
+                  <p>업데이트 파일 서명검증, 변경된 이미지만 추출, 긴급 원격 보안패치</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="icon-card">
+                  <img src="images/icon-setting.svg" alt="보안관리 아이콘">
+                  <h5>보안관리</h5>
+                  <p>단말과 상호 인증, 펌웨어 및 SW 버전 관리, 원격 무결성 관리</p>
+                </div>
+              </div>
+              
             </div>
           </div>
         </div>
@@ -1343,7 +1349,6 @@
 
 
 
-
   <div class="modal fade modal-mov" id="movModalDevice" tabindex="-1" aria-labelledby="movModalDeviceLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -1352,7 +1357,64 @@
         </button>
         <div class="modal-body">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/49COf9hzKLg" allowfullscreen></iframe>
+            <div id="playerDice"></div>
+            <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/49COf9hzKLg" allowfullscreen></iframe> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade modal-mov" id="movModalSecure" tabindex="-1" aria-labelledby="movModalSecureLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <img src="images/icon-close.svg" alt="닫기">
+        </button>
+        <div class="modal-body">
+          <div class="embed-responsive embed-responsive-16by9">
+            <div id="playerSecure"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade modal-mov" id="movModalTee" tabindex="-1" aria-labelledby="movModalTeeLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <img src="images/icon-close.svg" alt="닫기">
+        </button>
+        <div class="modal-body">
+          <div class="embed-responsive embed-responsive-16by9">
+            <div id="playerTee"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade modal-mov" id="movModalCerti" tabindex="-1" aria-labelledby="movModalCertiLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <img src="images/icon-close.svg" alt="닫기">
+        </button>
+        <div class="modal-body">
+          <div class="embed-responsive embed-responsive-16by9">
+            <div id="playerCerti"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade modal-mov" id="movModalServer" tabindex="-1" aria-labelledby="movModalServerLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <img src="images/icon-close.svg" alt="닫기">
+        </button>
+        <div class="modal-body">
+          <div class="embed-responsive embed-responsive-16by9">
+            <div id="playerServer"></div>
           </div>
         </div>
       </div>
@@ -1398,6 +1460,13 @@
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+  <script>
+    var tag = document.createElement('script');
+
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  </script>
 
   <script>
     function isIE() {
@@ -1419,10 +1488,86 @@
     }
 
   </script>
+  
+  <script>
+
+    // 3. This function creates an <iframe> (and YouTube player)
+    //    after the API code downloads.
+    var playerDice, playerSecure, playerTee, playerCerti, playerServer;
+    function onYouTubeIframeAPIReady() {
+      playerDice = new YT.Player('playerDice', {
+        videoId: '49COf9hzKLg',
+        events: {
+          'onStateChange': onPlayerStateChange
+        }
+      });
+      playerSecure = new YT.Player('player', {
+        videoId: '49COf9hzKLg',
+        events: {
+          'onStateChange': onPlayerStateChange
+        }
+      });
+      playerTee = new YT.Player('player', {
+        videoId: '49COf9hzKLg',
+        events: {
+          'onStateChange': onPlayerStateChange
+        }
+      });
+      playerCerti = new YT.Player('player', {
+        videoId: '49COf9hzKLg',
+        events: {
+          'onStateChange': onPlayerStateChange
+        }
+      });
+      playerServer = new YT.Player('player', {
+        videoId: '49COf9hzKLg',
+        events: {
+          'onStateChange': onPlayerStateChange
+        }
+      });
+    }
+
+
+    // 5. The API calls this function when the player's state changes.
+    //    The function indicates that when playing a video (state=1),
+    //    the player should play for six seconds and then stop.
+    function onPlayerStateChange(event) {
+      if (event.data == YT.PlayerState.ENDED) {
+        setTimeout(stopVideo, 1000);
+      }
+    }
+    function stopVideo() {
+      playerDice.stopVideo();
+      $('#movModalDevice').hide();
+    }
+  </script>
+  <script>
+    $('#movModalDevice').on('shown.bs.modal', function (event) {
+      playerDice.playVideo();
+    });
+    $('#movModalDevice').on('hide.bs.modal', function (event) {
+      playerDice.pauseVideo();
+    });
+  </script>
   <script>
     var vh = 0;
     var clientHeight = document.documentElement.clientHeight;
     var clientWidth = document.documentElement.clientWidth;
+    function appHeight() {
+      vh = document.documentElement.clientHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', (vh+'px'));
+      if (clientHeight < 560) {
+        $('#lbody').addClass('height560');
+      } 
+      else if (clientHeight < 570) {
+        $('#lbody').addClass('height570');
+      }
+      else if (clientHeight < 668) {
+        $('#lbody').addClass('height667');
+      } 
+    }
+    window.addEventListener('resize', appHeight)
+    appHeight();
   </script>
   <script>
     var spaceRation = document.querySelector(".left-space__ratio");
@@ -1439,18 +1584,22 @@
     resizeLeftSpace();
     
     var embedDialog = document.querySelector(".modal-mov .modal-content");
-    var embedDom = document.querySelector(".modal-mov .embed-responsive");
+    var embedDom = document.querySelector(".media-bg");
     function resizeMarginModal () {
       clientHeight = document.documentElement.clientHeight;
       embedHeight = embedDom.offsetHeight;
       clientWidth = document.documentElement.clientWidth;
 
+      percentHeight = (clientWidth - 64) * 0.5625;
+
+
+
       if (clientWidth > 1279) {
         embedDialog.style.marginTop = (clientHeight-540)/2 + 'px';
       } else if  (clientWidth > 991) {
-        spaceRation.style.width = (clientWidth - 960)/2 + 'px';
-      } else if  (clientWidth > 767) {
-        spaceRation.style.width = (clientWidth - 720)/2 + 'px';
+        embedDialog.style.marginTop = (clientWidth - 450)/2 + 'px';
+      } else {
+        embedDialog.style.marginTop = (clientHeight-percentHeight)/2 + 'px';
       }
     }
     resizeMarginModal();

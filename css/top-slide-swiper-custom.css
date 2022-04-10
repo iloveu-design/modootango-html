@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   color: #fff;
+  position: relative;
 }
 
 .slide-bg {
@@ -130,7 +131,6 @@
 }
 
 .swiper-pagination--top {
-  margin-bottom: 7.5rem;
 }
 .swiper-pagination--top .swiper-pagination-bullet {
   width: 2.5rem;
@@ -147,8 +147,7 @@
   .swiper-container-horizontal
     > .swiper-pagination-bullets.swiper-pagination--top {
     position: absolute;
-    left: 30px;
-    bottom: 4rem;
+    bottom: 2.5rem;
     padding-left: 0;
   }
   .height560
@@ -343,4 +342,44 @@
 }
 .swiper-button-disabled.history-button-next:hover .icon-arrow--default {
   display: block;
+}
+
+.lead-scroll-wrapper {
+  position: absolute;
+  bottom: 80px;
+  z-index: 1001;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 1;
+}
+
+.scroll-down-text {
+  display: block;
+  font-family: Inter;
+  font-size: 12px;
+  line-height: 1.25;
+  text-align: center;
+  color: #fff;
+}
+
+.lead-info-box {
+  text-align: center;
+}
+
+@keyframes floating {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-6px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.lead-info-box img {
+  margin-bottom: 8px;
+  animation: floating 3s ease-in-out infinite;
 }

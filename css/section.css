@@ -126,8 +126,6 @@
     font-size: 40px;
     line-height: 1.2;
     text-align: left;
-    padding-left: 36px;
-    padding-right: 36px;
   }
 }
 
@@ -217,7 +215,7 @@
   margin-top: 120px;
   border-bottom: thin solid #c8c8c8;
 }
-@media (max.media-row-width: 767px) {
+@media (max-width: 767px) {
   .group-finish-line {
     margin-top: 80px;
     border-bottom: thin solid #c8c8c8;
@@ -234,7 +232,7 @@
 }
 @media (max-width: 767px) {
   .media-group {
-    margin-top: 80px;
+    margin-top: 40px;
   }
 
   .media-btn {
@@ -320,6 +318,10 @@
 @media (max-width: 767px) {
   .processing-img {
     margin-top: 80px;
+  }
+
+  .round-box-group {
+    margin-bottom: 60px;
   }
 }
 
@@ -450,6 +452,13 @@
 
 .icon-group-wrapper {
   margin-bottom: 160px;
+}
+@media (max-width: 767px) {
+  .icon-group-wrapper .col {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
 
 .ip-process-img {

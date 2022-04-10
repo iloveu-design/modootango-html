@@ -359,6 +359,10 @@
   border-radius: 40px;
 }
 @media (max-width: 767px) {
+  .card-round-full {
+    text-align: center;
+    margin-bottom: 20px;
+  }
   .card-round-full img {
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -396,7 +400,13 @@
   text-align: center;
   color: #fff;
 }
-
+@media (max-width: 767px) {
+  .card-round-full h5 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2.4;
+  }
+}
 .icon-card {
   text-align: center;
 }
@@ -419,6 +429,29 @@
   color: #000;
   margin-bottom: 0;
   text-align: left;
+}
+@media (max-width: 767px) {
+  .icon-card {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  .icon-card img {
+    margin-bottom: 10px;
+  }
+  .icon-card h5 {
+    font-family: Inter;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+
+  .icon-card p {
+    font-family: NotoSansKR;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    color: #000;
+  }
 }
 
 .vpn-img {
@@ -707,10 +740,35 @@ footer {
   .modal-mov .close {
     position: absolute;
     top: -80px;
-    right: 10px;
+    right: -18px;
   }
 
   .modal-mov .modal-dialog {
     padding: 0;
+    margin: 0;
+    padding: 0 2rem;
+  }
+}
+
+.media-thumb-img {
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+}
+
+@media (max-width: 767px) {
+  .media-thumb-img {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .swiper-top-wrapper {
+    overflow: hidden;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 30px;
   }
 }
