@@ -874,6 +874,33 @@ footer {
   .normal-box.normal-box-kr--last {
     margin-bottom: 40px;
   }
+
+  ::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+
+  ::-webkit-scrollbar:vertical {
+    width: 0;
+  }
+
+  ::-webkit-scrollbar:horizontal {
+    height: 12px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+
+  .mo-scroll-horizontal-wrapper {
+    padding-left: 2em;
+  }
 }
 
 .modal-backdrop.show {
