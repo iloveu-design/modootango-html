@@ -165,13 +165,18 @@
 .s-right-full-nav-modal {
   text-align: right;
   padding-right: 0 !important;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.s-right-full-nav-modal .modal-content {
+  border: none;
+  border-radius: 0;
 }
 
 .s-right-full-nav-modal .modal-dialog {
   display: inline-block;
   margin: 0;
   height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
+  height: calc((var(--vh, 1vh) * 100) + 100px);
   width: 100%;
 }
 
@@ -225,7 +230,7 @@
 .s-right-full-nav-modal .modal-content {
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: transparent;
 }
 .gnb-ul-mo {
   padding-left: 0;
