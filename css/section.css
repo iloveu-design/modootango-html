@@ -425,6 +425,9 @@
   color: #fff;
 }
 @media (max-width: 767px) {
+  .middle-bg-title {
+    margin-bottom: 20px;
+  }
   .middle-bg-title h3 {
     font-size: 30px;
     font-weight: bold;
@@ -470,6 +473,10 @@
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
+  }
+  .plain-box p {
+    font-size: 16px;
+    line-height: 1.5;
   }
 }
 
