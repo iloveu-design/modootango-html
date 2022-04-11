@@ -142,6 +142,9 @@ header.header--transparent {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+  body.modal-open {
+    overflow: hidden;
+  }
 }
 
 @media (max-width: 767px) {

@@ -1690,14 +1690,18 @@
       resizeMarginModal(); 
     });
 
+    
+
   </script>
   <script>
     function showMobileMenu() {
+      $("body").addClass("modal-open");
       $('#menuModal').addClass('show');
       $('#menuModal').show();
     }
 
     function closeMobileMenu() {
+      $("body").removeClass("modal-open")
       $('#menuModal').removeClass('show');
       setTimeout(function() {
         $('#menuModal').hide();
