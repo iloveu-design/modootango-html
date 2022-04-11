@@ -1,4 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="369" viewBox="0 0 1280 369">
+    <defs>
+        <style type="text/css">
+            @font-face {
+                font-family: "Inter";
+                font-style: Bold;
+                font-weight: 700;
+                font-display: swap;
+                src: url("fonts/Inter/Inter-Bold.svg") format("svg");
+            }
+
+        </style>
+    </defs>
     <g data-name="그룹 7869" transform="translate(-320 -5937)">
         <rect data-name="사각형 3294" width="620" height="48" rx="24" transform="translate(320 6257)" style="fill:#00c8b4"/>
         <rect data-name="사각형 3295" width="290" height="48" rx="24" transform="translate(980 6258)" style="fill:#00c8b4"/>

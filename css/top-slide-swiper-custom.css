@@ -115,10 +115,8 @@
 
 @media (max-width: 767px) {
   .top-slide-text-box .slide-lead {
-    font-size: 18px;
-    font-weight: 100;
-    line-height: 1.56;
-    text-align: left;
+    font-size: 16px;
+    line-height: 1.31;
     max-width: 100%;
     padding: 0 2rem;
   }
@@ -240,6 +238,7 @@
     line-height: 1.5;
     text-align: left;
     margin-top: 20px;
+    padding-right: 16px;
   }
 }
 .left-space-container {
