@@ -33,10 +33,9 @@
     margin-bottom: 10px;
   }
   .container-inner h4 {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
-    line-height: 1.27;
-    text-align: left;
+    line-height: 1.33;
   }
 }
 
@@ -123,9 +122,8 @@
 }
 @media (max-width: 767px) {
   .bg-box h2 {
-    font-size: 40px;
-    line-height: 1.2;
-    text-align: left;
+    font-size: 30px;
+    line-height: 1.33;
   }
 }
 
