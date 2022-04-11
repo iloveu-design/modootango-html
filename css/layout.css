@@ -346,6 +346,7 @@ header.header--transparent {
   .container-inner {
     padding-left: 2rem;
     padding-right: 2rem;
+    overflow: hidden;
   }
   .container-right-zero {
     max-width: 100%;
