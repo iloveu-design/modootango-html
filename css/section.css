@@ -389,23 +389,39 @@
   margin-bottom: 40px;
 }
 
-.middle-bg-title--elecline {
-  background-image: url("../images/bg-elecline-sky.jpg");
+@media (min-width: 768px) {
+  .middle-bg-title--elecline {
+    background-image: url("../images/bg-elecline-sky.jpg");
+  }
+  .middle-bg-title--smarthome {
+    background-image: url("../images/bg-middle-sction-smarthome.jpg");
+  }
+  .middle-bg-title--ip {
+    background-image: url("../images/bg-middle-setion-ip.jpg");
+  }
+  .middle-bg-title--smartcar {
+    background-image: url("../images/bg-middle-sction-smartcar.jpg");
+  }
+  .middle-bg-title--smartfactory {
+    background-image: url("../images/bg-middle-sction-smartfactory.jpg");
+  }
 }
-
-.middle-bg-title--ip {
-  background-image: url("../images/bg-middle-setion-ip.jpg");
-}
-.middle-bg-title--smartcar {
-  background-image: url("../images/bg-middle-sction-smartcar.jpg");
-}
-
-.middle-bg-title--smartfactory {
-  background-image: url("../images/bg-middle-sction-smartfactory.jpg");
-}
-
-.middle-bg-title--smarthome {
-  background-image: url("../images/bg-middle-sction-smarthome.jpg");
+@media (max-width: 767px) {
+  .middle-bg-title--elecline {
+    background-image: url("../images/bg-elecline-sky-m.jpg");
+  }
+  .middle-bg-title--smarthome {
+    background-image: url("../images/bg-middle-sction-smarthome-m.jpg");
+  }
+  .middle-bg-title--ip {
+    background-image: url("../images/bg-middle-setion-ip-m.jpg");
+  }
+  .middle-bg-title--smartcar {
+    background-image: url("../images/bg-middle-sction-smartcar-m.jpg");
+  }
+  .middle-bg-title--smartfactory {
+    background-image: url("../images/bg-middle-sction-smartfactory-m.jpg");
+  }
 }
 
 .middle-bg-title h3 {
@@ -538,9 +554,6 @@
   margin-left: -1px;
 }
 
-.section-top-bg-company {
-  background-image: url("../images/section-bg-about.jpg");
-}
 .circle-img-box img {
   margin-bottom: 40px;
 }
@@ -611,4 +624,27 @@
 
 .section-top-bg-contact {
   background-image: url("../images/section-bg-contact.jpg");
+}
+
+@media (min-width: 768px) {
+  .bg-box--technology {
+    background-image: url("../images/section-techology-bg.jpg");
+  }
+  .bg-box--solution {
+    background-image: url("../images/section-bg-solution.jpg");
+  }
+  .section-top-bg-company {
+    background-image: url("../images/section-bg-about.jpg");
+  }
+}
+@media (max-width: 767px) {
+  .bg-box--technology {
+    background-image: url("../images/section-solution-bg-m.jpg");
+  }
+  .bg-box--solution {
+    background-image: url("../images/section-bg-solution-m.jpg");
+  }
+  .section-top-bg-company {
+    background-image: url("../images/section-bg-about.jpg");
+  }
 }

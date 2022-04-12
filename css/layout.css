@@ -353,8 +353,7 @@ header.header--transparent {
     max-width: 100%;
     padding-right: 0;
     margin-top: 40px;
-    overflow-x: scroll !important;
-    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
   }
 
   .container-right-zero img {
