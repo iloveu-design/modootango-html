@@ -358,6 +358,11 @@
   position: relative;
   margin-bottom: 40px;
 }
+.card-round-full:focus img,
+.card-round-full:hover img {
+  filter: brightness(120%);
+  transition: 0.2s ease;
+}
 .card-round-full img {
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
