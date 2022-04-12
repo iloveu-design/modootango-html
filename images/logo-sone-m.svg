@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="40" viewBox="0 0 144 40">
+    <defs>
+        <clipPath id="5b8hzrpmaa">
+            <path data-name="사각형 181" style="fill:none" d="M0 0h53.584v20.11H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 7378">
+        <path data-name="사각형 2997" style="fill:none" d="M0 0h144v40H0z"/>
+        <g data-name="그룹 7369">
+            <path data-name="패스 239" d="M83.785 26.987v7.221h13.568V32.1H86.345v-5.113z" transform="translate(1.476 -4.098)" style="fill:#04519f"/>
+            <path data-name="패스 240" d="M85.544 25.395h2.527v-4.16h4.056v-1.949H80.754v1.949h4.79z" transform="translate(3.059 -.075)" style="fill:#04519f"/>
+            <g data-name="그룹 157">
+                <g data-name="그룹 156" style="clip-path:url(#5b8hzrpmaa)" transform="translate(45.245 10)">
+                    <path data-name="패스 241" d="M87.03 6.66a2.594 2.594 0 0 1-2.764-2.36 2.8 2.8 0 0 1 5.521 0 2.588 2.588 0 0 1-2.757 2.36m0-6.66c-2.915 0-5.284 1.927-5.284 4.3s2.369 4.29 5.284 4.29 5.289-1.922 5.289-4.29S89.955 0 87.03 0" transform="translate(-42.704)" style="fill:#04519f"/>
+                    <path data-name="패스 242" d="M98.8 12.3v2.091h3.5v2.289h2.6V.481h-2.6V12.3z" transform="translate(-51.615 -.252)" style="fill:#04519f"/>
+                    <path data-name="사각형 179" transform="translate(14.303 .23)" style="fill:#04519f" d="M0 0h2.358v19.88H0z"/>
+                    <path data-name="패스 243" d="M4.779 14.16c-1.328 0-2.419-2.43-2.419-5.442C2.36 5.727 3.451 3.3 4.779 3.3s2.413 2.427 2.413 5.418c0 3.012-1.085 5.442-2.412 5.442m5.959-7.075H9.454C9 3.513 7.085.827 4.779.827 2.138.827 0 4.364 0 8.718s2.138 7.9 4.779 7.9c2.556 0 4.631-3.3 4.771-7.459h1.188v11.2h2.349V.482h-2.349z" transform="translate(0 -.252)" style="fill:#04519f"/>
+                    <path data-name="사각형 180" transform="translate(20.045 17.069)" style="fill:#04519f" d="M0 0h16.042v2.073H0z"/>
+                    <path data-name="패스 244" d="M51.016 1.451v2.41c0 2.821 2.193 7.029 6.768 8.915l-1.037 1.843s-4.911-1.667-7.057-5.445c-2.157 3.778-7.072 5.445-7.072 5.445l-1.026-1.843c4.571-1.886 6.763-6.094 6.763-8.915v-2.41z" transform="translate(-21.727 -.758)" style="fill:#04519f"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
