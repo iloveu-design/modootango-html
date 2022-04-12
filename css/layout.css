@@ -352,9 +352,11 @@ header.header--transparent {
   .container-right-zero {
     max-width: 100%;
     padding-right: 0;
-    overflow: scroll;
     margin-top: 40px;
+    overflow-x: scroll !important;
+    -webkit-overflow-scrolling: touch;
   }
+
   .container-right-zero img {
     margin-right: 2rem;
   }
