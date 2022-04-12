@@ -774,6 +774,11 @@ footer {
   .history-link {
     text-align: center;
   }
+  .location-img {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  }
 }
 
 .history-link:hover .location-img {
