@@ -1,30 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="369" viewBox="0 0 1280 369">
-    <defs>
-        <style type="text/css">
-            @font-face {
-                font-family: "Inter";
-                font-style: Bold;
-                font-weight: 700;
-                font-display: swap;
-                src: url("fonts/Inter/Inter-Bold.svg") format("svg");
-            }
-
-        </style>
-    </defs>
     <g data-name="그룹 7869" transform="translate(-320 -5937)">
         <rect data-name="사각형 3294" width="620" height="48" rx="24" transform="translate(320 6257)" style="fill:#00c8b4"/>
         <rect data-name="사각형 3295" width="290" height="48" rx="24" transform="translate(980 6258)" style="fill:#00c8b4"/>
         <rect data-name="사각형 3296" width="290" height="48" rx="24" transform="translate(1310 6258)" style="fill:#00c8b4"/>
-        <text data-name="Secure Device" transform="translate(630 6288)" style="font-family:Inter-Bold,Inter;font-weight:700;font-size:20px;fill:#fff"><tspan x="-70.27" y="0">Secure Device</tspan></text>
-        <text data-name="Secure Communications" transform="translate(1125 6289)" style="font-family:Inter-Bold,Inter;font-weight:700;font-size:20px;fill:#fff"><tspan x="-120.05" y="0">Secure Communications</tspan></text>
-        <text data-name="Secure Service" transform="translate(1455 6289)" style="font-family:Inter-Bold,Inter;font-weight:700;font-size:20px;fill:#fff"><tspan x="-73.956" y="0">Secure Service</tspan></text>
-        <text data-name="Device(s)" transform="translate(465 6212)" style="font-family:Inter-Bold,Inter;font-weight:700;font-size:20px;fill:#00c8b4"><tspan x="-47.326" y="0">Device(s)</tspan></text>
-        <text transform="translate(795 6212)" style="font-family:Inter-Bold,Inter;font-weight:700;font-size:20px;fill:#00c8b4"><tspan x="-43.136" y="0">Gateway</tspan></text>
-        <text transform="translate(960 6108)" style="font-family:Inter-Medium,Inter;font-weight:500;font-size:20px;fill:#00c8b4"><tspan x="-55.078" y="0">Connection</tspan></text>
-        <text transform="translate(1125 6212)" style="font-family:Inter-Bold,Inter;font-weight:700;font-size:20px;fill:#00c8b4"><tspan x="-28.949" y="0">Cloud</tspan></text>
-        <text data-name="Analytics, Platform" transform="translate(1122 6023)" style="fill:#646464;font-size:16px;font-family:Inter-Medium,Inter;font-weight:500"><tspan x="-71.952" y="0">Analytics, Platform</tspan></text>
-        <text data-name="CRM, ERP, SCM, PLM" transform="translate(1458 6023)" style="fill:#646464;font-size:16px;font-family:Inter-Medium,Inter;font-weight:500"><tspan x="-81.014" y="0">CRM, ERP, SCM, PLM</tspan></text>
-        <text transform="translate(1455 6212)" style="font-family:Inter-Bold,Inter;font-weight:700;font-size:20px;fill:#00c8b4"><tspan x="-61.822" y="0">Applications</tspan></text>
+        <text data-name="Secure Device" transform="translate(630 6288)" font-family="Inter, sans-serif" font-weight="700" style="font-size:20px;fill:#fff"><tspan x="-70.27" y="0">Secure Device</tspan></text>
+        <text data-name="Secure Communications" transform="translate(1125 6289)" font-family="Inter, sans-serif" style="font-weight:700;font-size:20px;fill:#fff"><tspan x="-120.05" y="0">Secure Communications</tspan></text>
+        <text data-name="Secure Service" transform="translate(1455 6289)" font-family="Inter, sans-serif" style="font-weight:700;font-size:20px;fill:#fff"><tspan x="-73.956" y="0">Secure Service</tspan></text>
+        <text data-name="Device(s)" transform="translate(465 6212)" font-family="Inter, sans-serif" style="font-weight:700;font-size:20px;fill:#00c8b4"><tspan x="-47.326" y="0">Device(s)</tspan></text>
+        <text transform="translate(795 6212)" font-family="Inter, sans-serif" style="font-weight:700;font-size:20px;fill:#00c8b4"><tspan x="-43.136" y="0">Gateway</tspan></text>
+        <text transform="translate(960 6108)" font-family="Inter, sans-serif" style="font-weight:500;font-size:20px;fill:#00c8b4"><tspan x="-55.078" y="0">Connection</tspan></text>
+        <text transform="translate(1125 6212)" font-family="Inter, sans-serif" style="font-weight:700;font-size:20px;fill:#00c8b4"><tspan x="-28.949" y="0">Cloud</tspan></text>
+        <text data-name="Analytics, Platform" transform="translate(1122 6023)" font-family="Inter, sans-serif"   style="fill:#646464;font-size:16px;font-weight:500"><tspan x="-71.952" y="0">Analytics, Platform</tspan></text>
+        <text data-name="CRM, ERP, SCM, PLM" transform="translate(1458 6023)" font-family="Inter, sans-serif"  style="fill:#646464;font-size:16px;font-weight:500"><tspan x="-81.014" y="0">CRM, ERP, SCM, PLM</tspan></text>
+        <text transform="translate(1455 6212)" font-family="Inter, sans-serif" style="font-weight:700;font-size:20px;fill:#00c8b4"><tspan x="-61.822" y="0">Applications</tspan></text>
         <path data-name="패스 15837" d="M81.33 53H87a8.024 8.024 0 0 1 8 8v8a8.024 8.024 0 0 1-8 8h-5.67" transform="translate(344 6043)" style="stroke-width:6px;stroke-linecap:round;stroke-linejoin:round;stroke:#00148c;fill:none"/>
         <path data-name="패스 15838" d="M49.364 55A7.755 7.755 0 0 0 43 58.223 7.753 7.753 0 0 0 36.637 55 7.428 7.428 0 0 0 29 62.2C29 69.376 43 79 43 79s14-9.624 14-16.8a7.428 7.428 0 0 0-7.636-7.2z" transform="translate(344 6043)" style="stroke:#00c8b4;stroke-width:6px;stroke-linecap:round;stroke-linejoin:round;fill:none"/>
         <circle data-name="타원 122" cx="40" cy="40" r="40" transform="translate(347 6068)" style="stroke-width:6px;stroke-linecap:round;stroke-linejoin:round;stroke:#00148c;fill:none"/>

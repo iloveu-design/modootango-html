@@ -54,25 +54,25 @@
             <g style="filter:url(#a4bzsngvcb)">
                 <rect data-name="사각형 3086" width="220" height="110" rx="55" transform="translate(315 80)" style="fill:#00f0b4"/>
             </g>
-            <text transform="translate(425 144)" style="fill:#fff;font-size:20px;font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700"><tspan x="-18.64" y="0">PLC</tspan></text>
+            <text transform="translate(425 144)" font-family="NotoSansKR, sans-serif"  style="fill:#fff;font-size:20px;font-weight:700"><tspan x="-18.64" y="0">PLC</tspan></text>
         </g>
-        <text transform="translate(680 251)" style="fill:#fff;font-size:20px;font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700"><tspan x="-27.6" y="0">방화벽</tspan></text>
+        <text transform="translate(680 251)"  font-family="NotoSansKR, sans-serif" style="fill:#fff;font-size:20px;font-weight:700"><tspan x="-27.6" y="0">방화벽</tspan></text>
         <g style="filter:url(#j4j53zo6yc)">
             <rect data-name="사각형 3088" width="220" height="110" rx="55" transform="translate(315 295)" style="fill:#0dc8ff"/>
         </g>
-        <text data-name="NB-IoT, LTE, Wi-SUN, Wi-Fi" transform="translate(425 347)" style="fill:#fff;font-size:20px;font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700"><tspan x="-57.44" y="0">NB-IoT, LTE,</tspan><tspan x="-67.12" y="24">Wi-SUN, Wi-Fi</tspan></text>
+        <text data-name="NB-IoT, LTE, Wi-SUN, Wi-Fi" transform="translate(425 347)"  font-family="NotoSansKR, sans-serif" style="fill:#fff;font-size:20px;font-weight:700"><tspan x="-57.44" y="0">NB-IoT, LTE,</tspan><tspan x="-67.12" y="24">Wi-SUN, Wi-Fi</tspan></text>
         <g style="filter:url(#dhr5jx52zd)">
             <circle data-name="타원 69" cx="90" cy="90" r="90" transform="translate(45 45)" style="fill:#1af0b4"/>
         </g>
         <g style="filter:url(#iaoqosy6fe)">
             <circle data-name="타원 101" cx="90" cy="90" r="90" transform="translate(45 264)" style="fill:#0dc8ff"/>
         </g>
-        <text data-name="전기 계량기" transform="translate(135 133)" style="fill:#fff;font-size:20px;font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700"><tspan x="-18.4" y="0">전기</tspan><tspan x="-27.6" y="24">계량기</tspan></text>
-        <text data-name="전기 계량기" transform="translate(135 353)" style="fill:#fff;font-size:20px;font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700"><tspan x="-18.4" y="0">전기</tspan><tspan x="-27.6" y="24">계량기</tspan></text>
+        <text data-name="전기 계량기" transform="translate(135 133)" font-family="NotoSansKR, sans-serif" style="fill:#fff;font-size:20px;font-weight:700"><tspan x="-18.4" y="0">전기</tspan><tspan x="-27.6" y="24">계량기</tspan></text>
+        <text data-name="전기 계량기" transform="translate(135 353)" font-family="NotoSansKR, sans-serif" style="fill:#fff;font-size:20px;font-weight:700"><tspan x="-18.4" y="0">전기</tspan><tspan x="-27.6" y="24">계량기</tspan></text>
         <g style="filter:url(#gqbn60bxff)">
             <circle data-name="타원 71" cx="160" cy="160" r="160" transform="translate(785 85)" style="fill:#00c8b4"/>
         </g>
-        <text data-name="AIM 서버 Security 서버" transform="translate(945 242)" style="fill:#fff;font-size:20px;font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700"><tspan x="-38.92" y="0">AIM </tspan><tspan y="0">서버</tspan><tspan x="-61.7" y="24">Security </tspan><tspan y="24">서버</tspan></text>
+        <text data-name="AIM 서버 Security 서버" transform="translate(945 242)" font-family="NotoSansKR, sans-serif" style="fill:#fff;font-size:20px;font-weight:700"><tspan x="-38.92" y="0">AIM </tspan><tspan y="0">서버</tspan><tspan x="-61.7" y="24">Security </tspan><tspan y="24">서버</tspan></text>
         <g data-name="그룹 7482">
             <g data-name="그룹 7481" style="clip-path:url(#ixwig2mslg)" transform="translate(254 315)">
                 <path data-name="선 4711" transform="translate(15.548 21.5)" style="stroke-width:5px;stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#32dcff" d="M0 0h0"/>

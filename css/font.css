@@ -120,7 +120,8 @@
   font-style: Bold;
   font-weight: 700;
   font-display: swap;
-  src: url("../fonts/Inter/Inter-Bold.svg") format("svg"),
+  src: url("../fonts/Inter/Inter-Medium.ttf") format("ttf"),
+    url("../fonts/Inter/Inter-Medium.oft") format("otf"),
     url("../fonts/Inter/Inter-Bold.woff2?v=3.18") format("woff2"),
     url("../fonts/Inter/Inter-Bold.woff?v=3.18") format("woff");
 }

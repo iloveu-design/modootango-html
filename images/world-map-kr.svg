@@ -247,8 +247,8 @@
                 <path data-name="패스 11883" d="M62.018 69.564a3.114 3.114 0 1 1-3.118-3.112 3.116 3.116 0 0 1 3.114 3.112" transform="translate(33.347 39.72)" style="fill-rule:evenodd"/>
             </g>
         </g>
-        <text data-name="Headquarters R&amp;D office" transform="translate(164 1177)" style="font-size:16px;font-family:Inter-Medium,Inter;font-weight:500;fill:#00148c"><tspan x="-105.523" y="0">Headquarters</tspan><tspan x="-80.426" y="20">R&amp;D office</tspan></text>
-        <text transform="translate(164 1158)" style="font-size:18px;font-family:Inter-Bold,Inter;font-weight:700;fill:#00148c"><tspan x="-62.054" y="0">KOREA</tspan></text>
+        <text data-name="Headquarters R&amp;D office" transform="translate(164 1177)"  font-family="Inter, sans-serif" style="font-size:16px;font-weight:500;fill:#00148c"><tspan x="-105.523" y="0">Headquarters</tspan><tspan x="-80.426" y="20">R&amp;D office</tspan></text>
+        <text transform="translate(164 1158)" font-family="Inter, sans-serif" style="font-size:18px;font-weight:700;fill:#00148c"><tspan x="-62.054" y="0">KOREA</tspan></text>
         <circle data-name="타원 41" cx="10" cy="10" r="10" transform="translate(168 1141)" style="fill:#00148c"/>
     </g>
 </svg>

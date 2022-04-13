@@ -285,7 +285,7 @@
             </g>
         </g>
         <circle data-name="타원 43" cx="10" cy="10" r="10" transform="translate(249 1912.054)" style="fill:#00148c"/>
-        <text data-name="Expansion of RISC-V ARM China business" transform="translate(245 1948.054)" style="font-size:16px;font-family:Inter-Medium,Inter;font-weight:500;fill:#00148c"><tspan x="-157.42" y="0">Expansion of RISC-V</tspan><tspan x="-156.585" y="20">ARM China business</tspan></text>
-        <text transform="translate(245 1929.054)" style="font-size:18px;font-family:Inter-Bold,Inter;font-weight:700;fill:#00148c"><tspan x="-97.543" y="0">SHANGHAI</tspan></text>
+        <text data-name="Expansion of RISC-V ARM China business" transform="translate(245 1948.054)" font-family="Inter, sans-serif" style="font-size:16px;font-weight:500;fill:#00148c"><tspan x="-157.42" y="0">Expansion of RISC-V</tspan><tspan x="-156.585" y="20">ARM China business</tspan></text>
+        <text transform="translate(245 1929.054)" font-family="Inter, sans-serif" style="font-size:18px;font-weight:700;fill:#00148c"><tspan x="-97.543" y="0">SHANGHAI</tspan></text>
     </g>
 </svg>

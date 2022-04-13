@@ -393,9 +393,11 @@
         </div>
         <div class="mo-scroll-horizontal-wrapper">
           <div class="container container-right-zero"> 
-            <!-- <img class="processing-img" src="images/processing.svg" alt="생산 과정 안내 "> -->
-            <img class="processing-img only-web" src="images/processing.svg" alt="생산 과정 안내 "> 
-            <img class="processing-img only-mobile" src="images/processing-mo.png" alt="생산 과정 안내 ">
+            <picture>
+              <source srcset="images/processing.svg" media="(min-width:768px)">
+              <source srcset="images/processing-mo.png" media="(max-width:767px)">
+              <img class="processing-img" src="images/processing.svg" alt="생산 과정 안내 "> 
+            </picture>
             <div class="m-scroll-wrapper">
               <div class="m-scroll-wrapper-row"> 
                 <div class="normal-box-wrapper">

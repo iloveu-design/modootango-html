@@ -46,31 +46,31 @@
         <g style="filter:url(#do16wgeljb)">
             <rect data-name="사각형 3114" width="110" height="410" rx="55" transform="translate(355 45)" style="fill:#13c8b4"/>
         </g>
-        <text data-name="TLS Enhanced Gateway" transform="translate(410 248)" style="font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:30px;fill:#fff"><tspan x="-26.955" y="0">TLS</tspan><tspan style="font-size:20px"><tspan x="-48.5" y="24">Enhanced</tspan><tspan x="-42.83" y="48">Gateway</tspan></tspan></text>
+        <text data-name="TLS Enhanced Gateway" transform="translate(410 248)" font-family="NotoSansKR, sans-serif" style="font-weight:700;font-size:30px;fill:#fff"><tspan x="-26.955" y="0">TLS</tspan><tspan style="font-size:20px"><tspan x="-48.5" y="24">Enhanced</tspan><tspan x="-42.83" y="48">Gateway</tspan></tspan></text>
         <g style="filter:url(#sjllbpdqnc)">
             <circle data-name="타원 78" cx="55" cy="55" r="55" transform="translate(45 45)" style="fill:#0dc8ff"/>
         </g>
-        <text transform="translate(100 109)" style="font-size:20px;font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;fill:#fff"><tspan x="-20.01" y="0">ECU</tspan></text>
+        <text transform="translate(100 109)" font-family="NotoSansKR, sans-serif" style="font-size:20px;font-weight:700;fill:#fff"><tspan x="-20.01" y="0">ECU</tspan></text>
         <g style="filter:url(#k8y1qys5hd)">
             <circle data-name="타원 98" cx="55" cy="55" r="55" transform="translate(45 195)" style="fill:#0dc8ff"/>
         </g>
         <g style="filter:url(#zq13z267te)">
             <circle data-name="타원 99" cx="55" cy="55" r="55" transform="translate(45 345)" style="fill:#0dc8ff"/>
         </g>
-        <text data-name="ECU" transform="translate(100 259)" style="font-size:20px;font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;fill:#fff"><tspan x="-20.01" y="0">ECU</tspan></text>
-        <text data-name="ECU" transform="translate(100 409)" style="font-size:20px;font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;fill:#fff"><tspan x="-20.01" y="0">ECU</tspan></text>
+        <text data-name="ECU" transform="translate(100 259)" font-family="NotoSansKR, sans-serif" style="font-size:20px;font-weight:700;fill:#fff"><tspan x="-20.01" y="0">ECU</tspan></text>
+        <text data-name="ECU" transform="translate(100 409)" font-family="NotoSansKR, sans-serif" style="font-size:20px;font-weight:700;fill:#fff"><tspan x="-20.01" y="0">ECU</tspan></text>
         <path data-name="사각형 3171" transform="translate(155 250)" style="fill:#0dc8ff" d="M0 0h200v1H0z"/>
         <path data-name="사각형 3172" transform="translate(155 399)" style="fill:#0dc8ff" d="M0 0h200v1H0z"/>
         <path data-name="사각형 3173" transform="translate(155 100)" style="fill:#0dc8ff" d="M0 0h200v1H0z"/>
         <path data-name="사각형 3174" transform="translate(465 175)" style="fill:#13c8b4" d="M0 0h50v1H0z"/>
         <path data-name="사각형 3175" transform="translate(465 325)" style="fill:#13c8b4" d="M0 0h50v1H0z"/>
-        <text data-name="VPN secure Channel" transform="translate(674 247)" style="font-family:NotoSansKR-Medium,Noto Sans KR;font-weight:500;font-size:20px;fill:#78e600"><tspan x="-53.45" y="0">VPN secure</tspan><tspan x="-39.53" y="24">Channel</tspan></text>
-        <text transform="translate(255 508)" style="fill:#00c8b4;font-size:20px;font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700"><tspan x="-19.8" y="0">CAR</tspan></text>
-        <text data-name="Secure Local Gateway" transform="translate(255 134)" style="font-family:NotoSansKR-Medium,Noto Sans KR;font-weight:500;fill:#0dc8ff;font-size:20px"><tspan x="-32.73" y="0">Secure</tspan><tspan x="-69.01" y="24">Local Gateway</tspan></text>
-        <text data-name="4G / 5G" transform="translate(540 220)" style="font-family:NotoSansKR-Medium,Noto Sans KR;font-weight:500;font-size:20px;fill:#13c8b4"><tspan x="-33.82" y="0">4G / 5G</tspan></text>
-        <text transform="translate(540 370)" style="font-family:NotoSansKR-Medium,Noto Sans KR;font-weight:500;font-size:20px;fill:#13c8b4"><tspan x="-26.09" y="0">DSRC</tspan></text>
-        <text data-name="Secure Local Gateway" transform="translate(255 284)" style="font-family:NotoSansKR-Medium,Noto Sans KR;font-weight:500;fill:#0dc8ff;font-size:20px"><tspan x="-32.73" y="0">Secure</tspan><tspan x="-69.01" y="24">Local Gateway</tspan></text>
-        <text data-name="Secure Local Gateway" transform="translate(255 433)" style="font-family:NotoSansKR-Medium,Noto Sans KR;font-weight:500;fill:#0dc8ff;font-size:20px"><tspan x="-32.73" y="0">Secure</tspan><tspan x="-69.01" y="24">Local Gateway</tspan></text>
+        <text data-name="VPN secure Channel" transform="translate(674 247)" font-family="NotoSansKR, sans-serif" style="font-weight:500;font-size:20px;fill:#78e600"><tspan x="-53.45" y="0">VPN secure</tspan><tspan x="-39.53" y="24">Channel</tspan></text>
+        <text transform="translate(255 508)" font-family="NotoSansKR, sans-serif" style="fill:#00c8b4;font-size:20px;font-weight:700"><tspan x="-19.8" y="0">CAR</tspan></text>
+        <text data-name="Secure Local Gateway" transform="translate(255 134)" font-family="NotoSansKR, sans-serif" style="font-weight:500;fill:#0dc8ff;font-size:20px"><tspan x="-32.73" y="0">Secure</tspan><tspan x="-69.01" y="24">Local Gateway</tspan></text>
+        <text data-name="4G / 5G" transform="translate(540 220)" font-family="NotoSansKR, sans-serif" style="font-weight:500;font-size:20px;fill:#13c8b4"><tspan x="-33.82" y="0">4G / 5G</tspan></text>
+        <text transform="translate(540 370)" font-family="NotoSansKR, sans-serif" style="font-weight:500;font-size:20px;fill:#13c8b4"><tspan x="-26.09" y="0">DSRC</tspan></text>
+        <text data-name="Secure Local Gateway" transform="translate(255 284)" font-family="NotoSansKR, sans-serif" style="font-weight:500;fill:#0dc8ff;font-size:20px"><tspan x="-32.73" y="0">Secure</tspan><tspan x="-69.01" y="24">Local Gateway</tspan></text>
+        <text data-name="Secure Local Gateway" transform="translate(255 433)" font-family="NotoSansKR, sans-serif" style="font-weight:500;fill:#0dc8ff;font-size:20px"><tspan x="-32.73" y="0">Secure</tspan><tspan x="-69.01" y="24">Local Gateway</tspan></text>
         <g data-name="그룹 7558">
             <g data-name="그룹 7481" style="clip-path:url(#eb0t1e5jbf)" transform="translate(524.904 313)">
                 <path data-name="선 4711" transform="translate(15.548 21.5)" style="stroke-width:5px;stroke-linejoin:round;stroke-linecap:round;stroke:#13c8b4;fill:none" d="M0 0h0"/>
@@ -91,7 +91,7 @@
             <rect width="460" height="450" rx="55" style="stroke:none"/>
             <rect x=".5" y=".5" width="459" height="449" rx="54.5" style="fill:none"/>
         </g>
-        <text data-name="Mobility Cloud" transform="translate(925 243)" style="font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:30px;fill:#fff"><tspan x="-60.615" y="0">Mobility</tspan><tspan x="-43.185" y="40">Cloud</tspan></text>
+        <text data-name="Mobility Cloud" transform="translate(925 243)" font-family="NotoSansKR, sans-serif" style="font-weight:700;font-size:30px;fill:#fff"><tspan x="-60.615" y="0">Mobility</tspan><tspan x="-43.185" y="40">Cloud</tspan></text>
         <path data-name="선 4746" transform="translate(566.5 175)" style="stroke:#78e600;stroke-dasharray:0 6;stroke-width:3px;stroke-linecap:round;fill:none" d="M215 0H0"/>
         <path data-name="선 4747" transform="translate(566 325)" style="stroke:#78e600;stroke-dasharray:0 6;stroke-width:3px;stroke-linecap:round;fill:none" d="M215 0H0"/>
     </g>

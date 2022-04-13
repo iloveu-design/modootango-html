@@ -56,28 +56,28 @@
         <g style="filter:url(#3q9rjxatlc)">
             <circle data-name="타원 82" cx="90" cy="90" r="90" transform="translate(925 45)" style="fill:#78e600"/>
         </g>
-        <text data-name="IP Camera" transform="translate(575 144)" style="font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:20px;fill:#fff"><tspan x="-50.13" y="0">IP Camera</tspan></text>
-        <text data-name="키관리 서버" transform="translate(135 144)" style="font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:20px;fill:#fff"><tspan x="-48.27" y="0">키관리 서버</tspan></text>
-        <text transform="translate(355 159)" style="font-family:NotoSansKR-Medium,Noto Sans KR;font-weight:500;fill:#00c8b4;font-size:20px"><tspan x="-39.28" y="0">Delivery</tspan></text>
-        <text data-name="등록 및 보안 관리" transform="translate(795 169)" style="font-family:NotoSansKR-Medium,Noto Sans KR;font-weight:500;font-size:20px;fill:#0dc8ff"><tspan x="-71.15" y="0">등록 및 보안 관리</tspan></text>
-        <text data-name="MICRO PROCESSOR" transform="translate(575 638)" style="fill:#00c8b4;font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:20px"><tspan x="-95.92" y="0">MICRO PROCESSOR</tspan></text>
-        <text data-name="NVR 및 서버" transform="translate(1015 144)" style="font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:20px;fill:#fff"><tspan x="-52.63" y="0">NVR </tspan><tspan y="0">및 서버</tspan></text>
+        <text data-name="IP Camera" transform="translate(575 144)" font-family="NotoSansKR, sans-serif" style="font-weight:700;font-size:20px;fill:#fff"><tspan x="-50.13" y="0">IP Camera</tspan></text>
+        <text data-name="키관리 서버" transform="translate(135 144)" font-family="NotoSansKR, sans-serif" style="font-weight:700;font-size:20px;fill:#fff"><tspan x="-48.27" y="0">키관리 서버</tspan></text>
+        <text transform="translate(355 159)" font-family="NotoSansKR, sans-serif" style="font-weight:500;fill:#00c8b4;font-size:20px"><tspan x="-39.28" y="0">Delivery</tspan></text>
+        <text data-name="등록 및 보안 관리" transform="translate(795 169)" font-family="NotoSansKR, sans-serif" style="font-weight:500;font-size:20px;fill:#0dc8ff"><tspan x="-71.15" y="0">등록 및 보안 관리</tspan></text>
+        <text data-name="MICRO PROCESSOR" transform="translate(575 638)" font-family="NotoSansKR, sans-serif" style="fill:#00c8b4;font-weight:700;font-size:20px"><tspan x="-95.92" y="0">MICRO PROCESSOR</tspan></text>
+        <text data-name="NVR 및 서버" transform="translate(1015 144)" font-family="NotoSansKR, sans-serif" style="font-weight:700;font-size:20px;fill:#fff"><tspan x="-52.63" y="0">NVR </tspan><tspan y="0">및 서버</tspan></text>
         <g style="filter:url(#kifsntvpyd)">
             <rect data-name="사각형 3114" width="110" height="220" rx="55" transform="translate(270 365)" style="fill:#ffc800"/>
         </g>
-        <text data-name="비디오 카메라 SOC" transform="translate(325 460)" style="font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:20px;fill:#fff"><tspan x="-27.6" y="0">비디오</tspan><tspan x="-27.6" y="24">카메라</tspan><tspan x="-20.51" y="48">SOC</tspan></text>
+        <text data-name="비디오 카메라 SOC" transform="translate(325 460)" font-family="NotoSansKR, sans-serif" style="font-weight:700;font-size:20px;fill:#fff"><tspan x="-27.6" y="0">비디오</tspan><tspan x="-27.6" y="24">카메라</tspan><tspan x="-20.51" y="48">SOC</tspan></text>
         <g data-name="그룹 7493">
             <g style="filter:url(#bhdymqsexe)">
                 <rect data-name="사각형 3116" width="220" height="220" rx="55" transform="translate(410 365)" style="fill:#13c8b4"/>
             </g>
-            <text data-name="Security Software" transform="translate(520 484)" style="font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:20px;fill:#fff"><tspan x="-88.14" y="0">Security Software</tspan></text>
+            <text data-name="Security Software" transform="translate(520 484)" font-family="NotoSansKR, sans-serif" style="font-weight:700;font-size:20px;fill:#fff"><tspan x="-88.14" y="0">Security Software</tspan></text>
         </g>
         <g style="filter:url(#tn5rpo6d9f)">
             <rect data-name="사각형 3117" width="220" height="220" rx="55" transform="translate(660 365)" style="fill:#ffc800"/>
         </g>
-        <text data-name="OS Camera App Device Management Agent" transform="translate(770 448)" style="font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:20px;fill:#fff"><tspan x="-13.94" y="0">OS</tspan><tspan x="-59.45" y="24">Camera App</tspan><tspan x="-99.18" y="48">Device Management</tspan><tspan x="-28.61" y="72">Agent</tspan></text>
-        <text data-name="None Secure Zone" transform="translate(770 348)" style="fill:#ffc800;font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:20px"><tspan x="-88.68" y="0">None Secure Zone</tspan></text>
-        <text data-name="Secure Zone" transform="translate(520 348)" style="fill:#00c8b4;font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:20px"><tspan x="-60.44" y="0">Secure Zone</tspan></text>
+        <text data-name="OS Camera App Device Management Agent" transform="translate(770 448)" font-family="NotoSansKR, sans-serif" style="font-weight:700;font-size:20px;fill:#fff"><tspan x="-13.94" y="0">OS</tspan><tspan x="-59.45" y="24">Camera App</tspan><tspan x="-99.18" y="48">Device Management</tspan><tspan x="-28.61" y="72">Agent</tspan></text>
+        <text data-name="None Secure Zone" transform="translate(770 348)" font-family="NotoSansKR, sans-serif" style="fill:#ffc800;font-weight:700;font-size:20px"><tspan x="-88.68" y="0">None Secure Zone</tspan></text>
+        <text data-name="Secure Zone" transform="translate(520 348)" font-family="NotoSansKR, sans-serif" style="fill:#00c8b4;font-weight:700;font-size:20px"><tspan x="-60.44" y="0">Secure Zone</tspan></text>
         <g data-name="사각형 3118" transform="translate(250 305)" style="stroke:#13c8b4;fill:none">
             <rect width="650" height="300" rx="55" style="stroke:none"/>
             <rect x=".5" y=".5" width="649" height="299" rx="54.5" style="fill:none"/>
