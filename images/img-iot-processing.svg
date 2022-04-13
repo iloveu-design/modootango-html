@@ -118,8 +118,8 @@
             <path data-name="사각형 3213" transform="translate(155 120)" style="fill:#0dc8ff" d="M0 0h20v1H0z"/>
             <path data-name="사각형 3214" transform="translate(155 295)" style="fill:#0dc8ff" d="M0 0h20v1H0z"/>
         </g>
-        <text transform="translate(765 241)" style="font-family:NotoSansKR-Medium,Noto Sans KR;font-weight:500;font-size:20px;fill:#78e600"><tspan x="-17.49" y="0">TLS</tspan></text>
-        <text data-name="CONNECTIVITY TECHNOLOGY" transform="translate(380 403)" style="fill:#ffc800;font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:20px"><tspan x="-142.4" y="0">CONNECTIVITY TECHNOLOGY</tspan></text>
-        <text data-name="DEVICE MANAGEMENT" transform="translate(960 403)" style="fill:#13c8b4;font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:20px"><tspan x="-108.24" y="0">DEVICE MANAGEMENT</tspan></text>
+        <text transform="translate(765 241)" font-family="Inter, sans-serif"  style="font-weight:500;font-size:20px;fill:#78e600"><tspan x="-17.49" y="0">TLS</tspan></text>
+        <text data-name="CONNECTIVITY TECHNOLOGY" transform="translate(380 403)" font-family="Inter, sans-serif" style="fill:#ffc800;font-weight:700;font-size:20px"><tspan x="-142.4" y="0">CONNECTIVITY TECHNOLOGY</tspan></text>
+        <text data-name="DEVICE MANAGEMENT" transform="translate(960 403)" font-family="Inter, sans-serif" style="fill:#13c8b4;font-weight:700;font-size:20px"><tspan x="-108.24" y="0">DEVICE MANAGEMENT</tspan></text>
     </g>
 </svg>
