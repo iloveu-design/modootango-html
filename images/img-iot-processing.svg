@@ -71,8 +71,8 @@
         <g style="filter:url(#9ou4q7r0bb)">
             <rect data-name="사각형 3211" width="110" height="325" rx="55" transform="translate(605 45)" style="fill:#78e600"/>
         </g>
-        <text data-name="IOT Devices" transform="translate(100 204)" style="font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:20px;fill:#fff"><tspan x="-16.94" y="0">IOT</tspan><tspan x="-37.44" y="24">Devices</tspan></text>
-        <text transform="translate(660 204)" style="font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:20px;fill:#fff"><tspan x="-36.57" y="0">Module</tspan></text>
+        <text data-name="IOT Devices" transform="translate(100 204)" font-family="NotoSansKR, sans-serif" style="font-weight:700;font-size:20px;fill:#fff"><tspan x="-16.94" y="0">IOT</tspan><tspan x="-37.44" y="24">Devices</tspan></text>
+        <text transform="translate(660 204)" font-family="NotoSansKR, sans-serif" style="font-weight:700;font-size:20px;fill:#fff"><tspan x="-36.57" y="0">Module</tspan></text>
         <g style="filter:url(#quzkckrc7c)">
             <rect data-name="사각형 3097" width="110" height="110" rx="55" transform="translate(195 65)" style="fill:#ffc800"/>
         </g>
@@ -91,16 +91,16 @@
         <g style="filter:url(#apy0nqg30h)">
             <rect data-name="사각형 3208" width="110" height="110" rx="55" transform="translate(455 240)" style="fill:#ffc800"/>
         </g>
-        <text transform="translate(250 129)" style="font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:20px;fill:#fff"><tspan x="-21.08" y="0">WiFi</tspan></text>
-        <text transform="translate(380 129)" style="font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:20px;fill:#fff"><tspan x="-16.82" y="0">LTE</tspan></text>
-        <text transform="translate(510 129)" style="font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:20px;fill:#fff"><tspan x="-42.91" y="0">Ethernet</tspan></text>
+        <text transform="translate(250 129)" font-family="NotoSansKR, sans-serif" style="font-weight:700;font-size:20px;fill:#fff"><tspan x="-21.08" y="0">WiFi</tspan></text>
+        <text transform="translate(380 129)" font-family="NotoSansKR, sans-serif" style="font-weight:700;font-size:20px;fill:#fff"><tspan x="-16.82" y="0">LTE</tspan></text>
+        <text transform="translate(510 129)" font-family="NotoSansKR, sans-serif" style="font-weight:700;font-size:20px;fill:#fff"><tspan x="-42.91" y="0">Ethernet</tspan></text>
         <g data-name="사각형 3205" transform="rotate(-90 185 10)" style="stroke:#ffc800;fill:none">
             <rect width="150" height="410" rx="55" style="stroke:none"/>
             <rect x=".5" y=".5" width="149" height="409" rx="54.5" style="fill:none"/>
         </g>
-        <text data-name="Low Power" transform="translate(250 292)" style="font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:20px;fill:#fff"><tspan x="-20.44" y="0">Low</tspan><tspan x="-31.32" y="24">Power</tspan></text>
-        <text data-name="Wide Area" transform="translate(380 292)" style="font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:20px;fill:#fff"><tspan x="-24.44" y="0">Wide</tspan><tspan x="-22.23" y="24">Area</tspan></text>
-        <text transform="translate(510 304)" style="font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:20px;fill:#fff"><tspan x="-42.6" y="0">Network</tspan></text>
+        <text data-name="Low Power" transform="translate(250 292)" font-family="NotoSansKR, sans-serif" style="font-weight:700;font-size:20px;fill:#fff"><tspan x="-20.44" y="0">Low</tspan><tspan x="-31.32" y="24">Power</tspan></text>
+        <text data-name="Wide Area" transform="translate(380 292)" font-family="NotoSansKR, sans-serif" style="font-weight:700;font-size:20px;fill:#fff"><tspan x="-24.44" y="0">Wide</tspan><tspan x="-22.23" y="24">Area</tspan></text>
+        <text transform="translate(510 304)" font-family="NotoSansKR, sans-serif" style="font-weight:700;font-size:20px;fill:#fff"><tspan x="-42.6" y="0">Network</tspan></text>
         <g data-name="사각형 3205" transform="rotate(-90 272.5 97.5)" style="stroke:#ffc800;fill:none">
             <rect width="150" height="410" rx="55" style="stroke:none"/>
             <rect x=".5" y=".5" width="149" height="409" rx="54.5" style="fill:none"/>
@@ -108,7 +108,7 @@
         <g style="filter:url(#6xu68g8u6i)">
             <rect data-name="사각형 3116" width="290" height="325" rx="55" transform="translate(815 45)" style="fill:#13c8b4"/>
         </g>
-        <text data-name="Asset ProvisioningSecure On-boardingDevice AuthenticationSecure OTAFirmware ManagementRemote Attestation" transform="translate(845 96)" style="font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700;font-size:20px;fill:#fff"><tspan x="0" y="0">Asset Provisioning</tspan><tspan x="0" y="48">Secure On-boarding</tspan><tspan x="0" y="96">Device Authentication</tspan><tspan x="0" y="144">Secure OTA</tspan><tspan x="0" y="192">Firmware Management</tspan><tspan x="0" y="240">Remote Attestation</tspan></text>
+        <text data-name="Asset ProvisioningSecure On-boardingDevice AuthenticationSecure OTAFirmware ManagementRemote Attestation" transform="translate(845 96)" font-family="NotoSansKR, sans-serif" style="font-weight:700;font-size:20px;fill:#fff"><tspan x="0" y="0">Asset Provisioning</tspan><tspan x="0" y="48">Secure On-boarding</tspan><tspan x="0" y="96">Device Authentication</tspan><tspan x="0" y="144">Secure OTA</tspan><tspan x="0" y="192">Firmware Management</tspan><tspan x="0" y="240">Remote Attestation</tspan></text>
         <path data-name="사각형 3212" transform="translate(715 207)" style="fill:#78e600" d="M0 0h100v1H0z"/>
         <g data-name="그룹 7572">
             <path data-name="사각형 3213" transform="translate(585 120)" style="fill:#ffc800" d="M0 0h20v1H0z"/>
