@@ -898,3 +898,11 @@ footer {
 .modal-backdrop.show {
   opacity: 0.8;
 }
+
+
+.delay-14 {
+  --animate-duration: 1.4s;
+}
+.delay-18 {
+  --animate-duration: 1.9s;
+}
