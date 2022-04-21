@@ -353,6 +353,7 @@
   text-align: left;
 }
 .normal-box.normal-box-kr p {
+  margin-top: 20px;
   text-align: left;
   color: #000;
   font-family: "NotoSansKR";
@@ -581,7 +582,8 @@
   }
   .circle-img-box img {
     margin-bottom: 20px;
-    max-width: 224px;
+    width: 224px;
+    max-width: 100%;
   }
 
   .circle-img-box h4 {

@@ -342,6 +342,12 @@ header.header--transparent {
     max-width: 960px;
   }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .container-inner {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
 
 @media (max-width: 767px) {
   .container-inner {
