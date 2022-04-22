@@ -137,6 +137,10 @@
   padding: 0;
   position: relative;
 }
+.home-nav-btn h1{
+  color: #00c8b4;
+  font-size: 2rem;
+}
 
 .home-nav-btn img {
   position: absolute;
