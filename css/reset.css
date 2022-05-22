@@ -7,7 +7,7 @@ body {
   height: 100vh;
   height: var(--vh);
   margin: 0;
-  font-family: "NotoSansKR";
+  font-family: 'Noto Sans KR', sans-serif;
 }
 p,
 h1,
