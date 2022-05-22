@@ -41,6 +41,7 @@ h1{
   color: red;
   font-size: 10rem;
   font-weight: 900;
+  --animate-duration: 3s;
 }
 
 .schedule p{
@@ -53,4 +54,44 @@ h1{
 .time{
   font-size: 8rem;
   color: yellow;
+}
+
+
+.marqueeStyle {
+  display: inline-block;
+  -webkit-animation: scrolling-left1 20s linear infinite;
+  animation: scrolling-left1 20s linear infinite;
+}
+
+/* scrolling-left is continuous/repeatly text */
+@keyframes scrolling-left1 {
+  0% {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes scrolling-left1 {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
