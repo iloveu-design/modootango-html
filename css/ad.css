@@ -20,11 +20,11 @@
 }
 
 h1{
-  font-size: 8rem;
+  font-size: 7rem;
   font-weight: 900;
   line-height: 1;
   color: #75aadb;
-  background-color: rgba(246, 180, 14, .8);
+  background-color: #f9ca24;
   padding: 1rem 2rem;
 }
 
@@ -53,5 +53,5 @@ h1{
 
 .time{
   font-size: 8rem;
-  color: yellow
+  color: yellow;
 }
