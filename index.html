@@ -23,9 +23,9 @@
 
 <body id="lbody">
   <main>
-    <div class="tango-container">
+    <div class="tango-container" id="videoWrapper">
       <div class="video-wrapper">
-        <video controls autoplay loop muted width="1280">
+        <video controls autoplay muted width="100%" id="myVideo">
           <source src="./video/risu-evans.mp4" type="video/mp4">
         </video>
       </div>
@@ -41,9 +41,43 @@
       <div class="contact">
       </div>
     </div>
+    <div class="something-text" id="messageWrapper">
+      <div class="center-text">
+        <div>
+          <h2 style="margin-bottom: 2rem;">
+            <span class="red">일요일</span>에 <br>뭐 할지 모르겠다면?
+          </h2>
+          <h3><span class="ice animate__animated" id="aa">아아</span> 먹으러 와요~ <br>탱고하러 와요~</h3>
+        </div>
+      </div>  
+    </div>
 
     
   </main>
+  <script>
+    var vid = document.getElementById("myVideo");
+    var videoWrapper = document.getElementById('videoWrapper');
+    var messageWrapper = document.getElementById('messageWrapper');
+    var aa = document.getElementById('aa');
+   
+
+    vid.onended = function() {
+      videoWrapper.style.display = "none";
+      messageWrapper.style.display = "block";
+      setTimeout(function() {
+        aa.classList.add('animate__heartBeat');
+        aa.classList.add('animate__repeat-3');
+      }, 2000);
+
+      setTimeout(function() {
+        videoWrapper.style.display = "block";
+        messageWrapper.style.display = "none";
+        aa.classList.remove('animate__heartBeat');
+        aa.classList.remove('animate__repeat-3');
+        vid.play();
+      }, 10000);
+    };
+  </script>
 </body>
 
 </html>

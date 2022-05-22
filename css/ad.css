@@ -56,6 +56,34 @@ h1{
   color: yellow;
 }
 
+.something-text{
+  /* display: none; */
+}
+
+.center-text{
+  background-color: #f9ca24;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-text h2{
+  font-size: 7rem;
+}
+.center-text h3{
+  font-size: 6rem;
+}
+
+.red{
+  color: red;
+}
+
+.ice{
+  color: #25CCF7;
+  font-size: 7rem;
+  display: inline-block;
+}
 
 .marqueeStyle {
   display: inline-block;
