@@ -26,15 +26,15 @@
     <div class="tango-container" id="videoWrapper">
       <div class="video-wrapper">
         <video controls autoplay muted width="100%" id="myVideo">
-          <source src="./video/risu-evans.mp4" type="video/mp4">
+          <source src="/video/minsae-kwangyo.mp4" type="video/mp4">
         </video>
       </div>
       <div class="text-box-wrapper">
         <div class="text-box">
-          <h1 class="marqueeStyle"><span class="white">20대 </span>아르헨티나 탱고</h1>
-          <h2 class="free animate__animated animate__flash animate__infinite">무료</h2>
+          <h1 class="marqueeStyle"><span class="white"></span>아르헨티나 탱고</h1>
+          <h2 class="free animate__animated animate__flash animate__infinite">20대 무료</h2>
           <div class="schedule">
-            <p>일요일<br><span class="time">2시-5시</span></p>
+            <p>일요일 <span class="time">2시-5시</span></p>
           </div>
         </div>
       </div>
@@ -44,10 +44,9 @@
     <div class="something-text" id="messageWrapper">
       <div class="center-text">
         <div>
-          <h2 style="margin-bottom: 2rem;">
-            <span class="red">일요일</span>에 <br>뭐 할지 모르겠다면?
+          <h2>
+            괜찮아요?
           </h2>
-          <h3><span class="ice animate__animated" id="aa">아아</span> 먹으러 와요~ <br>탱고하러 와요~</h3>
         </div>
       </div>  
     </div>
@@ -56,24 +55,26 @@
   </main>
   <script>
     var vid = document.getElementById("myVideo");
+    var centerText = document.querySelector(".center-text");
     var videoWrapper = document.getElementById('videoWrapper');
     var messageWrapper = document.getElementById('messageWrapper');
     var aa = document.getElementById('aa');
-   
-
+    var randomColor = ['#f9ca24', '#78e08f', "#60a3bc", "#eb2f06", "#b71540", "#f8c291"]
+    var rand_0_6 = Math.floor(Math.random() * 7);
     vid.onended = function() {
       videoWrapper.style.display = "none";
       messageWrapper.style.display = "block";
+      // setTimeout(function() {
+      //   aa.classList.add('animate__heartBeat');
+      //   aa.classList.add('animate__repeat-3');
+      // }, 2000);
+      rand_0_6 = Math.floor(Math.random() * 7);
       setTimeout(function() {
-        aa.classList.add('animate__heartBeat');
-        aa.classList.add('animate__repeat-3');
-      }, 2000);
-
-      setTimeout(function() {
+        centerText.style.backgroundColor = randomColor[rand_0_6];
         videoWrapper.style.display = "block";
         messageWrapper.style.display = "none";
-        aa.classList.remove('animate__heartBeat');
-        aa.classList.remove('animate__repeat-3');
+        // aa.classList.remove('animate__heartBeat');
+        // aa.classList.remove('animate__repeat-3');
         vid.play();
       }, 10000);
     };
