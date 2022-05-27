@@ -38,13 +38,11 @@
           </div>
         </div>
       </div>
-      <div class="contact">
-      </div>
     </div>
     <div class="something-text" id="messageWrapper">
       <div class="center-text">
         <div>
-          <h2>
+          <h2 class="animate__animated" id="aa">
             괜찮아요?
           </h2>
         </div>
@@ -59,8 +57,9 @@
     var videoWrapper = document.getElementById('videoWrapper');
     var messageWrapper = document.getElementById('messageWrapper');
     var aa = document.getElementById('aa');
-    var randomColor = ['#f9ca24', '#78e08f', "#60a3bc", "#eb2f06", "#b71540", "#f8c291"]
-    var rand_0_6 = Math.floor(Math.random() * 7);
+    var randomColor = ['#f6b93b', '#e55039', "#4a69bd", "#60a3bc", "#78e08f"]
+    var rand_0_6 = 0;
+
     vid.onended = function() {
       videoWrapper.style.display = "none";
       messageWrapper.style.display = "block";
@@ -68,13 +67,13 @@
       //   aa.classList.add('animate__heartBeat');
       //   aa.classList.add('animate__repeat-3');
       // }, 2000);
-      rand_0_6 = Math.floor(Math.random() * 7);
+      rand_0_6 = Math.floor(Math.random() * 6);
       setTimeout(function() {
         centerText.style.backgroundColor = randomColor[rand_0_6];
         videoWrapper.style.display = "block";
         messageWrapper.style.display = "none";
-        // aa.classList.remove('animate__heartBeat');
-        // aa.classList.remove('animate__repeat-3');
+        aa.classList.remove('animate__jello');
+        aa.classList.remove('animate__repeat-3');
         vid.play();
       }, 10000);
     };
