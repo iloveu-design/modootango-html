@@ -58,6 +58,14 @@ section{
   background-color: yellow;
 }
 
+.outlink .somoim-wrapper  a {
+  background-color: transparent;
+  text-align: center;
+}
+.outlink .somoim-wrapper  a img {
+  display: block;
+  width: 100px;
+}
 .top-title{
   position: absolute;
   top: 0;
@@ -72,6 +80,6 @@ section{
 }
 
 .top-title h2{
-  font-size: 10rem;
+  font-size: 6rem;
   color: #fff;
 }
