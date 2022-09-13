@@ -84,6 +84,12 @@
   align-self: center;
 }
 
+.limit-rule {
+  font-size: 14px;
+  opacity: 0.9;
+  margin-left: 0.3rem;
+  font-weight: 100;
+}
 .card-price strike {
   font-size: 14px;
 }
