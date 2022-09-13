@@ -6,8 +6,8 @@ ol {
 
 .container {
   width: 100%;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding-right: 16px;
+  padding-left: 16px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -111,11 +111,9 @@ select::-ms-expand {
   .m-overflow-hidden {
     overflow: hidden;
   }
-
 }
 
-
-ul{
+ul {
   list-style: none;
   padding-left: 0;
 }

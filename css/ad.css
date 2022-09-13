@@ -1,38 +1,50 @@
 .schedule {
   display: flex;
+  flex-wrap: wrap;
 }
-.schedule li{
+.schedule li {
   display: flex;
-  margin-right: 3rem;;
+  margin-right: 3rem;
 }
-.schedule-box{
+.schedule-box {
   background-color: #ffeaa7;
-  padding: 1rem
+  padding: 1rem;
 }
 
-.nav{
+@media (max-width: 767px) {
+  .schedule li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  .schedule-box {
+    width: 100%;
+  }
+}
+
+.nav {
   position: fixed;
   top: 0;
   z-index: 111;
 }
 
-.footer{
+.footer {
   margin-top: 5rem;
   border-top: thin solid #dfe6e9;
   padding: 5rem 0;
 }
 
-.brand{
-  color: #fff
+.brand {
+  color: #fff;
 }
 
-.copyright{
+.copyright {
   margin-top: 3rem;
   padding: 2rem 0;
   border-top: thin solid #dfe6e9;
 }
 
-section{
+section {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
@@ -54,19 +66,19 @@ section{
   border-radius: 10px;
   text-decoration: none;
 }
-.outlink a:hover{
+.outlink a:hover {
   background-color: yellow;
 }
 
-.outlink .somoim-wrapper  a {
+.outlink .somoim-wrapper a {
   background-color: transparent;
   text-align: center;
 }
-.outlink .somoim-wrapper  a img {
+.outlink .somoim-wrapper a img {
   display: block;
   width: 100px;
 }
-.top-title{
+.top-title {
   position: absolute;
   top: 0;
   width: 100%;
@@ -75,11 +87,27 @@ section{
   align-items: center;
   display: flex;
 }
-.top-bg{
+.top-bg {
   position: relative;
+  background-image: url("../images/2022-pacific-minsae-ahntae.jpg");
+  height: 600px;
+  max-height: 100vh;
+  background-size: cover;
+  background-position: center center;
 }
 
-.top-title h2{
+.top-title h2 {
   font-size: 6rem;
   color: #fff;
+}
+
+@media (max-width: 767px) {
+  .top-bg {
+    height: 200px;
+  }
+  .top-title h2 {
+    font-size: 2rem;
+    text-align: right;
+    padding-left: 5rem;
+  }
 }
