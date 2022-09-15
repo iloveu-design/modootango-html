@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "bw";
+  src: url("https://robindelaporte.fr/codepen/play/BwModelicaSS01-ExtraBold.woff")
+    format("woff");
+}
 .heading {
   text-align: center;
 }
@@ -117,4 +122,12 @@
 
 .card-5 {
   background: radial-gradient(#f588d8, #c0a3e5);
+}
+
+.section-bg {
+  background: #dfc2f2;
+  background-image: linear-gradient(to right, #b3f7ff, #ffe6e6);
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 4rem 0;
 }
