@@ -131,3 +131,43 @@
   background-size: cover;
   padding: 4rem 0;
 }
+
+.class-card {
+  border: 2px solid #dfc2f2;
+  display: flex;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.class-extra-info {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: thin solid #dfc2f2;
+}
+
+.cost-card {
+  display: flex;
+  border: 2px solid #f588d8;
+  display: flex;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+.cost-card h4 {
+  padding: 1rem;
+  background-color: #f588d8;
+  color: #fff;
+}
+.cost-card .cost-card-cost {
+  padding: 1rem;
+}
+.warning-text {
+  color: #888888;
+  font-size: 14px;
+  text-align: right;
+}
+
+.logo-img {
+  width: 5rem;
+}
