@@ -149,9 +149,7 @@
 }
 
 .partner-card {
-  border: 2px solid #b3f7ff;
   display: flex;
-  padding: 1rem;
   border-radius: 1rem;
   margin-bottom: 1rem;
 }
@@ -224,4 +222,8 @@
 
 .partner-class-schedule {
   color: #888;
+}
+
+.class-card--free {
+  background-color: #faf2ff;
 }
