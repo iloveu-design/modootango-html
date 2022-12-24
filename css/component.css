@@ -140,6 +140,12 @@
   margin-bottom: 1rem;
 }
 
+.class-img {
+  width: 30%;
+  max-width: 200px;
+  margin-right: 1rem;
+}
+
 .class-card {
   border: 2px solid #dfc2f2;
   display: flex;
@@ -226,4 +232,35 @@
 
 .class-card--free {
   background-color: #faf2ff;
+}
+
+.class-card--wed {
+  border-color: #b3f7ff;
+}
+
+.class-card--sun {
+  border-color: #f588d8;
+}
+.event-box {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event-img {
+  width: 300px;
+  max-width: 100%;
+  margin-right: 1rem;
+}
+@media (max-width: 767px) {
+  .event-box {
+    margin-bottom: 1rem;
+  }
+  .event-info {
+    margin-top: 1rem;
+  }
+}
+
+.section-box {
+  margin-bottom: 2rem;
 }
