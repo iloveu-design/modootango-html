@@ -217,6 +217,9 @@
   width: 5rem;
 }
 
+.partner-card-class {
+  margin-left: 2rem;
+}
 .partner-card-class h5 {
   margin-bottom: 10px;
 }
@@ -253,6 +256,9 @@
   margin-right: 1rem;
 }
 @media (max-width: 767px) {
+  .partner-card-class {
+    margin-left: 0;
+  }
   .event-box {
     margin-bottom: 1rem;
   }
