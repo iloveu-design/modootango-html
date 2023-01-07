@@ -125,8 +125,8 @@
 }
 
 .section-bg {
-  background: #dfc2f2;
-  background-image: linear-gradient(to right, #b3f7ff, #ffe6e6);
+  background: #e6e6e6;
+  /* background-image: linear-gradient(to right, #b3f7ff, #ffe6e6); */
   background-attachment: fixed;
   background-size: cover;
   padding: 4rem 0;
@@ -263,4 +263,9 @@
 
 .section-box {
   margin-bottom: 2rem;
+}
+
+.event-swiper .swiper-slide img {
+  width: 300px;
+  max-width: 100%;
 }

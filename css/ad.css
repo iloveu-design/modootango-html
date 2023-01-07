@@ -412,6 +412,7 @@ section {
 
 .nav-wrapper {
   display: flex;
+  align-items: center;
 }
 
 main {
@@ -433,4 +434,16 @@ main {
 }
 .contact-button:hover {
   background-color: #ffc971;
+}
+
+.slogan {
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  color: #666;
+}
+
+@media only screen and (max-width: 480px) {
+  .slogan {
+    font-size: 1rem;
+  }
 }
