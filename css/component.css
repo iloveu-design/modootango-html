@@ -214,7 +214,7 @@
 }
 
 .logo-img {
-  width: 5rem;
+  width: 7rem;
 }
 
 .partner-card-class {
@@ -264,6 +264,9 @@
   }
   .event-info {
     margin-top: 1rem;
+  }
+  .logo-img {
+    width: 4rem;
   }
 }
 
