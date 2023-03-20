@@ -413,6 +413,8 @@ section {
 .nav-wrapper {
   display: flex;
   align-items: center;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 main {
