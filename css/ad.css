@@ -449,3 +449,19 @@ main {
     font-size: 1rem;
   }
 }
+
+.water-wave .st0 {
+  opacity: 0.12;
+}
+
+.water-wave .st1 {
+  opacity: 0.18;
+}
+
+.water-wave .st2 {
+  opacity: 0.24;
+}
+
+.water-wave .st3 {
+  opacity: 0.3;
+}
