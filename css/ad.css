@@ -465,3 +465,7 @@ main {
 .water-wave .st3 {
   opacity: 0.3;
 }
+
+.water-wave .st4 {
+  fill: #fff;
+}
