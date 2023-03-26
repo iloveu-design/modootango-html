@@ -10,6 +10,10 @@
   background-color: #ffeaa7;
   padding: 1rem;
 }
+.class-section {
+  margin-top: 0;
+  background: linear-gradient(#f7ebf9, #fff);
+}
 
 @media (max-width: 767px) {
   .schedule li {
@@ -28,9 +32,6 @@
   z-index: 111;
   background-color: transparent;
   width: 100%;
-  box-shadow: 0 3px 31px -17px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 0 3px 31px -17px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0 3px 31px -17px rgba(0, 0, 0, 0.75);
 }
 
 .footer {
@@ -139,7 +140,42 @@ section {
 }
 .wave-section {
   margin-top: 0;
+  margin-bottom: 0;
   position: relative;
+}
+.class-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.class-li {
+  max-width: 33.33%;
+  padding: 0 1rem;
+}
+
+.class-card-box {
+  padding: 1.2rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  -webkit-box-shadow: 2px 4px 22px 13px rgba(0, 0, 0, 0.11);
+  box-shadow: 2px 4px 22px 13px rgba(0, 0, 0, 0.11);
+}
+
+.class-card-box h4 {
+  color: #ed39fa;
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+.box-desc {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 0.5rem;
+}
+
+.class-card-box-time {
+  font-size: 14px;
+  color: #555;
 }
 
 @media (max-width: 767px) {
@@ -150,6 +186,14 @@ section {
     font-size: 2rem;
     text-align: right;
     padding-left: 5rem;
+  }
+  .class-li {
+    max-width: 100%;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+  }
+  .section-title-italic {
+    font-size: 2.5rem;
   }
 }
 
@@ -481,5 +525,5 @@ main {
 }
 
 .water-wave .st4 {
-  fill: #fff;
+  fill: #f7ebf9;
 }
