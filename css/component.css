@@ -125,7 +125,7 @@
 }
 
 .section-bg {
-  background: #e6e6e6;
+  /* background: #e6e6e6; */
   /* background-image: linear-gradient(to right, #b3f7ff, #ffe6e6); */
   background-attachment: fixed;
   background-size: cover;

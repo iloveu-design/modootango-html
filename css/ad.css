@@ -129,9 +129,9 @@ section {
 }
 
 .section-title-italic {
-  font-family: "Kalam", cursive;
   font-size: 5rem;
   text-align: center;
+  color: #9c27b0;
 }
 
 .top-title h2 {
@@ -176,6 +176,14 @@ section {
 .class-card-box-time {
   font-size: 14px;
   color: #555;
+}
+.top-gap {
+  margin-top: 10rem;
+}
+.section-sm-title {
+  text-align: center;
+  display: block;
+  width: 100%;
 }
 
 @media (max-width: 767px) {
@@ -526,4 +534,24 @@ main {
 
 .water-wave .st4 {
   fill: #f7ebf9;
+}
+
+.down-water-wave .st0 {
+  opacity: 0.12;
+}
+
+.down-water-wave .st1 {
+  opacity: 0.18;
+}
+
+.down-water-wave .st2 {
+  opacity: 0.24;
+}
+
+.down-water-wave .st3 {
+  opacity: 0.3;
+}
+
+.down-water-wave .st4 {
+  fill: #bfbab5;
 }
