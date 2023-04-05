@@ -15,6 +15,15 @@
   background: linear-gradient(#f7ebf9, #fff);
 }
 
+.gray-gradients {
+  margin-bottom: 0;
+  background: linear-gradient(#fff, #bfbab5);
+}
+
+.gray-gradients--bottom {
+  margin-top: 0;
+}
+
 @media (max-width: 767px) {
   .schedule li {
     width: 100%;
@@ -121,6 +130,7 @@ section {
 }
 .top-bg {
   position: relative;
+  text-align: center;
   /* background-image: url("../images/2022-pacific-minsae-ahntae.jpg"); */
   /* height: 600px; */
   max-height: 100vh;
