@@ -139,9 +139,16 @@ section {
 }
 
 .section-title-italic {
+  font-family: "Libre Baskerville", serif;
+  letter-spacing: -4px;
   font-size: 5rem;
   text-align: center;
   color: #9c27b0;
+  margin-bottom: 2rem;
+}
+
+.section-event {
+  margin-top: 10rem;
 }
 
 .top-title h2 {
