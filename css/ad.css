@@ -584,3 +584,39 @@ main {
 .down-water-wave .st4 {
   fill: #bfbab5;
 }
+
+.blog-water-wave .st0 {
+  opacity: 0.12;
+}
+
+.blog-water-wave .st1 {
+  opacity: 0.18;
+}
+
+.blog-water-wave .st2 {
+  opacity: 0.24;
+}
+
+.blog-water-wave .st3 {
+  opacity: 0.3;
+}
+
+.blog-water-wave .st4 {
+  fill: #fff;
+}
+
+.blog-section {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(237, 57, 250, 0.05) 0%,
+      rgba(237, 57, 250, 0.9) 100%
+    ),
+    url("/images/tango-bg.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: cover;
+}
+.white-text,
+.white-text .section-title-italic {
+  color: #fff;
+}
