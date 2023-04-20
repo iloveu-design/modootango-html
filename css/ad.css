@@ -620,3 +620,31 @@ main {
 .white-text .section-title-italic {
   color: #fff;
 }
+
+.tango-illust {
+  max-width: 500px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.benefit-box {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.benefit-li {
+  text-align: left;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.benefit-ul {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.benefit-li h5 {
+  color: #9c27b0;
+  font-size: 1.5rem;
+}
