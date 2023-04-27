@@ -785,3 +785,13 @@ main {
     max-width: 100%;
   }
 }
+
+.read-more-wrapper {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.line-button {
+  background-color: transparent;
+  border: 3px solid #fff;
+}
