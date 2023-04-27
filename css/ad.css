@@ -795,3 +795,10 @@ main {
   background-color: transparent;
   border: 3px solid #fff;
 }
+
+.blog-a-link {
+  color: #ed39fa;
+  text-align: center;
+  display: block;
+  margin-top: 1rem;
+}
