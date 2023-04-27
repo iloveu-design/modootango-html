@@ -31,7 +31,7 @@
 }
 
 .contact-form-box {
-  margin-top: -5rem;
+  margin-top: -12rem;
   max-width: 100%;
   width: 800px;
   background-color: white;
@@ -649,8 +649,8 @@ main {
     url("/images/tango-bg.jpg");
   background-position: center top;
   background-repeat: no-repeat;
-  background-image: cover;
-  padding-bottom: 10rem;
+  background-size: cover;
+  padding-bottom: 15rem;
 }
 .white-text,
 .white-text .section-title-italic {
