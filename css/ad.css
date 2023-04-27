@@ -12,6 +12,7 @@
 }
 .class-section {
   margin-top: 0;
+  padding-top: 5rem;
   background: linear-gradient(#f7ebf9, #fff);
 }
 
@@ -24,6 +25,27 @@
   margin-top: 0;
 }
 
+.contact-form {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form-box {
+  margin-top: -5rem;
+  max-width: 100%;
+  width: 800px;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 3rem 1rem;
+  text-align: center;
+  -webkit-box-shadow: 2px 4px 22px 13px rgba(0, 0, 0, 0.11);
+  box-shadow: 2px 4px 22px 13px rgba(0, 0, 0, 0.11);
+}
+
+.contact-form-box h2 {
+  font-size: 5rem;
+}
+
 @media (max-width: 767px) {
   .schedule li {
     width: 100%;
@@ -32,6 +54,9 @@
   }
   .schedule-box {
     width: 100%;
+  }
+  .class-section {
+    padding-top: 2rem;
   }
 }
 
@@ -605,8 +630,13 @@ main {
   fill: #fff;
 }
 
+.sub-text {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+}
+
 .blog-section {
-  height: 100vh;
   background-image: linear-gradient(
       rgba(237, 57, 250, 0.05) 0%,
       rgba(237, 57, 250, 0.9) 100%
@@ -615,6 +645,7 @@ main {
   background-position: center top;
   background-repeat: no-repeat;
   background-image: cover;
+  padding-bottom: 10rem;
 }
 .white-text,
 .white-text .section-title-italic {
@@ -647,4 +678,18 @@ main {
 .benefit-li h5 {
   color: #9c27b0;
   font-size: 1.5rem;
+}
+
+.button {
+  display: inline-block;
+  background-color: #9c27b0;
+  padding: 1rem 4rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 4rem;
+}
+
+.button:hover {
+  background-color: #ed39fa;
+  transition: 0.5s ease;
 }
