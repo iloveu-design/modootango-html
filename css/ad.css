@@ -168,8 +168,13 @@ section {
 .top-bg {
   position: relative;
   text-align: center;
-  /* background-image: url("../images/2022-pacific-minsae-ahntae.jpg"); */
-  /* height: 600px; */
+  /* background-image: url("../images/championship-2.jpg"); */
+  background-image: linear-gradient(
+      rgba(237, 57, 250, 0.05) 0%,
+      rgba(237, 57, 250, 0.5) 100%
+    ),
+    url("/images/championship-2.jpg");
+  height: 600px;
   max-height: 100vh;
   background-size: cover;
   background-position: center center;
@@ -730,4 +735,31 @@ main {
     padding: 0 1rem;
     margin-bottom: 1rem;
   }
+}
+
+.top-info-text {
+  position: absolute;
+  z-index: 99;
+  top: 6rem;
+  right: 0;
+  color: white;
+  text-align: right;
+}
+
+.top-info-text h2 {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.top-info-text p {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #e7ccb6;
+}
+
+.top-info-box {
+  position: relative;
 }
