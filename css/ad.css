@@ -740,11 +740,15 @@ main {
 
 .top-info-box {
   padding-top: 7rem;
+  position: relative;
 }
 
 .top-info-text {
   color: white;
   text-align: right;
+  position: absolute;
+  z-index: 99;
+  right: 0;
 }
 
 .top-info-text h2 {
