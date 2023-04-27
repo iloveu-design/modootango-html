@@ -658,7 +658,8 @@ main {
 }
 
 .tango-illust {
-  max-width: 500px;
+  max-width: 100%;
+  width: 500px;
   flex-grow: 1;
   flex-basis: 0;
 }
@@ -737,11 +738,11 @@ main {
   }
 }
 
+.top-info-box {
+  padding-top: 7rem;
+}
+
 .top-info-text {
-  position: absolute;
-  z-index: 99;
-  top: 6rem;
-  right: 0;
   color: white;
   text-align: right;
 }
@@ -760,6 +761,23 @@ main {
   color: #e7ccb6;
 }
 
-.top-info-box {
-  position: relative;
+@media (max-width: 767px) {
+  .top-info-text {
+    padding-top: 7rem;
+    padding-right: 1rem;
+  }
+
+  .top-info-text h2 {
+    font-size: 3rem;
+  }
+
+  .top-info-text p {
+    font-size: 1rem;
+  }
+  .contact-form-box h2 {
+    font-size: 2rem;
+  }
+  .blog-li.blog-li--large {
+    max-width: 100%;
+  }
 }
