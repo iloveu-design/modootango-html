@@ -739,7 +739,7 @@ main {
 }
 
 .top-info-box {
-  padding-top: 7rem;
+  padding-top: 6rem;
   position: relative;
 }
 
@@ -752,7 +752,7 @@ main {
 }
 
 .top-info-text h2 {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1rem;
