@@ -802,3 +802,41 @@ main {
   display: block;
   margin-top: 1rem;
 }
+
+.class-coast {
+  display: flex;
+  justify-content: center;
+}
+
+.class-coast li {
+  padding: 1rem;
+}
+.location-card {
+  width: 30rem;
+  max-width: 100%;
+}
+@media (max-width: 767px) {
+  .class-coast {
+    flex-wrap: wrap;
+  }
+}
+
+.location-card {
+  overflow: hidden;
+  border-radius: 1rem;
+  background-color: #9c27b0;
+  color: #fff;
+  border-radius: 1rem;
+  -webkit-box-shadow: 2px 4px 22px 13px rgba(0, 0, 0, 0.11);
+  box-shadow: 2px 4px 22px 13px rgba(0, 0, 0, 0.11);
+}
+
+.location-info {
+  padding: 0 1rem 1rem;
+}
+
+.location-info h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}

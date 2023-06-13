@@ -188,28 +188,33 @@
 .class-extra-info {
   margin-top: 0.5rem;
   padding-top: 0.5rem;
-  border-top: thin solid #dfc2f2;
+  border-top: thin solid #9c27b0;
 }
 
 .cost-card {
-  display: flex;
-  border: 2px solid #f588d8;
-  display: flex;
   border-radius: 1rem;
   margin-bottom: 1rem;
   overflow: hidden;
   background-color: #fff;
+  text-align: center;
 }
+
 .cost-card h4 {
   padding: 1rem;
-  background-color: #f588d8;
+  background-color: #9c27b0;
   color: #fff;
 }
+
+.cost-card--oneday h4 {
+  background-color: #0999e7;
+}
+
 .cost-card .cost-card-cost {
   padding: 1rem;
+  display: block;
 }
 .warning-text {
-  color: #888888;
+  color: #373737;
   font-size: 14px;
   text-align: right;
 }
