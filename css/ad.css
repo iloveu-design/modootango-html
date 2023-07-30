@@ -840,3 +840,22 @@ main {
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
+.level-btn-group {
+  margin-top: 1rem;
+}
+
+.level-btn {
+  border-radius: 1rem;
+  background-color: #bbb;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+}
+.level-btn.active {
+  transition: background-color 0.5s ease-out;
+  background-color: #9c27b0;
+  color: white;
+}
+
+.level-btn.active:hover {
+  background-color: #ed39fa;
+}
