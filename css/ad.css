@@ -647,10 +647,9 @@ main {
       rgba(237, 57, 250, 0.05) 0%,
       rgba(248, 154, 255, 0.9) 100%
     ),
-    url("/images/tango-bg.jpg");
+    url("/images/cat-pattern.png");
+  /* url("/images/tango-bg.jpg"); */
   background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
   padding-bottom: 15rem;
 }
 .white-text,
