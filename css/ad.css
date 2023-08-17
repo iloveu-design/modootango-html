@@ -811,10 +811,7 @@ main {
 .class-coast li {
   padding: 1rem;
 }
-.location-card {
-  width: 30rem;
-  max-width: 100%;
-}
+
 @media (max-width: 767px) {
   .class-coast {
     flex-wrap: wrap;
@@ -822,6 +819,8 @@ main {
 }
 
 .location-card {
+  width: 30rem;
+  max-width: 100%;
   overflow: hidden;
   border-radius: 1rem;
   background-color: #0ec3eb;
@@ -829,6 +828,15 @@ main {
   border-radius: 1rem;
   -webkit-box-shadow: 2px 4px 22px 13px rgba(0, 0, 0, 0.11);
   box-shadow: 2px 4px 22px 13px rgba(0, 0, 0, 0.11);
+}
+
+@media (max-width: 767px) {
+  .location-card {
+    width: 100%;
+  }
+  .outlink li {
+    margin-right: 0;
+  }
 }
 
 .location-info {
