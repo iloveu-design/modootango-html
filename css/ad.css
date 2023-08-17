@@ -173,7 +173,8 @@ section {
       rgba(237, 57, 250, 0.05) 0%,
       rgba(14, 195, 235, 0.5) 100%
     ),
-    url("/images/pct2.jpeg");
+    url("/images/dancing-bg.jpg");
+  /* url("/images/pct2.jpeg"); */
   height: 600px;
   max-height: 100vh;
   background-size: cover;
@@ -644,7 +645,7 @@ main {
 .blog-section {
   background-image: linear-gradient(
       rgba(237, 57, 250, 0.05) 0%,
-      rgba(237, 57, 250, 0.9) 100%
+      rgba(248, 154, 255, 0.9) 100%
     ),
     url("/images/tango-bg.jpg");
   background-position: center top;
