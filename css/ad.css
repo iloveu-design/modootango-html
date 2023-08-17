@@ -171,7 +171,7 @@ section {
   /* background-image: url("../images/championship-2.jpg"); */
   background-image: linear-gradient(
       rgba(237, 57, 250, 0.05) 0%,
-      rgba(237, 57, 250, 0.5) 100%
+      rgba(14, 195, 235, 0.5) 100%
     ),
     url("/images/pct2.jpeg");
   height: 600px;
@@ -185,7 +185,7 @@ section {
   letter-spacing: -4px;
   font-size: 5rem;
   text-align: center;
-  color: #9c27b0;
+  color: #0ec3eb;
   margin-bottom: 2rem;
 }
 
@@ -221,7 +221,7 @@ section {
 }
 
 .class-card-box h4 {
-  color: #ed39fa;
+  color: #0ec3eb;
   font-size: 20px;
   margin-bottom: 2px;
 }
@@ -682,13 +682,13 @@ main {
 }
 
 .benefit-li h5 {
-  color: #9c27b0;
+  color: #0ec3eb;
   font-size: 1.5rem;
 }
 
 .button {
   display: inline-block;
-  background-color: #9c27b0;
+  background-color: #0ec3eb;
   padding: 1rem 4rem;
   color: white;
   font-weight: bold;
@@ -824,7 +824,7 @@ main {
 .location-card {
   overflow: hidden;
   border-radius: 1rem;
-  background-color: #9c27b0;
+  background-color: #0ec3eb;
   color: #fff;
   border-radius: 1rem;
   -webkit-box-shadow: 2px 4px 22px 13px rgba(0, 0, 0, 0.11);
@@ -852,7 +852,7 @@ main {
 }
 .level-btn.active {
   transition: background-color 0.5s ease-out;
-  background-color: #9c27b0;
+  background-color: #0ec3eb;
   color: white;
 }
 
