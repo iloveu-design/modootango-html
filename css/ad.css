@@ -871,3 +871,15 @@ main {
 .collegium{
   margin-top: 1rem;
 }
+.collegium h4{
+
+}
+
+.sns-icon{
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+}
+.sns-links a{
+  margin-right: 1rem;
+}
