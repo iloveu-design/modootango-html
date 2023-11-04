@@ -867,3 +867,7 @@ main {
 .level-btn.active:hover {
   background-color: #ed39fa;
 }
+
+.collegium{
+  margin-top: 1rem;
+}
