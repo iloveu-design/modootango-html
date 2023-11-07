@@ -876,11 +876,26 @@ main {
 
 }
 
+.master-box{
+  padding: 1rem;
+}
+
 .sns-icon{
   width: 2rem;
   height: 2rem;
   display: flex;
 }
+.sns-links{
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+}
 .sns-links a{
   margin-right: 1rem;
 }
+
+.master-box{
+  background-size: cover;
+  height: 20rem;
+}
+
