@@ -226,6 +226,7 @@ section {
 .class-card-box h4 {
   color: #0ec3eb;
   font-size: 20px;
+  margin-top: 1rem;
   margin-bottom: 2px;
 }
 
@@ -900,3 +901,6 @@ main {
   height: 20rem;
 }
 
+.master-swiper{
+  background-color: #0ec3eb;
+}
