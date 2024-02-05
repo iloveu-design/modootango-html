@@ -213,6 +213,7 @@ section {
 .class-li {
   max-width: 33.33%;
   padding: 0 1rem;
+  margin-bottom: 1rem;
 }
 
 .class-card-box {
