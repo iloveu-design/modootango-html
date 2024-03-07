@@ -23,6 +23,7 @@
 
 .gray-gradients--bottom {
   margin-top: 0;
+  position: relative;
 }
 
 .contact-form {
