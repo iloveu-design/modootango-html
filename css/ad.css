@@ -221,7 +221,6 @@ section {
 }
 
 .class-card-box {
-  padding: 1.2rem;
   background-color: #fff;
   border-radius: 1rem;
   -webkit-box-shadow: 2px 4px 22px 13px rgba(0, 0, 0, 0.11);
@@ -239,6 +238,9 @@ section {
   font-size: 14px;
   color: #777;
   margin-bottom: 0.5rem;
+}
+.class-card-body{
+  padding: 0 1rem 1rem;
 }
 
 .class-card-box-time {
@@ -911,7 +913,7 @@ main {
 }
 
 .master-swiper{
-  background-color: #0ec3eb;
+  /* background-color: #0ec3eb; */
 }
 
 .px1>use:first-child {
