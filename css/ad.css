@@ -14,11 +14,13 @@
   margin-top: 0;
   padding-top: 5rem;
   background: linear-gradient(#fff, #f7ebf9);
+  padding-bottom: 5rem;
+
 }
 
 .gray-gradients {
   margin-bottom: 0;
-  background: linear-gradient(#fff, #bfbab5);
+  background: linear-gradient(#fff, #ffdb88);
 }
 
 .gray-gradients--bottom {
@@ -58,6 +60,7 @@
   }
   .class-section {
     padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
 
@@ -209,12 +212,14 @@ section {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
+  margin-left: -1rem;
+  margin-right: -1rem;
 }
 
 .class-li {
   max-width: 33.33%;
   padding: 0 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .class-li.class-li--big{
@@ -628,7 +633,7 @@ main {
 }
 
 .down-water-wave .st4 {
-  fill: #bfbab5;
+  /* fill: #bfbab5; */
 }
 
 .blog-water-wave .st0 {
@@ -660,9 +665,10 @@ main {
 .blog-section {
   background-image: linear-gradient(
       rgba(237, 57, 250, 0.05) 0%,
-      rgba(248, 154, 255, 0.9) 100%
-    ),
-    url("/images/cat-pattern.png");
+      #0ec3eb
+      /* rgba(248, 154, 255, 0.9) 100% */
+    );
+    /* url("/images/cat-pattern.png"); */
   /* url("/images/tango-bg.jpg"); */
   background-position: center top;
   padding-bottom: 15rem;
@@ -711,7 +717,7 @@ main {
 }
 
 .button:hover {
-  background-color: #ed39fa;
+  background-color: #ffdb88;
   transition: 0.5s ease;
 }
 
