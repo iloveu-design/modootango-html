@@ -191,7 +191,7 @@ section {
   letter-spacing: -4px;
   font-size: 5rem;
   text-align: center;
-  color: #0ec3eb;
+  color: #43bad4;
   margin-bottom: 2rem;
 }
 
@@ -234,7 +234,7 @@ section {
 }
 
 .class-card-box h4 {
-  color: #0ec3eb;
+  color: #43bad4;
   font-size: 20px;
   margin-top: 1rem;
   margin-bottom: 2px;
@@ -665,7 +665,7 @@ main {
 .blog-section {
   background-image: linear-gradient(
       rgba(237, 57, 250, 0.05) 0%,
-      #0ec3eb
+      #43bad4
       /* rgba(248, 154, 255, 0.9) 100% */
     );
     /* url("/images/cat-pattern.png"); */
@@ -703,13 +703,13 @@ main {
 }
 
 .benefit-li h5 {
-  color: #0ec3eb;
+  color: #43bad4;
   font-size: 1.5rem;
 }
 
 .button {
   display: inline-block;
-  background-color: #0ec3eb;
+  backgroundcolor: ##43bad4;
   padding: 1rem 4rem;
   color: white;
   font-weight: bold;
@@ -844,7 +844,7 @@ main {
   max-width: 100%;
   overflow: hidden;
   border-radius: 1rem;
-  background-color: #0ec3eb;
+  bacground-color: ##43bad4;
   color: #fff;
   border-radius: 1rem;
   -webkit-box-shadow: 2px 4px 22px 13px rgba(0, 0, 0, 0.11);
@@ -881,7 +881,7 @@ main {
 }
 .level-btn.active {
   transition: background-color 0.5s ease-out;
-  background-color: #0ec3eb;
+  backround-color: ##43bad4;
   color: white;
 }
 
@@ -919,8 +919,8 @@ main {
   height: 20rem;
 }
 
-.master-swiper{
-  /* background-color: #0ec3eb; */
+.master-wiper{
+  /* background-color: ##43bad4; */
 }
 
 .px1>use:first-child {
