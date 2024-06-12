@@ -1002,3 +1002,27 @@ main {
   left: 0;
   background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,1));
 }
+
+#player1{
+  max-width: 100%;
+}
+
+.flex-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-desc{
+  margin-left: 1rem;
+  max-width: 430px;
+}
+
+@media (max-width: 1399px) {
+  .movie-desc{
+    margin-left: 0;
+  }
+}
+
+.movie-container{
+  margin-bottom: 2rem;
+}
