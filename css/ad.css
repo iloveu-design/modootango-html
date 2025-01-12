@@ -1024,12 +1024,6 @@ main {
   max-width: 430px;
 }
 
-@media (max-width: 1399px) {
-  .movie-desc{
-    margin-left: 0;
-    margin-top: 1rem;
-  }
-}
 
 .movie-container{
   margin-bottom: 2rem;
@@ -1038,4 +1032,38 @@ main {
 .level-box{
   max-width: 100%;
   width: 700px;
+}
+
+.program-wrapper{
+  display: flex;
+}
+
+.program-img{
+  flex: 0 0 auto;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.program-desc{
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 100%;
+  padding: 0 20rem 0 1rem;
+}
+
+@media (max-width: 767px) {
+  .program-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .movie-desc{
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+  .program-desc{
+    margin-left: 0;
+    margin-top: 1rem;
+    padding: 0 1rem 0 1rem;
+  }
 }
