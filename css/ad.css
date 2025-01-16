@@ -1078,3 +1078,13 @@ main {
     color: #0066bb;
     margin-bottom: 2rem;
 }
+
+
+.playswiper{
+  margin-bottom: 3rem;
+}
+@media (max-width: 767px) {
+  .playswiper{
+    margin-bottom: 1rem;
+  }
+}

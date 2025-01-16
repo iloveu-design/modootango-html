@@ -168,11 +168,23 @@
                   </a>
                   <div class="play-box__desc">
                     <h4>세계 챔피언의 탱고 공연</h4>
-                    <a href="https://naver.me/GZZ1E29Z" target="_blank">@오뜨라 탱고 클럽</a>
+                    <p>서아탱(SATA) 초청 후안 마누엘라 공연</p>
+                    홍대<a href="https://naver.me/GZZ1E29Z" target="_blank">@오뜨라 탱고 클럽</a>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">
+                <div class="play-box">
+                  <a href="https://youtu.be/lYBsWopLqtI?si=N56kylcnR-LyBD0t" target="_blank">
+                    <img src="images/hangangtango.png">
+                  </a>
+                  <div class="play-box__desc">
+                    <h4>한강 야외 탱고 파티</h4>
+                    <p>전국 탱고 커뮤니티의 한강 탱고 공연 및 파티, <a href="https://www.youtube.com/@Tango_Simba" target="_blank">탱고 심바</a>의 공연</p>
+                    한강<a href="https://naver.me/xiquewW4" target="_blank">@새빛섬</a>
+                  </div>
+                </div>
+              </div>
               <div class="swiper-slide">Slide 3</div>
               <div class="swiper-slide">Slide 3</div>
               <div class="swiper-slide">Slide 3</div>
@@ -843,19 +855,26 @@
         // Optional parameters
         // direction: 'vertical',
         loop: true,
+        // delay: 400,
         slidesPerView: 1,
         spaceBetween: 20,
         freeMode: true,
-
+        autoplay : {  // 자동 슬라이드 설정 , 비 활성화 시 false
+          delay : 3000,   // 시간 설정
+          enabled: true,
+          disableOnInteraction : false,  // false로 설정하면 스와이프 후 자동 재생이 비활성화 되지 않음
+        },
+        speed: 8e3,
         breakpoints: {
-          // 640: {
+          // 1024: {
           //   slidesPerView: 2,
           //   spaceBetween: 20,
           // },
           768: {
-            slidesPerView: 3,
+            slidesPerView: 4,
             spaceBetween: 30,
           },
+         
         },
 
         // If we need pagination
