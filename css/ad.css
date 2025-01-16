@@ -1,3 +1,4 @@
+
 .schedule {
   display: flex;
   flex-wrap: wrap;
@@ -187,11 +188,11 @@ section {
 }
 
 .section-title-italic {
-  font-family: "Libre Baskerville", serif;
+  font-family: "NanumSquareNeo-Variable";
   letter-spacing: -4px;
   font-size: 5rem;
   text-align: center;
-  color: #43bad4;
+  color: #0066bb;
   margin-bottom: 2rem;
 }
 
@@ -235,7 +236,7 @@ section {
 }
 
 .class-card-box h4 {
-  color: #43bad4;
+  color: #0066bb;
   font-size: 20px;
   margin-top: 1rem;
   margin-bottom: 2px;
@@ -582,8 +583,8 @@ main {
 
 .button.button-motang{
   border: thin solid;
-  border-color: #43bad4;
-  color: #43bad4;
+  border-color: #0066bb;
+  color: #0066bb;
 }
 
 .slogan {
@@ -672,7 +673,7 @@ main {
 .blog-section {
   background-image: linear-gradient(
       rgba(237, 57, 250, 0.05) 0%,
-      #43bad4
+      #0066bb
       /* rgba(248, 154, 255, 0.9) 100% */
     );
     /* url("/images/cat-pattern.png"); */
@@ -710,13 +711,13 @@ main {
 }
 
 .benefit-li h5 {
-  color: #43bad4;
+  color: #0066bb;
   font-size: 1.5rem;
 }
 
 .button {
   display: inline-block;
-  backgroundcolor: #43bad4;
+  backgroundcolor: #0066bb;
   padding: 1rem 4rem;
   color: white;
   font-weight: bold;
@@ -851,7 +852,7 @@ main {
   max-width: 100%;
   overflow: hidden;
   border-radius: 1rem;
-  background-color: #43bad4;
+  background-color: #0066bb;
   color: #fff;
   border-radius: 1rem;
   -webkit-box-shadow: 2px 4px 22px 13px rgba(0, 0, 0, 0.11);
@@ -889,7 +890,7 @@ main {
 }
 .level-btn.active {
   transition: background-color 0.5s ease-out;
-  backround-color: #43bad4;
+  backround-color: #0066bb;
   color: white;
 }
 
@@ -928,7 +929,7 @@ main {
 }
 
 .master-wiper{
-  /* background-color: ##43bad4; */
+  /* background-color: ##0066bb; */
 }
 
 .px1>use:first-child {
@@ -1066,4 +1067,14 @@ main {
     margin-top: 1rem;
     padding: 0 1rem 0 1rem;
   }
+}
+
+
+.section-title-godomaum{
+  font-family: 'godoMaum';
+    letter-spacing: -4px;
+    font-size: 5rem;
+    text-align: center;
+    color: #0066bb;
+    margin-bottom: 2rem;
 }
