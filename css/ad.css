@@ -173,6 +173,7 @@ section {
 .top-bg {
   position: relative;
   text-align: center;
+  background-image: url("../images/studio.jpeg");
   /* background-image: url("../images/championship-2.jpg"); */
   /* background-image: linear-gradient(
       rgba(237, 57, 250, 0.05) 0%,
@@ -181,7 +182,7 @@ section {
     url("/images/dancer-bg.jpg"); */
     /* url("/images/dancing-bg.jpg");  */
   /* url("/images/pct2.jpeg"); */
-  background-color: #0066bb;
+  /* background-color: #0066bb; */
   height: 600px;
   max-height: 100vh;
   background-size: cover;
